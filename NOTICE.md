@@ -1,35 +1,32 @@
-# Attribution and license boundaries
+# Attribution and licenses
 
-The full Codex execution edition is separately adapted from public Claude SEO
-2.6.0. Its source identity and retained notices are recorded in
-[CODEX_PROVENANCE.json](plugins/codex-seo/CODEX_PROVENANCE.json) and its
-[package notice](plugins/codex-seo/NOTICE.md). The earlier ChatGPT companion
-and its original publisher attribution remain described below.
+ChatGPT SEO is an independent adaptation maintained in this repository. It
+contains two separately attributed packages:
 
-The active ChatGPT package is adapted by Daniel Agrici from public Claude SEO.
-Its [package notice](plugins/ai-marketing-hub-seo/NOTICE.md) records the exact
-upstream commit, contributors, and adapted FLOW material.
+- The full Codex execution edition in `plugins/codex-seo/`, adapted from public
+  Claude SEO 2.6.0 at commit `cca7e4a267991aca880efade1fd12e8498caf2ce`.
+  See its [provenance](plugins/codex-seo/CODEX_PROVENANCE.json),
+  [notices](plugins/codex-seo/NOTICE.md) and retained contributors list.
+- The earlier SEO-pro ChatGPT companion in `plugins/ai-marketing-hub-seo/`,
+  originally adapted by Daniel Agrici. Its original identity, package notices
+  and release bytes remain unchanged. See [UPSTREAM.json](UPSTREAM.json).
 
-The [MIT license](LICENSE) applies to the active code and workflows except
-the identified FLOW adaptation, which is licensed CC BY 4.0. The original README compositions are also covered by MIT, except for the
-third-party resources identified below. The supplied
-publisher logo is a separate branding asset; these licenses do not grant
-trademark rights or permission to impersonate its publisher.
+Original work by Daniel Agrici and the public project contributors. The
+[MIT license](LICENSE) and each package's original MIT notice remain in place.
+FLOW reference material retains its CC BY 4.0 attribution and lock files. No
+trademark rights or endorsement by OpenAI, Anthropic or an upstream author are
+implied.
 
-The former Codex implementation is preserved in Git history under its original
-license. This notice does not relicense that implementation. See the
-[transition notes](docs/TRANSITION.md) for the preserved legacy-source tag.
+The new ChatGPT SEO banner uses original SVG artwork and system fonts. Retained
+companion README artwork and branding assets keep their separate licenses:
+Brackeys Platformer Bundle knight sprites are CC0; embedded Pixelify Sans and
+Geist subsets use SIL Open Font License 1.1. Notices are in
+[the artwork license folder](assets/readme/licenses). Publisher logos and other
+branding do not grant permission to impersonate the original publisher.
 
-SEO-pro is an independent plugin by Daniel Agrici, not made or endorsed by OpenAI.
-
-## README artwork resources
-
-The README scenes are original compositions. Their knight sprite comes from
-the [Brackeys Platformer Bundle](https://brackeysgames.itch.io/brackeys-platformer-bundle),
-released under CC0. The moving cloth adaptation is reused from the publisher's
-profile artwork. No profile scene is copied. The Join Pro button is reused from the publisher's public profile artwork at the publisher's request.
-
-The SVG illustrations embed subsets of Pixelify Sans and Geist, both under the
-SIL Open Font License 1.1. Their copyright notices and full license texts are in
-[the artwork licenses folder](assets/readme/licenses). These font licenses and
-the supplied publisher logo remain separate from the MIT code license.
+The [original companion notice](docs/UPSTREAM_CHATGPT_NOTICE.md),
+[README](docs/UPSTREAM_CHATGPT_README.md) and migration/verification documents
+record the upstream project's history. This repository does not import that
+project's complete Git history, legacy tags, private previews or submission
+approvals. Current local port checks are documented in
+[the verification record](docs/CODEX_VERIFICATION.md).

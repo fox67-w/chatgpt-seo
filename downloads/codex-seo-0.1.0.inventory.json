@@ -676,8 +676,8 @@
   },
   {
     "path": "docs/ARCHITECTURE.md",
-    "sha256": "d4aad3f2d9a56153760fb48d2ffac4eb6a124891d09d1e669872a98140fe432b",
-    "bytes": 15647
+    "sha256": "0f8126a5ed97c05c168c22449d3dea06852086e6cdc84037a60ebfd54e077d66",
+    "bytes": 18409
   },
   {
     "path": "docs/CODEX.md",
@@ -686,18 +686,18 @@
   },
   {
     "path": "docs/CODEX_VERIFICATION.json",
-    "sha256": "a2761dc2fa9064454430fe018a8a247df3a9f8d37f84c3018583d4cba4c46608",
+    "sha256": "93cbf8f88803692fe2a68d3fe61f14463d7c95ab4dc0826a34f83241712bbf72",
     "bytes": 4337
   },
   {
     "path": "docs/CODEX_VERIFICATION.md",
-    "sha256": "d7a5f084d7ce73e0067dadc068cf40cea03fbc7a6e71eb087b55b0bfd5d4659e",
+    "sha256": "c67257f483a007f2addac81963dabe094e272427f894980123a60da47fa6e410",
     "bytes": 4107
   },
   {
     "path": "docs/COMMANDS.md",
-    "sha256": "1ad0607b788d87b1b3a785b96949c59454f35f1b3e5aacdf0aaa085fd8938caa",
-    "bytes": 27379
+    "sha256": "f626fd04daa10e3b90de2d1d83655e8c5a0241bd316bd9b2425d0689c7b1dd14",
+    "bytes": 32520
   },
   {
     "path": "docs/COMMUNITY-INTEGRATIONS.md",
@@ -733,6 +733,16 @@
     "path": "docs/UPSTREAM_AGENTS.md",
     "sha256": "22ed6091a741ec33569767f1bb01076a5093271b57bc6e7a45c97efeef41214d",
     "bytes": 9644
+  },
+  {
+    "path": "docs/UPSTREAM_ARCHITECTURE.md",
+    "sha256": "d4aad3f2d9a56153760fb48d2ffac4eb6a124891d09d1e669872a98140fe432b",
+    "bytes": 15647
+  },
+  {
+    "path": "docs/UPSTREAM_COMMANDS.md",
+    "sha256": "1ad0607b788d87b1b3a785b96949c59454f35f1b3e5aacdf0aaa085fd8938caa",
+    "bytes": 27379
   },
   {
     "path": "docs/UPSTREAM_PRIVACY.md",

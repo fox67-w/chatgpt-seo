@@ -1,3 +1,7 @@
+> Inherited upstream SEO-pro companion record. Historical tags, previews and
+> approvals below describe that source project, not this fork. For this port,
+> see [current verification](CODEX_VERIFICATION.md).
+
 # OpenAI submission preparation
 
 Prepared on 19 October 2026. Publisher: Daniel Agrici, as an individual.

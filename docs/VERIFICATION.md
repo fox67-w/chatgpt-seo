@@ -1,3 +1,7 @@
+> Inherited upstream SEO-pro companion record. Historical tags, previews and
+> approvals below describe that source project, not this fork. For this port,
+> see [current verification](CODEX_VERIFICATION.md).
+
 # Verification and release status
 
 This repository separates package checks, installed-host behavior, and OpenAI

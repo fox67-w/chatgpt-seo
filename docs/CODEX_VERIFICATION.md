@@ -13,7 +13,7 @@ FLOW reference/lock files match their original Git hashes.
 
 | Check | Result |
 | --- | --- |
-| Codex regression suite | 2,324 passed, 29 skipped, 78 reviewed host-contract translations; 387 subtests passed |
+| Codex regression suite | 2,347 passed, 28 skipped, 78 reviewed host-contract translations; 387 subtests passed |
 | Companion/shared unit suite | 155 run, 2 platform skips, no failures |
 | Workflow adaptation and resource checks | Passed, with no pending document changes |
 | Managed runtime and Chromium | Ready |

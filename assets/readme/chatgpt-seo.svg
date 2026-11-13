@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">ChatGPT SEO</title>
+  <desc id="desc">SEO workflows for Codex and ChatGPT. Three connected stages: Crawl, Analyze, and Report. The full Codex edition includes 26 core workflows, 19 specialist prompts, and 9 optional extensions.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#101f36"/>
+      <stop offset="1" stop-color="#071321"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#182b42"/>
+      <stop offset="1" stop-color="#112237"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="1" cy="0" r="1">
+      <stop offset="0" stop-color="#38d6ad" stop-opacity=".15"/>
+      <stop offset="1" stop-color="#38d6ad" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 H 0 V 32" fill="none" stroke="#b5d9ec" stroke-opacity=".035"/>
+    </pattern>
+    <filter id="shadow" x="-10%" y="-20%" width="120%" height="150%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000a13" flood-opacity=".3"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="360" rx="22" fill="url(#background)"/>
+  <rect width="1200" height="360" rx="22" fill="url(#glow)"/>
+  <rect width="1200" height="360" rx="22" fill="url(#grid)"/>
+  <rect x=".5" y=".5" width="1199" height="359" rx="21.5" fill="none" stroke="#29445a"/>
+
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="54" y="40" fill="#68e5be" font-size="12" font-weight="700" letter-spacing="2.5">OPEN SOURCE SEO TOOLKIT</text>
+    <text x="51" y="94" fill="#f2f8ff" font-size="50" font-weight="700" letter-spacing="-1.8">ChatGPT SEO</text>
+    <text x="54" y="130" fill="#b6c9d9" font-size="22">SEO workflows for Codex and ChatGPT</text>
+
+    <rect x="929" y="57" width="216" height="36" rx="18" fill="#143a3b" stroke="#2e6c62"/>
+    <circle cx="950" cy="75" r="4" fill="#68e5be"/>
+    <text x="964" y="80" fill="#d3f7ea" font-size="12" font-weight="700" letter-spacing="1.2">CODEX + CHATGPT</text>
+
+    <g filter="url(#shadow)">
+      <rect x="54" y="170" width="335" height="120" rx="14" fill="url(#card)" stroke="#304c62"/>
+      <rect x="432" y="170" width="335" height="120" rx="14" fill="url(#card)" stroke="#304c62"/>
+      <rect x="810" y="170" width="335" height="120" rx="14" fill="url(#card)" stroke="#304c62"/>
+    </g>
+
+    <g fill="none" stroke="#68e5be" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M 390 230 H 429 M 421 223 L 429 230 L 421 237"/>
+      <path d="M 768 230 H 807 M 799 223 L 807 230 L 799 237"/>
+    </g>
+
+    <g fill="#163d40">
+      <rect x="76" y="191" width="36" height="36" rx="10"/>
+      <rect x="454" y="191" width="36" height="36" rx="10"/>
+      <rect x="832" y="191" width="36" height="36" rx="10"/>
+    </g>
+    <g fill="none" stroke="#80edcb" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="94" cy="209" r="10"/>
+      <ellipse cx="94" cy="209" rx="4" ry="10"/>
+      <path d="M 84 209 H 104"/>
+      <path d="M 462 217 V 210 M 471 217 V 201 M 480 217 V 206"/>
+      <path d="M 843 199 H 854 L 859 204 V 219 H 843 Z M 854 199 V 204 H 859 M 847 209 H 855 M 847 214 H 853"/>
+    </g>
+
+    <g fill="#f2f8ff" font-size="23" font-weight="700">
+      <text x="126" y="217">Crawl</text>
+      <text x="504" y="217">Analyze</text>
+      <text x="882" y="217">Report</text>
+    </g>
+    <g fill="#b6c9d9" font-size="16">
+      <text x="76" y="257">Pages, sitemaps and rendered content</text>
+      <text x="454" y="257">Technical SEO, content and schema</text>
+      <text x="832" y="257">Evidence, priorities and next steps</text>
+    </g>
+
+    <g font-size="14">
+      <text x="54" y="329" fill="#829aaf">FULL CODEX EDITION</text>
+      <text x="273" y="329" fill="#d7e8f4">26 core workflows</text>
+      <circle cx="451" cy="324" r="2.5" fill="#4f7a7d"/>
+      <text x="482" y="329" fill="#d7e8f4">19 specialist prompts</text>
+      <circle cx="687" cy="324" r="2.5" fill="#4f7a7d"/>
+      <text x="718" y="329" fill="#d7e8f4">9 optional extensions</text>
+    </g>
+  </g>
+</svg>

@@ -1,3 +1,7 @@
+> Inherited upstream SEO-pro companion record. Historical tags, previews and
+> approvals below describe that source project, not this fork. For this port,
+> see [current verification](CODEX_VERIFICATION.md).
+
 # Transition to the ChatGPT package
 
 On 19 October 2026, the former Codex repository was renamed to
