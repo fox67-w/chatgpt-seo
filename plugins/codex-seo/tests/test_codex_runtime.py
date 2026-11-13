@@ -61,8 +61,9 @@ class CodexLocationTests(unittest.TestCase):
                 CODEX_SEO_CACHE_DIR=str(base / "snapshots"),
             )
             with patch.dict(os.environ, environment, clear=True):
-                self.assertEqual(paths.config_dir(), base / "credentials")
-                self.assertEqual(paths.cache_dir(), base / "snapshots")
+                # Explicit paths are canonicalized, including DOS 8.3 temp aliases.
+                self.assertEqual(paths.config_dir(), (base / "credentials").resolve())
+                self.assertEqual(paths.cache_dir(), (base / "snapshots").resolve())
 
     def test_default_paths_are_distinct_from_claude_credentials(self):
         with tempfile.TemporaryDirectory() as temporary:
@@ -82,8 +83,8 @@ class CodexLocationTests(unittest.TestCase):
                 CLAUDE_SEO_CONFIG_DIR=str(base / "legacy-config"),
             )
             with patch.dict(os.environ, environment, clear=True):
-                self.assertEqual(runtime._data_dir(ROOT)[0], base / "codex")
-                self.assertEqual(paths.config_dir(), base / "codex-config")
+                self.assertEqual(runtime._data_dir(ROOT)[0], (base / "codex").resolve())
+                self.assertEqual(paths.config_dir(), (base / "codex-config").resolve())
 
     def test_portable_manifest_version_precedes_legacy_source_metadata(self):
         with tempfile.TemporaryDirectory() as temporary:
@@ -97,7 +98,7 @@ class CodexLocationTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as temporary:
             data = Path(temporary) / "plugin-data"
             with patch.dict(os.environ, isolated_environment(CODEX_PLUGIN_DATA=str(data)), clear=True):
-                self.assertEqual(runtime._data_dir(ROOT), (data, "plugin"))
+                self.assertEqual(runtime._data_dir(ROOT), (data.resolve(), "plugin"))
 
     def test_native_plugin_data_precedes_compatibility_aliases(self):
         with tempfile.TemporaryDirectory() as temporary:
@@ -107,7 +108,7 @@ class CodexLocationTests(unittest.TestCase):
                                                CLAUDE_SEO_DATA_DIR=str(base / "legacy-override"),
                                                CLAUDE_PLUGIN_DATA=str(base / "legacy"))
             with patch.dict(os.environ, environment, clear=True):
-                self.assertEqual(runtime._data_dir(ROOT), (base / "native", "plugin"))
+                self.assertEqual(runtime._data_dir(ROOT), ((base / "native").resolve(), "plugin"))
                 self.assertTrue(runtime._is_plugin(base))
 
     def test_explicit_data_override_precedes_native_plugin_data(self):
@@ -116,7 +117,7 @@ class CodexLocationTests(unittest.TestCase):
             environment = isolated_environment(PLUGIN_DATA=str(base / "native"),
                                                CODEX_SEO_DATA_DIR=str(base / "explicit"))
             with patch.dict(os.environ, environment, clear=True):
-                self.assertEqual(runtime._data_dir(ROOT), (base / "explicit", "override"))
+                self.assertEqual(runtime._data_dir(ROOT), ((base / "explicit").resolve(), "override"))
 
     def test_native_plugin_root_marks_an_archive_install(self):
         with tempfile.TemporaryDirectory() as temporary:

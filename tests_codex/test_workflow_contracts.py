@@ -255,7 +255,7 @@ class NativeInstalledLayoutContracts(unittest.TestCase):
         with tempfile.TemporaryDirectory(prefix='codex source layout ') as temporary:
             project = Path(temporary) / 'project with spaces'
             plan = installer.plan(project)
-            destination = project / '.agents/packages/codex-seo'
+            destination = project.resolve() / '.agents/packages/codex-seo'
             for relative in ('data/google-updates.json', 'scripts/seo_updates.py',
                              'scripts/codex_seo.py', 'scripts/runtime.py',
                              'extensions/banana/scripts/generate.py',
