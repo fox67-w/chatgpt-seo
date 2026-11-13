@@ -136,4 +136,5 @@ def test_launcher_runs_without_network_or_managed_runtime() -> None:
     )
     assert result.returncode == 0, result.stderr
     plain = re.sub(r"\x1b\[[0-9;]*m", "", result.stdout)
-    assert "usage: claude-seo doctor" in plain
+    # The retained launcher name is a compatibility entrypoint to Codex's runtime.
+    assert "usage: codex-seo doctor" in plain

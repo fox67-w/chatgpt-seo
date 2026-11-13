@@ -12,11 +12,11 @@
   "skill_folders_validated": 35,
   "source_flow_files_byte_verified": 45,
   "regressions": {
-    "summary": "2347 passed, 28 skipped, 78 deselected, 387 subtests passed in 113.97s (0:01:53)",
-    "passed": 2347,
+    "summary": "2353 passed, 28 skipped, 78 deselected, 389 subtests passed in 112.11s (0:01:52)",
+    "passed": 2353,
     "skipped": 28,
     "deselected_host_contracts": 78,
-    "subtests_passed": 387,
+    "subtests_passed": 389,
     "failures": 0
   },
   "source_contract_review": {

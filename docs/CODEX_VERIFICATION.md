@@ -13,7 +13,7 @@ FLOW reference/lock files match their original Git hashes.
 
 | Check | Result |
 | --- | --- |
-| Codex regression suite | 2,347 passed, 28 skipped, 78 reviewed host-contract translations; 387 subtests passed |
+| Codex regression suite | 2,353 passed, 28 skipped, 78 reviewed host-contract translations; 389 subtests passed |
 | Companion/shared unit suite | 155 run, 2 platform skips, no failures |
 | Workflow adaptation and resource checks | Passed, with no pending document changes |
 | Managed runtime and Chromium | Ready |
@@ -41,6 +41,9 @@ regression tests and Codex adapters, rather than billed provider calls.
 ## Fixes demonstrated during validation
 
 - Native Codex paths, environment names, tool routing and specialist delegation.
+- Native command catalog and compatibility-launcher validation, with missing-route checks retained.
+- Git publication checks include every packaged resource; the CWV report template is explicitly tracked.
+- Windows path assertions compare canonical paths, including short-name and relative aliases.
 - Complete project-scoped installation with 33 usable discovery bridges, conflict
   preservation and safe removal of unchanged installer-owned discovery files.
 - Supported Python 3.11-3.14 selection, including Windows fallback from an

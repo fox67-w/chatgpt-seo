@@ -23,6 +23,7 @@ jobs:
       - run: python tools/package_plugin.py --check-downloads
   codex-execution:
     strategy:
+      fail-fast: false
       matrix:
         os: [ubuntu-latest, windows-latest]
     runs-on: ${{ matrix.os }}

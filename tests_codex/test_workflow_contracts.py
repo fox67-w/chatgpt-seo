@@ -18,6 +18,7 @@ import sys
 import tempfile
 import tomllib
 import unittest
+from unittest.mock import patch
 
 
 WORKSPACE = Path(__file__).resolve().parents[1]
@@ -135,6 +136,45 @@ class NativeWorkflowContracts(unittest.TestCase):
         for harness in ('Cursor', 'Gemini CLI', 'Codex', 'Cline', 'Aider', 'Antigravity'):
             self.assertIn(harness, original)
         self.assertIn('portability_check.py', original)
+
+
+class NativeRoutingContracts(unittest.TestCase):
+    def setUp(self):
+        self.checker = load_file('native_routing_consistency', PACKAGE / 'scripts/consistency_check.py')
+        self.files = {'skills/seo-audit/SKILL.md', 'skills/seo-maps/SKILL.md',
+                      'extensions/matomo/skills/seo-matomo/SKILL.md'}
+        self.hub = '`/seo audit <url>`\n`/seo maps [command]`\n`/seo matomo [command]`\n' \
+                   '`/seo setup`\n`/seo doctor`\n'
+        self.catalog = '### `$seo-audit <url>`\n### `$seo-maps [command]`\n' \
+                       '### `$seo-matomo [command]`\n' \
+                       '### `python scripts/codex_seo.py setup`\n' \
+                       '### `python scripts/codex_seo.py doctor --json`\n'
+
+    def check(self, catalog, hub=None):
+        texts = {'skills/seo/SKILL.md': self.hub if hub is None else hub,
+                 'docs/COMMANDS.md': catalog}
+        with patch.object(self.checker, 'read', side_effect=texts.__getitem__):
+            return self.checker.check_routing(self.files)
+
+    def test_native_catalog_and_hub_aliases_describe_the_same_routes(self):
+        self.assertEqual(self.check(self.catalog), [])
+        native_hub = self.hub.replace('/seo ', '$seo ')
+        self.assertEqual(self.check(self.catalog, native_hub), [])
+
+    def test_missing_native_workflow_or_runtime_entry_remains_an_error(self):
+        for line, token in (('### `$seo-maps [command]`\n', 'maps'),
+                            ('### `python scripts/codex_seo.py setup`\n', 'setup')):
+            with self.subTest(token=token):
+                self.assertEqual(self.check(self.catalog.replace(line, '')),
+                                 [f'routing: `/seo {token}` in orchestrator but not docs/COMMANDS.md'])
+
+    def test_native_route_without_hub_or_skill_is_not_silently_ignored(self):
+        errors = self.check(self.catalog + '### `$seo-missing <url>`\n')
+        self.assertIn('routing: `/seo missing` in docs/COMMANDS.md but not orchestrator', errors)
+        self.assertIn('routing: `/seo missing` has no matching skill directory', errors)
+
+    def test_published_native_catalog_matches_real_workflows_and_hub(self):
+        self.assertEqual(self.checker.check_routing(set(self.checker.tracked_files())), [])
 
 
 class NativeProviderContracts(unittest.TestCase):

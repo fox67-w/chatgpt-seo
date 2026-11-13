@@ -70,7 +70,7 @@ def main():
     with (output / 'codex-regressions.log').open('w', encoding='utf-8') as log:
         result = subprocess.run(command, env=env, stdout=log, stderr=subprocess.STDOUT)
     lines = (output / 'codex-regressions.log').read_text(encoding='utf-8').splitlines()
-    print('\n'.join(lines[-80:]))
+    print('\n'.join(lines if result.returncode else lines[-80:]))
     raise SystemExit(result.returncode)
 
 

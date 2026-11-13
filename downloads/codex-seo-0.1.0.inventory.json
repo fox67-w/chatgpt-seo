@@ -686,13 +686,13 @@
   },
   {
     "path": "docs/CODEX_VERIFICATION.json",
-    "sha256": "93cbf8f88803692fe2a68d3fe61f14463d7c95ab4dc0826a34f83241712bbf72",
+    "sha256": "150a262dc1674b3a43d0adad634b02c2a1af61a5e7ffde699fd22debf9b6e413",
     "bytes": 4337
   },
   {
     "path": "docs/CODEX_VERIFICATION.md",
-    "sha256": "c67257f483a007f2addac81963dabe094e272427f894980123a60da47fa6e410",
-    "bytes": 4107
+    "sha256": "9ec16206523cb8ddb60be1a76be75379730cd413a3facd307a82f685fcd1b5fd",
+    "bytes": 4406
   },
   {
     "path": "docs/COMMANDS.md",
@@ -1401,8 +1401,8 @@
   },
   {
     "path": "scripts/consistency_check.py",
-    "sha256": "eac433af8dce0e3729eb8cd72ec0c6f21322d27cfab68833dde0197ef8b63cf9",
-    "bytes": 15071
+    "sha256": "397b68257830c2546e7f1105460aa7d88accbd28f3d38f8ffac219f450d25f09",
+    "bytes": 15608
   },
   {
     "path": "scripts/content_humanize.py",
@@ -2946,8 +2946,8 @@
   },
   {
     "path": "tests/test_hosted_plugin_layout.py",
-    "sha256": "031ecfc80a14a80e8e06656a617cbc151640341b6ae214a09b608491f9c33e64",
-    "bytes": 5481
+    "sha256": "3ef079d4698a16e0eac5610d68282615f7b4b9ca53e70d8cd3174f49fd999ce0",
+    "bytes": 5563
   },
   {
     "path": "tests/test_hostile_inputs.py",

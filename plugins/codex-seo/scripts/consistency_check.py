@@ -208,9 +208,22 @@ def check_runtime_invocations(texts):
     return errors
 
 
+def routing_tokens(content):
+    """Normalize native skill prompts and retained hub aliases to workflow names.
+
+    Runtime setup/doctor are launcher commands, rather than skill directories.
+    Their native command headings still belong in the hub/catalog comparison.
+    """
+    token = r'([a-z][a-z0-9-]*)'
+    commands = set(re.findall(r'`/seo\s+' + token, content))
+    commands.update(re.findall(r'`\$seo(?:-|\s+)' + token, content))
+    launcher = r'(?:codex_seo\.py|codex-seo(?:\.ps1)?)'
+    commands.update(re.findall(r'`[^`\n]*\b' + launcher + r'["\']?\s+(setup|doctor)\b', content))
+    return commands
+
+
 def check_routing(files):
-    cmd_pat = re.compile(r'`/seo(?:\s+([a-z][a-z0-9-]*))?')
-    tables = {src: {m for m in cmd_pat.findall(read(src)) if m}
+    tables = {src: routing_tokens(read(src))
               for src in ("skills/seo/SKILL.md", "docs/COMMANDS.md")}
     skill_tokens = {d.split("/")[1][4:] for d in files
                     if d.startswith("skills/seo-") and d.endswith("SKILL.md")}

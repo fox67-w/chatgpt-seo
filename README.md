@@ -457,7 +457,7 @@ Claude settings. It uses only public source, not private/pro-only features.
 | Verification state | Recorded result |
 | --- | --- |
 | Source/workflow/resource coverage | All imported paths accounted for; 35 skill metadata checks and retained FLOW checks passed. |
-| Codex regression suite | 2,324 passed, 29 skipped; 387 subtests passed. |
+| Codex regression suite | 2,353 passed, 28 skipped; 389 subtests passed. |
 | Old host contracts | 78 exact Claude-only cases have reviewed native Codex equivalents; original analysis/fetch/parser/schema/quota/measurement checks were not waived. |
 | Companion/shared suite | 155 run, 2 platform skips, no failures. |
 | Local runtime/browser smoke | 10/10 checks passed, including fetching, sitemap discovery, JS execution/rendering, drift and HTML/Excel/PDF generation; public screenshots also passed. |
