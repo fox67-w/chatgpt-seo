@@ -1,0 +1,4 @@
+interface:
+  display_name: "SEO: Agent Readiness"
+  short_description: "Audit agent accessibility and tool readiness"
+  default_prompt: "Use $seo-agentic to help with my agent readiness task using verified evidence."

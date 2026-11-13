@@ -1,0 +1,4 @@
+interface:
+  display_name: "SEO: Profound"
+  short_description: "Track brand citations across answer engines over time"
+  default_prompt: "Use $seo-profound to help with my profound task using verified evidence."

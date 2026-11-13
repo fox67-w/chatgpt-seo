@@ -1,0 +1,4 @@
+interface:
+  display_name: "SEO: SE Ranking"
+  short_description: "Measure AI visibility using connected SE Ranking data"
+  default_prompt: "Use $seo-seranking to help with my se ranking task using verified evidence."

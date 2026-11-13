@@ -1,0 +1,4 @@
+interface:
+  display_name: "SEO: SEO Image Creation"
+  short_description: "Plan and create useful search and social image assets"
+  default_prompt: "Use $seo-image-gen to help with my seo image creation task using verified evidence."

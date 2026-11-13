@@ -1,0 +1,4 @@
+interface:
+  display_name: "SEO: FLOW Framework"
+  short_description: "Apply the attributed FLOW evidence-led SEO framework"
+  default_prompt: "Use $seo-flow to help with my flow framework task using verified evidence."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "SEO: Programmatic SEO"
+  short_description: "Plan useful page families with scalable quality checks"
+  default_prompt: "Use $seo-programmatic to help with my programmatic seo task using verified evidence."

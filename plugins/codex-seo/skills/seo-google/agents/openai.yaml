@@ -1,0 +1,4 @@
+interface:
+  display_name: "SEO: Google SEO Data"
+  short_description: "Read Search Console, Analytics, PageSpeed and CrUX"
+  default_prompt: "Use $seo-google to help with my google seo data task using verified evidence."

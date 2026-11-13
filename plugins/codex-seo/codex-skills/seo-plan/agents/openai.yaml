@@ -1,0 +1,4 @@
+interface:
+  display_name: "SEO: SEO Strategy"
+  short_description: "Build a practical SEO strategy and delivery roadmap"
+  default_prompt: "Use $seo-plan to help with my seo strategy task using verified evidence."

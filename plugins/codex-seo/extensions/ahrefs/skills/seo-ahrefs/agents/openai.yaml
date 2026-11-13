@@ -1,0 +1,4 @@
+interface:
+  display_name: "SEO: Ahrefs"
+  short_description: "Research live Ahrefs keyword and backlink data"
+  default_prompt: "Use $seo-ahrefs to help with my ahrefs task using verified evidence."

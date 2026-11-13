@@ -1,0 +1,4 @@
+interface:
+  display_name: "SEO: SEO Drift"
+  short_description: "Capture baselines and compare SEO changes over time"
+  default_prompt: "Use $seo-drift to help with my seo drift task using verified evidence."

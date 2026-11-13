@@ -1,0 +1,4 @@
+interface:
+  display_name: "SEO: Maps Intelligence"
+  short_description: "Analyze geo-grid rankings, reviews and local competitors"
+  default_prompt: "Use $seo-maps to help with my maps intelligence task using verified evidence."

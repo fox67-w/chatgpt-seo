@@ -1,0 +1,149 @@
+{
+  "verified_on": "2026-11-13",
+  "platform": "Windows",
+  "python": "3.12.14",
+  "upstream_commit": "cca7e4a267991aca880efade1fd12e8498caf2ce",
+  "source_files_retained": 505,
+  "core_skills": 26,
+  "core_specialist_prompts": 19,
+  "original_python_files": 63,
+  "optional_extensions": 9,
+  "unique_discoverable_skills": 33,
+  "skill_folders_validated": 35,
+  "source_flow_files_byte_verified": 45,
+  "regressions": {
+    "summary": "2324 passed, 29 skipped, 78 deselected, 387 subtests passed in 110.23s (0:01:50)",
+    "passed": 2324,
+    "skipped": 29,
+    "deselected_host_contracts": 78,
+    "subtests_passed": 387,
+    "failures": 0
+  },
+  "source_contract_review": {
+    "matrix": "tests_codex/source_contract_replacements.json",
+    "exact_reviewed_cases": 82,
+    "original_mirrors_retained": 4,
+    "analysis_invariants_waived": 0
+  },
+  "companion_and_shared_unit_suite": {
+    "run": 155,
+    "skipped": 2,
+    "failures": 0
+  },
+  "runtime_smoke": {
+    "valid": true,
+    "fixtures": {
+      "raw_http_sitemap_and_drift": "controlled local HTTP site",
+      "public_renderer": "https://quotes.toscrape.com/js/",
+      "javascript_execution": "synthetic document in real offline Chromium"
+    },
+    "local_browser_navigation": "intentionally unsupported by the preserved URL policy",
+    "checks": [
+      {
+        "name": "managed_runtime_and_chromium",
+        "passed": true
+      },
+      {
+        "name": "real_http_fetch",
+        "passed": true
+      },
+      {
+        "name": "real_public_page_render",
+        "passed": true,
+        "tested_url": "https://quotes.toscrape.com/js/",
+        "engine": "playwright-chromium",
+        "status_code": 200,
+        "javascript_gap": {
+          "raw": {
+            "words": 13,
+            "links": 5,
+            "schema_types": [],
+            "h1": [
+              "Quotes to Scrape"
+            ],
+            "title": "Quotes to Scrape",
+            "canonical": null,
+            "canonical_all": [],
+            "meta_robots": null
+          },
+          "rendered": {
+            "words": 265,
+            "links": 5,
+            "schema_types": [],
+            "h1": [
+              "Quotes to Scrape"
+            ],
+            "title": "Quotes to Scrape",
+            "canonical": null,
+            "canonical_all": [],
+            "meta_robots": null
+          },
+          "diff": {
+            "words_only_rendered": 252,
+            "words_only_rendered_share": 0.951,
+            "links_only_rendered": 0,
+            "links_only_rendered_share": 0.0,
+            "schema_types_only_rendered": [],
+            "h1_only_rendered": [],
+            "title_changed": false,
+            "canonical_changed": false,
+            "meta_robots_changed": false
+          },
+          "raw_truncated": false,
+          "reasons": [
+            "95% of visible words appear only after JavaScript runs (13 raw, 265 rendered)"
+          ],
+          "significant": true
+        },
+        "error": null
+      },
+      {
+        "name": "real_chromium_javascript_execution",
+        "passed": true,
+        "fixture": "synthetic inline JavaScript; browser network is offline and intercepted",
+        "evidence": {
+          "engine": "playwright-chromium",
+          "browser_version": "158.0.8127.18",
+          "javascript_executed": true,
+          "observed_text": "Rendered fixture",
+          "network_mode": "offline",
+          "intercepted_network_requests": []
+        },
+        "error": null
+      },
+      {
+        "name": "real_sitemap_discovery",
+        "passed": true
+      },
+      {
+        "name": "persist_drift_baseline",
+        "passed": true
+      },
+      {
+        "name": "compare_drift_snapshot",
+        "passed": true
+      },
+      {
+        "name": "generate_html",
+        "passed": true,
+        "error": null
+      },
+      {
+        "name": "generate_xlsx",
+        "passed": true,
+        "error": null
+      },
+      {
+        "name": "generate_pdf",
+        "passed": true,
+        "error": null
+      }
+    ],
+    "provider_accounts_used": false
+  },
+  "public_screenshot_verified": true,
+  "provider_accounts_connected_for_testing": false,
+  "native_plugin_host_installation": "not_performed",
+  "linux_execution": "not_performed; CI configured",
+  "github_publication": "see https://github.com/fox67-w/chatgpt-seo"
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "SEO: Full Site Audit"
+  short_description: "Audit a website and prioritize verified SEO fixes"
+  default_prompt: "Use $seo-audit to help with my full site audit task using verified evidence."

@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv/
+node_modules/
+/dist/
+/.rollout-state.json
+/.rollout-work/
+.env
+.env.*
+.DS_Store
+/.import/
+/.runtime/
+.pytest_cache/
+/reports/

@@ -1,0 +1,186 @@
+{
+  "repository": "https://github.com/AgriciDaniel/claude-seo",
+  "commit": "cca7e4a267991aca880efade1fd12e8498caf2ce",
+  "files": [
+    {
+      "path": "skills/seo-flow/references/bibliography.md",
+      "git_blob_sha": "2e3033131c9a0c70ab96e72c8f3b4e0de0bbd892"
+    },
+    {
+      "path": "skills/seo-flow/references/flow-framework.md",
+      "git_blob_sha": "bef94e416dfd4bf522d7908633ba649973088ba0"
+    },
+    {
+      "path": "skills/seo-flow/references/flow-prompts.lock",
+      "git_blob_sha": "7d29c24a9cf5d13a16fcfe323769fe75cf149488"
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/README.md",
+      "git_blob_sha": "eb14341c3df93c49014b335604217aece33c1706"
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/find/content-planning-for-topical-relevance-prompt.md",
+      "git_blob_sha": "0dce88fe75cdefdbdcd0fe8bbbf0e3180751f966"
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/find/content-prioritization-prompt.md",
+      "git_blob_sha": "4928e2d65da9823048d29f1cd087d74d9738ab88"
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/find/keyword-research-prompt.md",
+      "git_blob_sha": "97bc8aab9c063a7402c3f78a101da31f2b7f0759"
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/find/keyword-variations-for-topical-relevance-prompt.md",
+      "git_blob_sha": "94fde2b8965d5145070f61f640fca792df8596da"
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/find/prompt-audience-avatar.md",
+      "git_blob_sha": "13e92f69764194399f390d47b06f31241df18454"
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/leverage/backlink-competition-prompt.md",
+      "git_blob_sha": "d637b0b1049b26fb7332b8e33c5931933b6817ae"
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/local/ai-homepage-rewrite-prompt.md",
+      "git_blob_sha": "1e45d535458cf2a9c3f57258eb9f45e5ec0354e9"
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/local/claude-deep-research-prompt.md",
+      "git_blob_sha": "eadb90698b96f795961363bd0e3eb428dae56f0d"
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/local/gbp-categories-prompt.md",
+      "git_blob_sha": "bd8fb8e38ff57969ec4cce4605fae2634e872474"
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/local/gbp-description-claude-prompt-1.md",
+      "git_blob_sha": "be043701ac89cb241397be87ebff77ad1b024788"
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/local/gbp-description-claude-prompt-2.md",
+      "git_blob_sha": "e1d4b6a24c33e7d0806355953cd6263ff664e3c0"
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/local/gbp-description-claude-prompt-3.md",
+      "git_blob_sha": "e53e6244b6261b84c9d9673ec359e87c0cd2390e"
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/local/gbp-services-prompt.md",
+      "git_blob_sha": "120706adedea0bcfdb5340d47fbc32bd30403dee"
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/local/prompt-generating-a-meta-description.md",
+      "git_blob_sha": "e071e725a8a70f38778fcd50c2f90420381db8fa"
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/local/prompt-generating-a-title-tag.md",
+      "git_blob_sha": "b0a7ce2efebd750b4b966c42522a6f12c87d0f97"
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/local/prompt-rewriting-existing-homepage.md",
+      "git_blob_sha": "84a3d8cd2f396ceb6b8c58bb2f80d8b4523122c9"
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/local/prompt-rewriting-existing-service-page.md",
+      "git_blob_sha": "e50b960c9b6cabce128b2902823ec842c3fa2e3f"
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/optimize/ai-detector-test-follow-up-prompt.md",
+      "git_blob_sha": "9dc0c6cfcd880637c8630c242a9e8c552f6e392a"
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/optimize/ai-supporting-pages-rewrite-prompt.md",
+      "git_blob_sha": "c13466aace580e4a51f1a97ea37dd9e74e2c2d49"
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/optimize/basic-prompt.md",
+      "git_blob_sha": "fa1302d589bb5de38ef9ffd46de867d9447b57f7"
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/optimize/blog-post-outline-prompt.md",
+      "git_blob_sha": "cf93d697f9a0b69bff59f6057ae2bbe19c5494cf"
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/optimize/blog-post-writing-prompt.md",
+      "git_blob_sha": "3ff13932dd3eeddf004063b1c571bd666221b75f"
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/optimize/claude-prompt-1.md",
+      "git_blob_sha": "efbfa455c4f78d48bceee8d85a1100ba497f0b7f"
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/optimize/claude-prompt-2.md",
+      "git_blob_sha": "f90cab2116ab7d5dbaa3704a902eca86b038d8f1"
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/optimize/ctr-audit-prompt.md",
+      "git_blob_sha": "9d7e8db4924cc9b16f5f0211fd1bb4c6f3d5661c"
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/optimize/follow-up-prompt-1.md",
+      "git_blob_sha": "cccb5e703cfa410de38a3ec636f38e8ef09c21cd"
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/optimize/follow-up-prompt-2.md",
+      "git_blob_sha": "f7d32e77597ec06bb51664a36469ac03d55422d9"
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/optimize/follow-up-prompt.md",
+      "git_blob_sha": "3e931d13e27765ee910919c0d0c005d354c27162"
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/optimize/paa-question-rewording-prompt.md",
+      "git_blob_sha": "42f77e38ac439acf2fd3b6deaf7144fcee8c79db"
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/optimize/prompt-core-30-content-audit.md",
+      "git_blob_sha": "0e310a2cb9ab02e73860bb8f45aad8ca00232845"
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/optimize/property-content-with-authority-audit-prompt.md",
+      "git_blob_sha": "b6aafafa19102f2f5a8a51f6a60a6e746e8897b8"
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/optimize/reddit-claude-prompt.md",
+      "git_blob_sha": "77bec3254527e793a379612013f301286fbc59a8"
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/optimize/schema-prompt-1.md",
+      "git_blob_sha": "76d47e31755f3b6273eb9eb169b2f2d73e881d1d"
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/optimize/step-1-the-chatgpt-discovery-prompt.md",
+      "git_blob_sha": "c6a3c33d19568120a97f1617b795d6851d86191c"
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/optimize/step-2-the-follow-up-qualifying-prompt.md",
+      "git_blob_sha": "108bee0a8f10573914e8d319bed699346cc2a926"
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/optimize/technical-audit-prompt.md",
+      "git_blob_sha": "d6591eac24a15a7a62ba817f9b2bad0416d6a079"
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/optimize/visibility-follow-up-prompt.md",
+      "git_blob_sha": "e85b9e4e00402bd9d851ee76083f9d1326f5f9a3"
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/optimize/visiblity-prompt.md",
+      "git_blob_sha": "c86fca171b6698cf448ca635716a62887ce96c62"
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/win/bofu-page-brief-generator.md",
+      "git_blob_sha": "c95ae8ab87c0613d6545f8f4303fad26435af5fa"
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/win/conversion-audit-prompt.md",
+      "git_blob_sha": "6303eea678d6bd7a0c82b23ca527fbb487a1e078"
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/win/dual-surface-content-scorecard.md",
+      "git_blob_sha": "17b95d4073d6b363c64646a89509b7f575c41081"
+    }
+  ]
+}

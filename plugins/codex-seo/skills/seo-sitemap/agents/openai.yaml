@@ -1,0 +1,4 @@
+interface:
+  display_name: "SEO: Sitemaps"
+  short_description: "Discover, validate and generate useful XML sitemaps"
+  default_prompt: "Use $seo-sitemap to help with my sitemaps task using verified evidence."

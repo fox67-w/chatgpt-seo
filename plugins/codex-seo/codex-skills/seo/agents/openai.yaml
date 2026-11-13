@@ -1,0 +1,4 @@
+interface:
+  display_name: "SEO: SEO"
+  short_description: "Route SEO work to the right specialist workflow"
+  default_prompt: "Use $seo to help with my seo task using verified evidence."

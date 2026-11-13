@@ -1,0 +1,4 @@
+interface:
+  display_name: "SEO: Matomo Analytics"
+  short_description: "Analyze self-hosted or cloud Matomo search traffic"
+  default_prompt: "Use $seo-matomo to help with my matomo analytics task using verified evidence."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "SEO: Content Briefs"
+  short_description: "Build competitive, evidence-based writing briefs"
+  default_prompt: "Use $seo-content-brief to help with my content briefs task using verified evidence."

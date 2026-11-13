@@ -1,0 +1,211 @@
+{
+  "schema_version": 1,
+  "configuration_reference": "https://learn.chatgpt.com/docs/extend/mcp",
+  "activation": "install-codex.py --extension NAME --project PROJECT --dry-run",
+  "providers": {
+    "ahrefs": {
+      "skill": "seo-ahrefs",
+      "mechanism": "mcp_stdio",
+      "required_environment": [
+        "AHREFS_API_TOKEN"
+      ],
+      "mcp": {
+        "name": "ahrefs",
+        "command": "npx",
+        "args": [
+          "--yes",
+          "--package=@ahrefs/mcp@0.0.11",
+          "mcp"
+        ],
+        "env_vars": [
+          "AHREFS_API_TOKEN"
+        ]
+      },
+      "requires": [
+        "Node.js and npm/npx",
+        "An authorized Ahrefs account/API subscription"
+      ],
+      "source": "extensions/ahrefs/install.ps1"
+    },
+    "banana": {
+      "skill": "seo-image-gen",
+      "mechanism": "mcp_stdio_or_direct_api",
+      "required_environment": [
+        "GOOGLE_AI_API_KEY"
+      ],
+      "optional_environment": [
+        "NANOBANANA_MODEL",
+        "NANOBANANA_OUTPUT_DIR"
+      ],
+      "mcp": {
+        "name": "nanobanana-mcp",
+        "command": "npx",
+        "args": [
+          "-y",
+          "@ycse/nanobanana-mcp@1.1.1"
+        ],
+        "env_vars": [
+          "GOOGLE_AI_API_KEY",
+          "NANOBANANA_MODEL",
+          "NANOBANANA_OUTPUT_DIR"
+        ]
+      },
+      "direct_scripts": [
+        "generate.py",
+        "edit.py",
+        "batch.py",
+        "cost_tracker.py",
+        "presets.py"
+      ],
+      "requires": [
+        "An authorized Google AI API key and chosen model",
+        "Node.js and npm/npx for MCP; Python standard library for direct API fallback",
+        "A confirmed scope/budget before paid image generation"
+      ],
+      "source": "extensions/banana/scripts/setup_mcp.py"
+    },
+    "bing-webmaster": {
+      "skill": "seo-bing",
+      "mechanism": "bundled_api_scripts",
+      "required_environment": [
+        "BING_WEBMASTER_API_KEY"
+      ],
+      "optional_environment": [
+        "INDEXNOW_KEY",
+        "INDEXNOW_KEY_LOCATION"
+      ],
+      "core_scripts": [
+        "bing_webmaster.py",
+        "indexnow_submit.py"
+      ],
+      "requires": [
+        "An authorized Bing Webmaster property and API key",
+        "Explicit authorization before URL submission"
+      ],
+      "source": "extensions/bing-webmaster/install.ps1"
+    },
+    "dataforseo": {
+      "skill": "seo-dataforseo",
+      "mechanism": "mcp_stdio_and_bundled_api_scripts",
+      "required_environment": [
+        "DATAFORSEO_USERNAME",
+        "DATAFORSEO_PASSWORD"
+      ],
+      "optional_environment": [
+        "ENABLED_MODULES",
+        "FIELD_CONFIG_PATH"
+      ],
+      "package_file_environment": {
+        "FIELD_CONFIG_PATH": "extensions/dataforseo/field-config.json"
+      },
+      "mcp": {
+        "name": "dataforseo",
+        "command": "npx",
+        "args": [
+          "-y",
+          "dataforseo-mcp-server@2.8.10"
+        ],
+        "env_vars": [
+          "DATAFORSEO_USERNAME",
+          "DATAFORSEO_PASSWORD",
+          "ENABLED_MODULES",
+          "FIELD_CONFIG_PATH"
+        ]
+      },
+      "core_scripts": [
+        "dataforseo_costs.py",
+        "dataforseo_merchant.py",
+        "dataforseo_normalize.py"
+      ],
+      "requires": [
+        "Node.js and npm/npx for MCP",
+        "An authorized funded DataForSEO account",
+        "A confirmed scope/budget before paid requests"
+      ],
+      "source": "extensions/dataforseo/install.ps1"
+    },
+    "firecrawl": {
+      "skill": "seo-firecrawl",
+      "mechanism": "mcp_stdio",
+      "required_environment": [
+        "FIRECRAWL_API_KEY"
+      ],
+      "mcp": {
+        "name": "firecrawl-mcp",
+        "command": "npx",
+        "args": [
+          "-y",
+          "firecrawl-mcp@3.11.0"
+        ],
+        "env_vars": [
+          "FIRECRAWL_API_KEY"
+        ]
+      },
+      "requires": [
+        "Node.js and npm/npx",
+        "An authorized Firecrawl account and applicable crawl allowance"
+      ],
+      "source": "extensions/firecrawl/install.ps1"
+    },
+    "matomo": {
+      "skill": "seo-matomo",
+      "mechanism": "bundled_api_scripts",
+      "required_environment": [
+        "MATOMO_URL",
+        "MATOMO_API_TOKEN"
+      ],
+      "optional_environment": [
+        "MATOMO_SITE_ID",
+        "CODEX_SEO_LOCAL_TARGETS"
+      ],
+      "core_scripts": [
+        "matomo_auth.py",
+        "matomo_report.py"
+      ],
+      "requires": [
+        "An authorized Matomo instance/token",
+        "An explicit exact-host allowlist for private-network instances"
+      ],
+      "source": "extensions/matomo/install.ps1"
+    },
+    "profound": {
+      "skill": "seo-profound",
+      "mechanism": "authorized_host_tool_or_export",
+      "required_environment": [
+        "PROFOUND_API_KEY"
+      ],
+      "requires": [
+        "An independently authorized Profound API tool or supplied export",
+        "An account plan that supplies the requested metrics"
+      ],
+      "source": "extensions/profound/skills/seo-profound/SKILL.md",
+      "limitation": "The public source supplies the workflow but no standalone Profound client or MCP endpoint."
+    },
+    "seranking": {
+      "skill": "seo-seranking",
+      "mechanism": "authorized_host_tool_or_export",
+      "required_environment": [
+        "SERANKING_API_KEY"
+      ],
+      "requires": [
+        "An independently authorized SE Ranking API tool or supplied export",
+        "An account plan that supplies the requested metrics"
+      ],
+      "source": "extensions/seranking/skills/seo-seranking/SKILL.md",
+      "limitation": "The public source supplies the workflow but no standalone SE Ranking client or MCP endpoint."
+    },
+    "unlighthouse": {
+      "skill": "seo-unlighthouse",
+      "mechanism": "bundled_local_runner",
+      "required_environment": [],
+      "core_scripts": [
+        "unlighthouse_run.py"
+      ],
+      "requires": [
+        "Node.js and a compatible local Unlighthouse CLI",
+        "A browser supported by the local runner"
+      ],
+      "source": "extensions/unlighthouse/skills/seo-unlighthouse/SKILL.md"
+    }
+  }
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "SEO: Keyword Clusters"
+  short_description: "Group keywords and build linked topic architecture"
+  default_prompt: "Use $seo-cluster to help with my keyword clusters task using verified evidence."

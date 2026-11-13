@@ -1,0 +1,4 @@
+interface:
+  display_name: "SEO: Local SEO"
+  short_description: "Audit local visibility, business details and citations"
+  default_prompt: "Use $seo-local to help with my local seo task using verified evidence."

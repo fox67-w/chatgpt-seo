@@ -1,0 +1,926 @@
+{
+  "schema_version": 1,
+  "upstream_commit": "cca7e4a267991aca880efade1fd12e8498caf2ce",
+  "observed_failures_windows": 74,
+  "additional_posix_cases": 8,
+  "retained_original_cases": 4,
+  "translated_host_contract_cases": 78,
+  "review_scope": "Only exact host, installer, manifest, discovery and instruction-carrier cases are translated. No SEO analysis, fetcher, parser, schema, quota or account-data invariant is waived. Source cases remain on disk.",
+  "cases": [
+    {
+      "nodeid": "tests/test_agent_mcp_permissions.py::test_dataforseo_agent_mirrors_allow_only_sanctioned_mcp_path",
+      "retain_original": false,
+      "observed_on_windows": true,
+      "reason": "Codex does not enforce Claude tools: frontmatter grants. The specialist task keeps the sanctioned connected-MCP-only route, denies credential-store inspection and raw-HTTP/shell bypass, and fails closed when tools are absent.",
+      "replacement_tests": [
+        "tests_codex/test_workflow_contracts.py::NativeWorkflowContracts::test_dataforseo_specialists_fail_closed_without_the_connected_mcp_route",
+        "tests_codex/test_workflow_contracts.py::NativeProviderContracts::test_mcp_server_names_and_package_pins_match_the_source_tool_contract"
+      ]
+    },
+    {
+      "nodeid": "tests/test_agent_mcp_permissions.py::test_dataforseo_agent_bodies_stay_mirrored",
+      "retain_original": true,
+      "observed_on_windows": true,
+      "reason": "The source mirror invariant is retained unchanged. Codex notices now use a common resolved-root reference and both DataForSEO prompts receive identical credential guidance, restoring byte-identical domain content.",
+      "replacement_tests": [
+        "tests_codex/test_workflow_contracts.py::NativeWorkflowContracts::test_core_extension_mirrors_keep_identical_domain_behavior"
+      ]
+    },
+    {
+      "nodeid": "tests/test_agent_mcp_permissions.py::test_dataforseo_installers_use_matching_mcp_server_name",
+      "retain_original": false,
+      "observed_on_windows": true,
+      "reason": "Claude JSON-merge source snippets are replaced by a Codex TOML connection emitter. The dataforseo server identity and pinned MCP tool contract are still enforced.",
+      "replacement_tests": [
+        "tests_codex/test_workflow_contracts.py::NativeProviderContracts::test_mcp_server_names_and_package_pins_match_the_source_tool_contract"
+      ]
+    },
+    {
+      "nodeid": "tests/test_audit_agent_turn_budget.py::test_every_audit_agent_has_a_turn_budget_at_least_30",
+      "retain_original": false,
+      "observed_on_windows": true,
+      "reason": "Codex inherits the real host turn/model limits rather than Claude maxTurns fields. Every discovered specialist still persists findings after its first pass; orchestration is bounded by host concurrency and can execute sequentially.",
+      "replacement_tests": [
+        "tests_codex/test_workflow_contracts.py::NativeWorkflowContracts::test_all_audit_specialists_keep_progress_under_host_budget_and_concurrency",
+        "plugins/codex-seo/tests/test_audit_agent_turn_budget.py::test_every_audit_agent_has_the_early_write_instruction"
+      ]
+    },
+    {
+      "nodeid": "tests/test_audit_agent_turn_budget.py::test_named_reporters_agents_have_at_least_40_turns",
+      "retain_original": false,
+      "observed_on_windows": true,
+      "reason": "Codex inherits the real host turn/model limits rather than Claude maxTurns fields. Every discovered specialist still persists findings after its first pass; orchestration is bounded by host concurrency and can execute sequentially.",
+      "replacement_tests": [
+        "tests_codex/test_workflow_contracts.py::NativeWorkflowContracts::test_all_audit_specialists_keep_progress_under_host_budget_and_concurrency",
+        "plugins/codex-seo/tests/test_audit_agent_turn_budget.py::test_every_audit_agent_has_the_early_write_instruction"
+      ]
+    },
+    {
+      "nodeid": "tests/test_audit_instructions.py::test_seo_audit_starts_with_render_page_auto",
+      "retain_original": false,
+      "observed_on_windows": true,
+      "reason": "Only the managed launcher spelling changes from CLAUDE_PLUGIN_ROOT/claude-seo to resolved-root codex_seo.py. SPA-aware render_page.py --mode auto remains the first audit step and durable report artifacts remain required.",
+      "replacement_tests": [
+        "tests_codex/test_workflow_contracts.py::NativeWorkflowContracts::test_audit_starts_with_managed_render_auto_and_persists_findings"
+      ]
+    },
+    {
+      "nodeid": "tests/test_audit_instructions.py::test_hub_invocation_keeps_the_command_word",
+      "retain_original": false,
+      "observed_on_windows": true,
+      "reason": "Codex skill invocation uses $seo and an explicit command/arguments text alias instead of Claude $ARGUMENTS expansion. It preserves the complete task and does not use positional placeholders that drop the command word.",
+      "replacement_tests": [
+        "tests_codex/test_workflow_contracts.py::NativeWorkflowContracts::test_native_hub_keeps_full_command_and_arguments_without_claude_expansion"
+      ]
+    },
+    {
+      "nodeid": "tests/test_banana_install_layout.py::test_standalone_extension_uses_managed_runtime_for_every_script",
+      "retain_original": false,
+      "observed_on_windows": true,
+      "reason": "The Codex installer copies the complete preserved package layout and creates discovery bridges. Banana helpers remain under extensions/banana/scripts and managed calls resolve from the source package rather than a flattened ~/.claude skill directory.",
+      "replacement_tests": [
+        "tests_codex/test_workflow_contracts.py::NativeInstalledLayoutContracts::test_install_plan_preserves_full_runtime_data_extensions_and_source_paths",
+        "tests_codex/test_installer.py::FullInstallerIntegration::test_full_install_all_skills_reapply_remove_and_preserve_edits",
+        "tests/test_codex_workflows.py::CodexWorkflowTests::test_documented_managed_script_targets_exist"
+      ]
+    },
+    {
+      "nodeid": "tests/test_banana_install_layout.py::test_standalone_installer_copies_scripts_beside_skill_file",
+      "retain_original": false,
+      "observed_on_windows": true,
+      "reason": "The Codex installer copies the complete preserved package layout and creates discovery bridges. Banana helpers remain under extensions/banana/scripts and managed calls resolve from the source package rather than a flattened ~/.claude skill directory.",
+      "replacement_tests": [
+        "tests_codex/test_workflow_contracts.py::NativeInstalledLayoutContracts::test_install_plan_preserves_full_runtime_data_extensions_and_source_paths",
+        "tests_codex/test_installer.py::FullInstallerIntegration::test_full_install_all_skills_reapply_remove_and_preserve_edits",
+        "tests/test_codex_workflows.py::CodexWorkflowTests::test_documented_managed_script_targets_exist"
+      ]
+    },
+    {
+      "nodeid": "tests/test_banana_install_layout.py::test_top_level_installer_keeps_extension_scripts_under_core_extension_tree",
+      "retain_original": false,
+      "observed_on_windows": true,
+      "reason": "The Codex installer copies the complete preserved package layout and creates discovery bridges. Banana helpers remain under extensions/banana/scripts and managed calls resolve from the source package rather than a flattened ~/.claude skill directory.",
+      "replacement_tests": [
+        "tests_codex/test_workflow_contracts.py::NativeInstalledLayoutContracts::test_install_plan_preserves_full_runtime_data_extensions_and_source_paths",
+        "tests_codex/test_installer.py::FullInstallerIntegration::test_full_install_all_skills_reapply_remove_and_preserve_edits",
+        "tests/test_codex_workflows.py::CodexWorkflowTests::test_documented_managed_script_targets_exist"
+      ]
+    },
+    {
+      "nodeid": "tests/test_banana_setup_mcp_atomic_write.py::test_setup_mcp_writes_config_with_no_leftover_temp_file",
+      "retain_original": false,
+      "observed_on_windows": true,
+      "reason": "The former automatic shared ~/.claude.json writer and save_settings API are deliberately absent. Codex emits a reviewed secret-free TOML fragment without reading or rewriting home settings, and refuses an existing output file instead of merging or truncating it.",
+      "replacement_tests": [
+        "tests_codex/test_workflow_contracts.py::NativeProviderContracts::test_provider_planning_never_changes_malformed_or_unrelated_home_settings",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_output_fragment_does_not_overwrite_existing_configuration",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_banana_fragment_does_not_persist_compatibility_key"
+      ]
+    },
+    {
+      "nodeid": "tests/test_banana_setup_mcp_atomic_write.py::test_save_settings_preserves_unrelated_keys_on_existing_file",
+      "retain_original": false,
+      "observed_on_windows": true,
+      "reason": "The former automatic shared ~/.claude.json writer and save_settings API are deliberately absent. Codex emits a reviewed secret-free TOML fragment without reading or rewriting home settings, and refuses an existing output file instead of merging or truncating it.",
+      "replacement_tests": [
+        "tests_codex/test_workflow_contracts.py::NativeProviderContracts::test_provider_planning_never_changes_malformed_or_unrelated_home_settings",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_output_fragment_does_not_overwrite_existing_configuration",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_banana_fragment_does_not_persist_compatibility_key"
+      ]
+    },
+    {
+      "nodeid": "tests/test_banana_setup_mcp_atomic_write.py::test_save_settings_stages_temp_file_in_same_directory",
+      "retain_original": false,
+      "observed_on_windows": true,
+      "reason": "The former automatic shared ~/.claude.json writer and save_settings API are deliberately absent. Codex emits a reviewed secret-free TOML fragment without reading or rewriting home settings, and refuses an existing output file instead of merging or truncating it.",
+      "replacement_tests": [
+        "tests_codex/test_workflow_contracts.py::NativeProviderContracts::test_provider_planning_never_changes_malformed_or_unrelated_home_settings",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_output_fragment_does_not_overwrite_existing_configuration",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_banana_fragment_does_not_persist_compatibility_key"
+      ]
+    },
+    {
+      "nodeid": "tests/test_banana_setup_mcp_atomic_write.py::test_save_settings_cleans_up_temp_file_and_leaves_original_on_failure",
+      "retain_original": false,
+      "observed_on_windows": true,
+      "reason": "The former automatic shared ~/.claude.json writer and save_settings API are deliberately absent. Codex emits a reviewed secret-free TOML fragment without reading or rewriting home settings, and refuses an existing output file instead of merging or truncating it.",
+      "replacement_tests": [
+        "tests_codex/test_workflow_contracts.py::NativeProviderContracts::test_provider_planning_never_changes_malformed_or_unrelated_home_settings",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_output_fragment_does_not_overwrite_existing_configuration",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_banana_fragment_does_not_persist_compatibility_key"
+      ]
+    },
+    {
+      "nodeid": "tests/test_cross_platform_hooks.py::test_schema_hook_uses_exec_form_args_and_tool_input_placeholder",
+      "retain_original": false,
+      "observed_on_windows": true,
+      "reason": "Claude hook JSON/tool_input placeholder wiring is replaced with an opt-in Codex apply_patch event adapter. Default registration stays inactive; explicit native events are parsed and real placeholder schema produces blocking feedback.",
+      "replacement_tests": [
+        "tests/test_codex_extensions.py::CodexSchemaAdapter::test_default_hook_discovery_is_inactive_and_opt_in_template_is_available",
+        "tests/test_codex_extensions.py::CodexSchemaAdapter::test_event_extracts_multiple_apply_patch_paths_and_deduplicates",
+        "tests/test_codex_extensions.py::CodexSchemaAdapter::test_native_event_reports_placeholder_as_blocking_review_feedback"
+      ]
+    },
+    {
+      "nodeid": "tests/test_cross_platform_hooks.py::test_windows_installer_prefers_py_launcher_and_rejects_store_stubs",
+      "retain_original": false,
+      "observed_on_windows": true,
+      "reason": "The native installer now performs supported-version probing and fallback using Codex executable overrides, rather than matching a specific Claude PowerShell candidate-object literal. Store aliases and unsupported interpreters are refused.",
+      "replacement_tests": [
+        "plugins/codex-seo/tests/test_codex_runtime.py::CodexEntryTests::test_powershell_wrapper_preserves_spaced_python_path_and_flags",
+        "plugins/codex-seo/tests/test_codex_runtime.py::CodexEntryTests::test_powershell_python_override_is_an_executable_not_a_command",
+        "tests_codex/test_installer.py::InstallerLauncherTests::test_native_powershell_rejects_explicit_unsupported_python",
+        "tests_codex/test_installer.py::InstallerLauncherTests::test_native_powershell_skips_315_default_for_versioned_314",
+        "tests_codex/test_installer.py::InstallerLauncherTests::test_posix_skips_315_default_and_preserves_arguments",
+        "tests_codex/test_installer.py::InstallerLauncherTests::test_posix_install_and_uninstall_refuse_unsupported_override"
+      ]
+    },
+    {
+      "nodeid": "tests/test_dataforseo_tool_names.py::test_fixture_matches_the_installer_pin",
+      "retain_original": false,
+      "observed_on_windows": true,
+      "reason": "The pinned DataForSEO package moves out of duplicated installer text into the authoritative secret-free Codex integration catalog/TOML emitter. The 2.8.10 pin, server name and 80-tool fixture remain intact; the unmodified source referenced-tool validation still runs.",
+      "replacement_tests": [
+        "tests_codex/test_workflow_contracts.py::NativeProviderContracts::test_mcp_server_names_and_package_pins_match_the_source_tool_contract",
+        "plugins/codex-seo/tests/test_dataforseo_tool_names.py::test_every_referenced_mcp_tool_exists_on_the_pinned_server"
+      ]
+    },
+    {
+      "nodeid": "tests/test_extension_installer_injection.py::test_installer_uses_safe_credential_pattern[extensions/dataforseo/install.sh]",
+      "retain_original": false,
+      "observed_on_windows": true,
+      "reason": "Codex activation wrappers no longer collect credentials or embed a heredoc/Python/PowerShell writer for shared Claude settings. Provider plans expose environment-variable names and readiness booleans only, preserve even malformed unrelated settings, and never serialize hostile credential values; existing explicit output files are preserved.",
+      "replacement_tests": [
+        "tests_codex/test_workflow_contracts.py::NativeProviderContracts::test_provider_planning_never_changes_malformed_or_unrelated_home_settings",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_plan_never_serializes_credential_values_or_claims_connection",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_output_fragment_does_not_overwrite_existing_configuration",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_activation_wrappers_delegate_scoped_parent_installer"
+      ]
+    },
+    {
+      "nodeid": "tests/test_extension_installer_injection.py::test_installer_uses_safe_credential_pattern[extensions/firecrawl/install.sh]",
+      "retain_original": false,
+      "observed_on_windows": true,
+      "reason": "Codex activation wrappers no longer collect credentials or embed a heredoc/Python/PowerShell writer for shared Claude settings. Provider plans expose environment-variable names and readiness booleans only, preserve even malformed unrelated settings, and never serialize hostile credential values; existing explicit output files are preserved.",
+      "replacement_tests": [
+        "tests_codex/test_workflow_contracts.py::NativeProviderContracts::test_provider_planning_never_changes_malformed_or_unrelated_home_settings",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_plan_never_serializes_credential_values_or_claims_connection",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_output_fragment_does_not_overwrite_existing_configuration",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_activation_wrappers_delegate_scoped_parent_installer"
+      ]
+    },
+    {
+      "nodeid": "tests/test_extension_installer_injection.py::test_installer_uses_safe_credential_pattern[extensions/banana/install.sh]",
+      "retain_original": false,
+      "observed_on_windows": true,
+      "reason": "Codex activation wrappers no longer collect credentials or embed a heredoc/Python/PowerShell writer for shared Claude settings. Provider plans expose environment-variable names and readiness booleans only, preserve even malformed unrelated settings, and never serialize hostile credential values; existing explicit output files are preserved.",
+      "replacement_tests": [
+        "tests_codex/test_workflow_contracts.py::NativeProviderContracts::test_provider_planning_never_changes_malformed_or_unrelated_home_settings",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_plan_never_serializes_credential_values_or_claims_connection",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_output_fragment_does_not_overwrite_existing_configuration",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_activation_wrappers_delegate_scoped_parent_installer"
+      ]
+    },
+    {
+      "nodeid": "tests/test_extension_installer_injection.py::test_installer_uses_safe_credential_pattern[extensions/ahrefs/install.sh]",
+      "retain_original": false,
+      "observed_on_windows": true,
+      "reason": "Codex activation wrappers no longer collect credentials or embed a heredoc/Python/PowerShell writer for shared Claude settings. Provider plans expose environment-variable names and readiness booleans only, preserve even malformed unrelated settings, and never serialize hostile credential values; existing explicit output files are preserved.",
+      "replacement_tests": [
+        "tests_codex/test_workflow_contracts.py::NativeProviderContracts::test_provider_planning_never_changes_malformed_or_unrelated_home_settings",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_plan_never_serializes_credential_values_or_claims_connection",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_output_fragment_does_not_overwrite_existing_configuration",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_activation_wrappers_delegate_scoped_parent_installer"
+      ]
+    },
+    {
+      "nodeid": "tests/test_extension_installer_injection.py::test_installer_uses_safe_credential_pattern[extensions/profound/install.sh]",
+      "retain_original": false,
+      "observed_on_windows": true,
+      "reason": "Codex activation wrappers no longer collect credentials or embed a heredoc/Python/PowerShell writer for shared Claude settings. Provider plans expose environment-variable names and readiness booleans only, preserve even malformed unrelated settings, and never serialize hostile credential values; existing explicit output files are preserved.",
+      "replacement_tests": [
+        "tests_codex/test_workflow_contracts.py::NativeProviderContracts::test_provider_planning_never_changes_malformed_or_unrelated_home_settings",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_plan_never_serializes_credential_values_or_claims_connection",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_output_fragment_does_not_overwrite_existing_configuration",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_activation_wrappers_delegate_scoped_parent_installer"
+      ]
+    },
+    {
+      "nodeid": "tests/test_extension_installer_injection.py::test_installer_uses_safe_credential_pattern[extensions/seranking/install.sh]",
+      "retain_original": false,
+      "observed_on_windows": true,
+      "reason": "Codex activation wrappers no longer collect credentials or embed a heredoc/Python/PowerShell writer for shared Claude settings. Provider plans expose environment-variable names and readiness booleans only, preserve even malformed unrelated settings, and never serialize hostile credential values; existing explicit output files are preserved.",
+      "replacement_tests": [
+        "tests_codex/test_workflow_contracts.py::NativeProviderContracts::test_provider_planning_never_changes_malformed_or_unrelated_home_settings",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_plan_never_serializes_credential_values_or_claims_connection",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_output_fragment_does_not_overwrite_existing_configuration",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_activation_wrappers_delegate_scoped_parent_installer"
+      ]
+    },
+    {
+      "nodeid": "tests/test_extension_installer_injection.py::test_installer_uses_safe_credential_pattern[extensions/bing-webmaster/install.sh]",
+      "retain_original": false,
+      "observed_on_windows": true,
+      "reason": "Codex activation wrappers no longer collect credentials or embed a heredoc/Python/PowerShell writer for shared Claude settings. Provider plans expose environment-variable names and readiness booleans only, preserve even malformed unrelated settings, and never serialize hostile credential values; existing explicit output files are preserved.",
+      "replacement_tests": [
+        "tests_codex/test_workflow_contracts.py::NativeProviderContracts::test_provider_planning_never_changes_malformed_or_unrelated_home_settings",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_plan_never_serializes_credential_values_or_claims_connection",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_output_fragment_does_not_overwrite_existing_configuration",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_activation_wrappers_delegate_scoped_parent_installer"
+      ]
+    },
+    {
+      "nodeid": "tests/test_extension_installer_injection.py::test_installer_never_overwrites_an_unparseable_config[extensions/dataforseo/install.sh]",
+      "retain_original": false,
+      "observed_on_windows": true,
+      "reason": "Codex activation wrappers no longer collect credentials or embed a heredoc/Python/PowerShell writer for shared Claude settings. Provider plans expose environment-variable names and readiness booleans only, preserve even malformed unrelated settings, and never serialize hostile credential values; existing explicit output files are preserved.",
+      "replacement_tests": [
+        "tests_codex/test_workflow_contracts.py::NativeProviderContracts::test_provider_planning_never_changes_malformed_or_unrelated_home_settings",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_plan_never_serializes_credential_values_or_claims_connection",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_output_fragment_does_not_overwrite_existing_configuration",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_activation_wrappers_delegate_scoped_parent_installer"
+      ]
+    },
+    {
+      "nodeid": "tests/test_extension_installer_injection.py::test_installer_never_overwrites_an_unparseable_config[extensions/firecrawl/install.sh]",
+      "retain_original": false,
+      "observed_on_windows": true,
+      "reason": "Codex activation wrappers no longer collect credentials or embed a heredoc/Python/PowerShell writer for shared Claude settings. Provider plans expose environment-variable names and readiness booleans only, preserve even malformed unrelated settings, and never serialize hostile credential values; existing explicit output files are preserved.",
+      "replacement_tests": [
+        "tests_codex/test_workflow_contracts.py::NativeProviderContracts::test_provider_planning_never_changes_malformed_or_unrelated_home_settings",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_plan_never_serializes_credential_values_or_claims_connection",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_output_fragment_does_not_overwrite_existing_configuration",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_activation_wrappers_delegate_scoped_parent_installer"
+      ]
+    },
+    {
+      "nodeid": "tests/test_extension_installer_injection.py::test_installer_never_overwrites_an_unparseable_config[extensions/banana/install.sh]",
+      "retain_original": false,
+      "observed_on_windows": true,
+      "reason": "Codex activation wrappers no longer collect credentials or embed a heredoc/Python/PowerShell writer for shared Claude settings. Provider plans expose environment-variable names and readiness booleans only, preserve even malformed unrelated settings, and never serialize hostile credential values; existing explicit output files are preserved.",
+      "replacement_tests": [
+        "tests_codex/test_workflow_contracts.py::NativeProviderContracts::test_provider_planning_never_changes_malformed_or_unrelated_home_settings",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_plan_never_serializes_credential_values_or_claims_connection",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_output_fragment_does_not_overwrite_existing_configuration",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_activation_wrappers_delegate_scoped_parent_installer"
+      ]
+    },
+    {
+      "nodeid": "tests/test_extension_installer_injection.py::test_installer_never_overwrites_an_unparseable_config[extensions/ahrefs/install.sh]",
+      "retain_original": false,
+      "observed_on_windows": true,
+      "reason": "Codex activation wrappers no longer collect credentials or embed a heredoc/Python/PowerShell writer for shared Claude settings. Provider plans expose environment-variable names and readiness booleans only, preserve even malformed unrelated settings, and never serialize hostile credential values; existing explicit output files are preserved.",
+      "replacement_tests": [
+        "tests_codex/test_workflow_contracts.py::NativeProviderContracts::test_provider_planning_never_changes_malformed_or_unrelated_home_settings",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_plan_never_serializes_credential_values_or_claims_connection",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_output_fragment_does_not_overwrite_existing_configuration",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_activation_wrappers_delegate_scoped_parent_installer"
+      ]
+    },
+    {
+      "nodeid": "tests/test_extension_installer_injection.py::test_installer_never_overwrites_an_unparseable_config[extensions/profound/install.sh]",
+      "retain_original": false,
+      "observed_on_windows": true,
+      "reason": "Codex activation wrappers no longer collect credentials or embed a heredoc/Python/PowerShell writer for shared Claude settings. Provider plans expose environment-variable names and readiness booleans only, preserve even malformed unrelated settings, and never serialize hostile credential values; existing explicit output files are preserved.",
+      "replacement_tests": [
+        "tests_codex/test_workflow_contracts.py::NativeProviderContracts::test_provider_planning_never_changes_malformed_or_unrelated_home_settings",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_plan_never_serializes_credential_values_or_claims_connection",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_output_fragment_does_not_overwrite_existing_configuration",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_activation_wrappers_delegate_scoped_parent_installer"
+      ]
+    },
+    {
+      "nodeid": "tests/test_extension_installer_injection.py::test_installer_never_overwrites_an_unparseable_config[extensions/seranking/install.sh]",
+      "retain_original": false,
+      "observed_on_windows": true,
+      "reason": "Codex activation wrappers no longer collect credentials or embed a heredoc/Python/PowerShell writer for shared Claude settings. Provider plans expose environment-variable names and readiness booleans only, preserve even malformed unrelated settings, and never serialize hostile credential values; existing explicit output files are preserved.",
+      "replacement_tests": [
+        "tests_codex/test_workflow_contracts.py::NativeProviderContracts::test_provider_planning_never_changes_malformed_or_unrelated_home_settings",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_plan_never_serializes_credential_values_or_claims_connection",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_output_fragment_does_not_overwrite_existing_configuration",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_activation_wrappers_delegate_scoped_parent_installer"
+      ]
+    },
+    {
+      "nodeid": "tests/test_extension_installer_injection.py::test_installer_never_overwrites_an_unparseable_config[extensions/bing-webmaster/install.sh]",
+      "retain_original": false,
+      "observed_on_windows": true,
+      "reason": "Codex activation wrappers no longer collect credentials or embed a heredoc/Python/PowerShell writer for shared Claude settings. Provider plans expose environment-variable names and readiness booleans only, preserve even malformed unrelated settings, and never serialize hostile credential values; existing explicit output files are preserved.",
+      "replacement_tests": [
+        "tests_codex/test_workflow_contracts.py::NativeProviderContracts::test_provider_planning_never_changes_malformed_or_unrelated_home_settings",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_plan_never_serializes_credential_values_or_claims_connection",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_output_fragment_does_not_overwrite_existing_configuration",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_activation_wrappers_delegate_scoped_parent_installer"
+      ]
+    },
+    {
+      "nodeid": "tests/test_extension_installer_injection.py::test_ps1_writer_reads_secret_from_env_and_never_clobbers[extensions/profound/install.ps1]",
+      "retain_original": false,
+      "observed_on_windows": true,
+      "reason": "Codex activation wrappers no longer collect credentials or embed a heredoc/Python/PowerShell writer for shared Claude settings. Provider plans expose environment-variable names and readiness booleans only, preserve even malformed unrelated settings, and never serialize hostile credential values; existing explicit output files are preserved.",
+      "replacement_tests": [
+        "tests_codex/test_workflow_contracts.py::NativeProviderContracts::test_provider_planning_never_changes_malformed_or_unrelated_home_settings",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_plan_never_serializes_credential_values_or_claims_connection",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_output_fragment_does_not_overwrite_existing_configuration",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_activation_wrappers_delegate_scoped_parent_installer"
+      ]
+    },
+    {
+      "nodeid": "tests/test_extension_installer_injection.py::test_ps1_writer_reads_secret_from_env_and_never_clobbers[extensions/seranking/install.ps1]",
+      "retain_original": false,
+      "observed_on_windows": true,
+      "reason": "Codex activation wrappers no longer collect credentials or embed a heredoc/Python/PowerShell writer for shared Claude settings. Provider plans expose environment-variable names and readiness booleans only, preserve even malformed unrelated settings, and never serialize hostile credential values; existing explicit output files are preserved.",
+      "replacement_tests": [
+        "tests_codex/test_workflow_contracts.py::NativeProviderContracts::test_provider_planning_never_changes_malformed_or_unrelated_home_settings",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_plan_never_serializes_credential_values_or_claims_connection",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_output_fragment_does_not_overwrite_existing_configuration",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_activation_wrappers_delegate_scoped_parent_installer"
+      ]
+    },
+    {
+      "nodeid": "tests/test_extension_installer_injection.py::test_ps1_writer_reads_secret_from_env_and_never_clobbers[extensions/bing-webmaster/install.ps1]",
+      "retain_original": false,
+      "observed_on_windows": true,
+      "reason": "Codex activation wrappers no longer collect credentials or embed a heredoc/Python/PowerShell writer for shared Claude settings. Provider plans expose environment-variable names and readiness booleans only, preserve even malformed unrelated settings, and never serialize hostile credential values; existing explicit output files are preserved.",
+      "replacement_tests": [
+        "tests_codex/test_workflow_contracts.py::NativeProviderContracts::test_provider_planning_never_changes_malformed_or_unrelated_home_settings",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_plan_never_serializes_credential_values_or_claims_connection",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_output_fragment_does_not_overwrite_existing_configuration",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_activation_wrappers_delegate_scoped_parent_installer"
+      ]
+    },
+    {
+      "nodeid": "tests/test_extension_installer_injection.py::test_ps1_installers_check_the_python_exit_code_and_keep_secrets_off_argv[extensions/profound/install.ps1]",
+      "retain_original": false,
+      "observed_on_windows": true,
+      "reason": "Codex activation wrappers no longer collect credentials or embed a heredoc/Python/PowerShell writer for shared Claude settings. Provider plans expose environment-variable names and readiness booleans only, preserve even malformed unrelated settings, and never serialize hostile credential values; existing explicit output files are preserved.",
+      "replacement_tests": [
+        "tests_codex/test_workflow_contracts.py::NativeProviderContracts::test_provider_planning_never_changes_malformed_or_unrelated_home_settings",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_plan_never_serializes_credential_values_or_claims_connection",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_output_fragment_does_not_overwrite_existing_configuration",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_activation_wrappers_delegate_scoped_parent_installer"
+      ]
+    },
+    {
+      "nodeid": "tests/test_extension_installer_injection.py::test_ps1_installers_check_the_python_exit_code_and_keep_secrets_off_argv[extensions/seranking/install.ps1]",
+      "retain_original": false,
+      "observed_on_windows": true,
+      "reason": "Codex activation wrappers no longer collect credentials or embed a heredoc/Python/PowerShell writer for shared Claude settings. Provider plans expose environment-variable names and readiness booleans only, preserve even malformed unrelated settings, and never serialize hostile credential values; existing explicit output files are preserved.",
+      "replacement_tests": [
+        "tests_codex/test_workflow_contracts.py::NativeProviderContracts::test_provider_planning_never_changes_malformed_or_unrelated_home_settings",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_plan_never_serializes_credential_values_or_claims_connection",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_output_fragment_does_not_overwrite_existing_configuration",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_activation_wrappers_delegate_scoped_parent_installer"
+      ]
+    },
+    {
+      "nodeid": "tests/test_extension_installer_injection.py::test_ps1_installers_check_the_python_exit_code_and_keep_secrets_off_argv[extensions/bing-webmaster/install.ps1]",
+      "retain_original": false,
+      "observed_on_windows": true,
+      "reason": "Codex activation wrappers no longer collect credentials or embed a heredoc/Python/PowerShell writer for shared Claude settings. Provider plans expose environment-variable names and readiness booleans only, preserve even malformed unrelated settings, and never serialize hostile credential values; existing explicit output files are preserved.",
+      "replacement_tests": [
+        "tests_codex/test_workflow_contracts.py::NativeProviderContracts::test_provider_planning_never_changes_malformed_or_unrelated_home_settings",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_plan_never_serializes_credential_values_or_claims_connection",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_output_fragment_does_not_overwrite_existing_configuration",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_activation_wrappers_delegate_scoped_parent_installer"
+      ]
+    },
+    {
+      "nodeid": "tests/test_extension_installer_injection.py::test_ps1_installers_check_the_python_exit_code_and_keep_secrets_off_argv[extensions/matomo/install.ps1]",
+      "retain_original": false,
+      "observed_on_windows": true,
+      "reason": "Codex activation wrappers no longer collect credentials or embed a heredoc/Python/PowerShell writer for shared Claude settings. Provider plans expose environment-variable names and readiness booleans only, preserve even malformed unrelated settings, and never serialize hostile credential values; existing explicit output files are preserved.",
+      "replacement_tests": [
+        "tests_codex/test_workflow_contracts.py::NativeProviderContracts::test_provider_planning_never_changes_malformed_or_unrelated_home_settings",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_plan_never_serializes_credential_values_or_claims_connection",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_output_fragment_does_not_overwrite_existing_configuration",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_activation_wrappers_delegate_scoped_parent_installer"
+      ]
+    },
+    {
+      "nodeid": "tests/test_extension_mirrors.py::test_agent_mirrors_are_identical[agents/seo-dataforseo.md-extensions/dataforseo/agents/seo-dataforseo.md]",
+      "retain_original": true,
+      "observed_on_windows": true,
+      "reason": "The source mirror invariant is retained unchanged. Codex notices now use a common resolved-root reference and both DataForSEO prompts receive identical credential guidance, restoring byte-identical domain content.",
+      "replacement_tests": [
+        "tests_codex/test_workflow_contracts.py::NativeWorkflowContracts::test_core_extension_mirrors_keep_identical_domain_behavior"
+      ]
+    },
+    {
+      "nodeid": "tests/test_extension_mirrors.py::test_agent_mirrors_are_identical[agents/seo-image-gen.md-extensions/banana/agents/seo-image-gen.md]",
+      "retain_original": true,
+      "observed_on_windows": true,
+      "reason": "The source mirror invariant is retained unchanged. Codex notices now use a common resolved-root reference and both DataForSEO prompts receive identical credential guidance, restoring byte-identical domain content.",
+      "replacement_tests": [
+        "tests_codex/test_workflow_contracts.py::NativeWorkflowContracts::test_core_extension_mirrors_keep_identical_domain_behavior"
+      ]
+    },
+    {
+      "nodeid": "tests/test_extension_mirrors.py::test_dataforseo_skill_mirror_is_identical",
+      "retain_original": true,
+      "observed_on_windows": true,
+      "reason": "The source mirror invariant is retained unchanged. Codex notices now use a common resolved-root reference and both DataForSEO prompts receive identical credential guidance, restoring byte-identical domain content.",
+      "replacement_tests": [
+        "tests_codex/test_workflow_contracts.py::NativeWorkflowContracts::test_core_extension_mirrors_keep_identical_domain_behavior"
+      ]
+    },
+    {
+      "nodeid": "tests/test_firecrawl_install_atomic_write.py::test_ps1_writes_mcp_config_atomically[extensions/firecrawl/install.ps1-variables0]",
+      "retain_original": false,
+      "observed_on_windows": true,
+      "reason": "No Codex wrapper rewrites shared Claude JSON, so the old PowerShell temp-swap and ConvertTo-Json -Depth 100 implementation contract is inapplicable. Codex emits parsed TOML with credential-name allowlists and preserves existing/malformed home and selected output files byte for byte.",
+      "replacement_tests": [
+        "tests_codex/test_workflow_contracts.py::NativeProviderContracts::test_provider_planning_never_changes_malformed_or_unrelated_home_settings",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_mcp_fragments_are_valid_toml_with_environment_name_allowlists",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_output_fragment_does_not_overwrite_existing_configuration"
+      ]
+    },
+    {
+      "nodeid": "tests/test_firecrawl_install_atomic_write.py::test_ps1_writes_mcp_config_atomically[extensions/firecrawl/uninstall.ps1-variables1]",
+      "retain_original": false,
+      "observed_on_windows": true,
+      "reason": "No Codex wrapper rewrites shared Claude JSON, so the old PowerShell temp-swap and ConvertTo-Json -Depth 100 implementation contract is inapplicable. Codex emits parsed TOML with credential-name allowlists and preserves existing/malformed home and selected output files byte for byte.",
+      "replacement_tests": [
+        "tests_codex/test_workflow_contracts.py::NativeProviderContracts::test_provider_planning_never_changes_malformed_or_unrelated_home_settings",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_mcp_fragments_are_valid_toml_with_environment_name_allowlists",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_output_fragment_does_not_overwrite_existing_configuration"
+      ]
+    },
+    {
+      "nodeid": "tests/test_firecrawl_install_atomic_write.py::test_ps1_writes_mcp_config_atomically[extensions/dataforseo/install.ps1-variables2]",
+      "retain_original": false,
+      "observed_on_windows": true,
+      "reason": "No Codex wrapper rewrites shared Claude JSON, so the old PowerShell temp-swap and ConvertTo-Json -Depth 100 implementation contract is inapplicable. Codex emits parsed TOML with credential-name allowlists and preserves existing/malformed home and selected output files byte for byte.",
+      "replacement_tests": [
+        "tests_codex/test_workflow_contracts.py::NativeProviderContracts::test_provider_planning_never_changes_malformed_or_unrelated_home_settings",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_mcp_fragments_are_valid_toml_with_environment_name_allowlists",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_output_fragment_does_not_overwrite_existing_configuration"
+      ]
+    },
+    {
+      "nodeid": "tests/test_firecrawl_install_atomic_write.py::test_ps1_writes_mcp_config_atomically[extensions/ahrefs/install.ps1-variables3]",
+      "retain_original": false,
+      "observed_on_windows": true,
+      "reason": "No Codex wrapper rewrites shared Claude JSON, so the old PowerShell temp-swap and ConvertTo-Json -Depth 100 implementation contract is inapplicable. Codex emits parsed TOML with credential-name allowlists and preserves existing/malformed home and selected output files byte for byte.",
+      "replacement_tests": [
+        "tests_codex/test_workflow_contracts.py::NativeProviderContracts::test_provider_planning_never_changes_malformed_or_unrelated_home_settings",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_mcp_fragments_are_valid_toml_with_environment_name_allowlists",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_output_fragment_does_not_overwrite_existing_configuration"
+      ]
+    },
+    {
+      "nodeid": "tests/test_firecrawl_install_atomic_write.py::test_ps1_uses_depth_100[extensions/firecrawl/install.ps1]",
+      "retain_original": false,
+      "observed_on_windows": true,
+      "reason": "No Codex wrapper rewrites shared Claude JSON, so the old PowerShell temp-swap and ConvertTo-Json -Depth 100 implementation contract is inapplicable. Codex emits parsed TOML with credential-name allowlists and preserves existing/malformed home and selected output files byte for byte.",
+      "replacement_tests": [
+        "tests_codex/test_workflow_contracts.py::NativeProviderContracts::test_provider_planning_never_changes_malformed_or_unrelated_home_settings",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_mcp_fragments_are_valid_toml_with_environment_name_allowlists",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_output_fragment_does_not_overwrite_existing_configuration"
+      ]
+    },
+    {
+      "nodeid": "tests/test_firecrawl_install_atomic_write.py::test_ps1_uses_depth_100[extensions/firecrawl/uninstall.ps1]",
+      "retain_original": false,
+      "observed_on_windows": true,
+      "reason": "No Codex wrapper rewrites shared Claude JSON, so the old PowerShell temp-swap and ConvertTo-Json -Depth 100 implementation contract is inapplicable. Codex emits parsed TOML with credential-name allowlists and preserves existing/malformed home and selected output files byte for byte.",
+      "replacement_tests": [
+        "tests_codex/test_workflow_contracts.py::NativeProviderContracts::test_provider_planning_never_changes_malformed_or_unrelated_home_settings",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_mcp_fragments_are_valid_toml_with_environment_name_allowlists",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_output_fragment_does_not_overwrite_existing_configuration"
+      ]
+    },
+    {
+      "nodeid": "tests/test_firecrawl_install_atomic_write.py::test_ps1_uses_depth_100[extensions/dataforseo/install.ps1]",
+      "retain_original": false,
+      "observed_on_windows": true,
+      "reason": "No Codex wrapper rewrites shared Claude JSON, so the old PowerShell temp-swap and ConvertTo-Json -Depth 100 implementation contract is inapplicable. Codex emits parsed TOML with credential-name allowlists and preserves existing/malformed home and selected output files byte for byte.",
+      "replacement_tests": [
+        "tests_codex/test_workflow_contracts.py::NativeProviderContracts::test_provider_planning_never_changes_malformed_or_unrelated_home_settings",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_mcp_fragments_are_valid_toml_with_environment_name_allowlists",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_output_fragment_does_not_overwrite_existing_configuration"
+      ]
+    },
+    {
+      "nodeid": "tests/test_firecrawl_install_atomic_write.py::test_ps1_uses_depth_100[extensions/ahrefs/install.ps1]",
+      "retain_original": false,
+      "observed_on_windows": true,
+      "reason": "No Codex wrapper rewrites shared Claude JSON, so the old PowerShell temp-swap and ConvertTo-Json -Depth 100 implementation contract is inapplicable. Codex emits parsed TOML with credential-name allowlists and preserves existing/malformed home and selected output files byte for byte.",
+      "replacement_tests": [
+        "tests_codex/test_workflow_contracts.py::NativeProviderContracts::test_provider_planning_never_changes_malformed_or_unrelated_home_settings",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_mcp_fragments_are_valid_toml_with_environment_name_allowlists",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_output_fragment_does_not_overwrite_existing_configuration"
+      ]
+    },
+    {
+      "nodeid": "tests/test_hosted_plugin_layout.py::test_instruction_files_use_the_canonical_plugin_root_form",
+      "retain_original": false,
+      "observed_on_windows": true,
+      "reason": "Claude hosted-marketplace plugin-root expansion and manual path rewriting are replaced by a native Codex launcher plus discovery bridges into a preserved package. Installation from an unrelated working directory retains valid script/data/reference targets and does not invoke global pip.",
+      "replacement_tests": [
+        "tests_codex/test_workflow_contracts.py::NativeInstalledLayoutContracts::test_install_plan_preserves_full_runtime_data_extensions_and_source_paths",
+        "tests_codex/test_installer.py::FullInstallerIntegration::test_full_install_all_skills_reapply_remove_and_preserve_edits",
+        "plugins/codex-seo/tests/test_codex_runtime.py::CodexEntryTests::test_run_requires_setup_instead_of_using_global_dependencies"
+      ]
+    },
+    {
+      "nodeid": "tests/test_hosted_plugin_layout.py::test_installers_reference_the_scripts_launcher",
+      "retain_original": false,
+      "observed_on_windows": true,
+      "reason": "Claude hosted-marketplace plugin-root expansion and manual path rewriting are replaced by a native Codex launcher plus discovery bridges into a preserved package. Installation from an unrelated working directory retains valid script/data/reference targets and does not invoke global pip.",
+      "replacement_tests": [
+        "tests_codex/test_workflow_contracts.py::NativeInstalledLayoutContracts::test_install_plan_preserves_full_runtime_data_extensions_and_source_paths",
+        "tests_codex/test_installer.py::FullInstallerIntegration::test_full_install_all_skills_reapply_remove_and_preserve_edits",
+        "plugins/codex-seo/tests/test_codex_runtime.py::CodexEntryTests::test_run_requires_setup_instead_of_using_global_dependencies"
+      ]
+    },
+    {
+      "nodeid": "tests/test_manifest_consistency.py::test_canonical_phrasing_in_user_visible_docs",
+      "retain_original": false,
+      "observed_on_windows": true,
+      "reason": "Legacy CLAUDE.md phrasing and git-tracked source-script lists are provenance, not the native manifest. Codex filesystem discovery validates 26 core workflows, 19 specialists and nine extensions, while the install plan verifies every actual Python script and shipped resource is retained.",
+      "replacement_tests": [
+        "tests_codex/test_workflow_contracts.py::NativeWorkflowContracts::test_manifest_identity_and_all_discovered_workflows_match_native_metadata",
+        "tests_codex/test_workflow_contracts.py::NativeInstalledLayoutContracts::test_install_plan_preserves_full_runtime_data_extensions_and_source_paths",
+        "tests/test_codex_workflows.py::CodexWorkflowTests::test_all_source_workflows_and_optional_integrations_are_present"
+      ]
+    },
+    {
+      "nodeid": "tests/test_manifest_consistency.py::test_pyproject_version_matches_plugin_json",
+      "retain_original": false,
+      "observed_on_windows": true,
+      "reason": "The archived .claude-plugin manifest keeps upstream version provenance. The executable Codex package has its own primary plugin.json, overlay and pyproject version, which must agree.",
+      "replacement_tests": [
+        "tests_codex/test_workflow_contracts.py::NativeWorkflowContracts::test_manifest_identity_and_all_discovered_workflows_match_native_metadata",
+        "tests_codex/test_installer.py::InstallerBoundaryTests::test_state_records_the_actual_source_version"
+      ]
+    },
+    {
+      "nodeid": "tests/test_manifest_consistency.py::test_install_scripts_default_tag_matches_plugin_version",
+      "retain_original": false,
+      "observed_on_windows": true,
+      "reason": "The native installer copies the reviewed local source instead of downloading a Claude release tag. Installation records the actual native manifest version and preserves all source files; there is no remote tag default to drift.",
+      "replacement_tests": [
+        "tests_codex/test_installer.py::InstallerBoundaryTests::test_state_records_the_actual_source_version",
+        "tests_codex/test_installer.py::FullInstallerIntegration::test_full_install_all_skills_reapply_remove_and_preserve_edits"
+      ]
+    },
+    {
+      "nodeid": "tests/test_manifest_consistency.py::test_script_count_claims_match_tracked_scripts",
+      "retain_original": false,
+      "observed_on_windows": true,
+      "reason": "Legacy CLAUDE.md phrasing and git-tracked source-script lists are provenance, not the native manifest. Codex filesystem discovery validates 26 core workflows, 19 specialists and nine extensions, while the install plan verifies every actual Python script and shipped resource is retained.",
+      "replacement_tests": [
+        "tests_codex/test_workflow_contracts.py::NativeWorkflowContracts::test_manifest_identity_and_all_discovered_workflows_match_native_metadata",
+        "tests_codex/test_workflow_contracts.py::NativeInstalledLayoutContracts::test_install_plan_preserves_full_runtime_data_extensions_and_source_paths",
+        "tests/test_codex_workflows.py::CodexWorkflowTests::test_all_source_workflows_and_optional_integrations_are_present"
+      ]
+    },
+    {
+      "nodeid": "tests/test_manifest_consistency.py::test_claude_md_script_inventory_lists_every_tracked_script",
+      "retain_original": false,
+      "observed_on_windows": true,
+      "reason": "Legacy CLAUDE.md phrasing and git-tracked source-script lists are provenance, not the native manifest. Codex filesystem discovery validates 26 core workflows, 19 specialists and nine extensions, while the install plan verifies every actual Python script and shipped resource is retained.",
+      "replacement_tests": [
+        "tests_codex/test_workflow_contracts.py::NativeWorkflowContracts::test_manifest_identity_and_all_discovered_workflows_match_native_metadata",
+        "tests_codex/test_workflow_contracts.py::NativeInstalledLayoutContracts::test_install_plan_preserves_full_runtime_data_extensions_and_source_paths",
+        "tests/test_codex_workflows.py::CodexWorkflowTests::test_all_source_workflows_and_optional_integrations_are_present"
+      ]
+    },
+    {
+      "nodeid": "tests/test_manual_install_layout.py::test_bash_installer_copies_google_update_data_beside_scripts",
+      "retain_original": false,
+      "observed_on_windows": true,
+      "reason": "Codex keeps the complete source tree in a project package and bridges into it rather than flattening into ~/.claude/skills/seo and rewriting CLAUDE_PLUGIN_ROOT. Native install checks preserve the Google update ledger, all scripts, optional helpers and source-relative workflow resources from an unrelated project directory.",
+      "replacement_tests": [
+        "tests_codex/test_workflow_contracts.py::NativeInstalledLayoutContracts::test_install_plan_preserves_full_runtime_data_extensions_and_source_paths",
+        "tests_codex/test_installer.py::FullInstallerIntegration::test_full_install_all_skills_reapply_remove_and_preserve_edits"
+      ]
+    },
+    {
+      "nodeid": "tests/test_manual_install_layout.py::test_powershell_installer_copies_google_update_data_beside_scripts",
+      "retain_original": false,
+      "observed_on_windows": true,
+      "reason": "Codex keeps the complete source tree in a project package and bridges into it rather than flattening into ~/.claude/skills/seo and rewriting CLAUDE_PLUGIN_ROOT. Native install checks preserve the Google update ledger, all scripts, optional helpers and source-relative workflow resources from an unrelated project directory.",
+      "replacement_tests": [
+        "tests_codex/test_workflow_contracts.py::NativeInstalledLayoutContracts::test_install_plan_preserves_full_runtime_data_extensions_and_source_paths",
+        "tests_codex/test_installer.py::FullInstallerIntegration::test_full_install_all_skills_reapply_remove_and_preserve_edits"
+      ]
+    },
+    {
+      "nodeid": "tests/test_manual_install_layout.py::test_cross_skill_paths_resolve_outside_the_repo_checkout",
+      "retain_original": false,
+      "observed_on_windows": true,
+      "reason": "Codex keeps the complete source tree in a project package and bridges into it rather than flattening into ~/.claude/skills/seo and rewriting CLAUDE_PLUGIN_ROOT. Native install checks preserve the Google update ledger, all scripts, optional helpers and source-relative workflow resources from an unrelated project directory.",
+      "replacement_tests": [
+        "tests_codex/test_workflow_contracts.py::NativeInstalledLayoutContracts::test_install_plan_preserves_full_runtime_data_extensions_and_source_paths",
+        "tests_codex/test_installer.py::FullInstallerIntegration::test_full_install_all_skills_reapply_remove_and_preserve_edits"
+      ]
+    },
+    {
+      "nodeid": "tests/test_matomo_report.py::test_installers_do_not_put_the_token_in_settings_json",
+      "retain_original": false,
+      "observed_on_windows": true,
+      "reason": "Matomo credentials and optional site selection remain in the retained auth/report helpers. Native activation does not collect tokens or pass a shell heredoc writer/site-ID argument at all; the integration plan keeps credentials private and leaves existing credential files/settings unchanged.",
+      "replacement_tests": [
+        "tests_codex/test_workflow_contracts.py::NativeProviderContracts::test_provider_planning_never_changes_malformed_or_unrelated_home_settings",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_plan_never_serializes_credential_values_or_claims_connection",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_activation_wrappers_delegate_scoped_parent_installer"
+      ]
+    },
+    {
+      "nodeid": "tests/test_matomo_report.py::test_installers_pass_credentials_through_env_not_source_or_argv",
+      "retain_original": false,
+      "observed_on_windows": true,
+      "reason": "Matomo credentials and optional site selection remain in the retained auth/report helpers. Native activation does not collect tokens or pass a shell heredoc writer/site-ID argument at all; the integration plan keeps credentials private and leaves existing credential files/settings unchanged.",
+      "replacement_tests": [
+        "tests_codex/test_workflow_contracts.py::NativeProviderContracts::test_provider_planning_never_changes_malformed_or_unrelated_home_settings",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_plan_never_serializes_credential_values_or_claims_connection",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_activation_wrappers_delegate_scoped_parent_installer"
+      ]
+    },
+    {
+      "nodeid": "tests/test_matomo_report.py::test_uninstall_removes_the_config_and_the_legacy_env_entry",
+      "retain_original": false,
+      "observed_on_windows": true,
+      "reason": "The project-scoped Codex uninstaller removes only installer-owned discovery bridges and preserves user credentials/data, rather than deleting another host's shared settings or legacy env entries. Reapply/removal and edit-preservation are exercised end to end.",
+      "replacement_tests": [
+        "tests_codex/test_installer.py::FullInstallerIntegration::test_full_install_all_skills_reapply_remove_and_preserve_edits",
+        "tests_codex/test_installer.py::InstallerBoundaryTests::test_removal_rechecks_all_owned_files_before_deleting"
+      ]
+    },
+    {
+      "nodeid": "tests/test_matomo_report.py::test_installers_warn_about_a_private_instance_address",
+      "retain_original": false,
+      "observed_on_windows": true,
+      "reason": "Codex wrappers activate local discovery without collecting an instance URL. The retained matomo_auth --local-target-hint helper and native provider plan describe the exact CODEX_SEO_LOCAL_TARGETS opt-in without enabling private access or modifying settings.",
+      "replacement_tests": [
+        "tests_codex/test_workflow_contracts.py::NativeProviderContracts::test_matomo_private_instance_hint_requires_exact_opt_in_without_changes"
+      ]
+    },
+    {
+      "nodeid": "tests/test_matomo_report.py::test_installer_writer_survives_a_dropped_optional_argument",
+      "retain_original": false,
+      "observed_on_windows": true,
+      "reason": "Matomo credentials and optional site selection remain in the retained auth/report helpers. Native activation does not collect tokens or pass a shell heredoc writer/site-ID argument at all; the integration plan keeps credentials private and leaves existing credential files/settings unchanged.",
+      "replacement_tests": [
+        "tests_codex/test_workflow_contracts.py::NativeProviderContracts::test_provider_planning_never_changes_malformed_or_unrelated_home_settings",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_plan_never_serializes_credential_values_or_claims_connection",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_activation_wrappers_delegate_scoped_parent_installer"
+      ]
+    },
+    {
+      "nodeid": "tests/test_portability.py::test_agents_md_covers_all_target_platforms",
+      "retain_original": false,
+      "observed_on_windows": true,
+      "reason": "The active context targets the user-selected Codex host. The original multi-harness/tool-name guide remains in docs/UPSTREAM_AGENTS.md, and the actual portability checker and native skill metadata remain shipped and tested.",
+      "replacement_tests": [
+        "tests_codex/test_workflow_contracts.py::NativeWorkflowContracts::test_codex_context_preserves_the_upstream_cross_platform_guide",
+        "plugins/codex-seo/tests/test_portability.py::test_whole_repo_passes_portability_lint"
+      ]
+    },
+    {
+      "nodeid": "tests/test_portability.py::test_agents_md_documents_portability_check",
+      "retain_original": false,
+      "observed_on_windows": true,
+      "reason": "The active context targets the user-selected Codex host. The original multi-harness/tool-name guide remains in docs/UPSTREAM_AGENTS.md, and the actual portability checker and native skill metadata remain shipped and tested.",
+      "replacement_tests": [
+        "tests_codex/test_workflow_contracts.py::NativeWorkflowContracts::test_codex_context_preserves_the_upstream_cross_platform_guide",
+        "plugins/codex-seo/tests/test_portability.py::test_whole_repo_passes_portability_lint"
+      ]
+    },
+    {
+      "nodeid": "tests/test_portability.py::test_agents_md_tool_mapping_table_includes_codex_cline_aider",
+      "retain_original": false,
+      "observed_on_windows": true,
+      "reason": "The active context targets the user-selected Codex host. The original multi-harness/tool-name guide remains in docs/UPSTREAM_AGENTS.md, and the actual portability checker and native skill metadata remain shipped and tested.",
+      "replacement_tests": [
+        "tests_codex/test_workflow_contracts.py::NativeWorkflowContracts::test_codex_context_preserves_the_upstream_cross_platform_guide",
+        "plugins/codex-seo/tests/test_portability.py::test_whole_repo_passes_portability_lint"
+      ]
+    },
+    {
+      "nodeid": "tests/test_python_range.py::test_every_copy_of_the_range_matches_runtime",
+      "retain_original": false,
+      "observed_on_windows": true,
+      "reason": "The runtime still supports Python3.11-3.14. Native wrapper selection uses Codex override names and bounded version probes, while native metadata preserves the minimum; the source literal Claude env/PowerShell field names are no longer the installer interface.",
+      "replacement_tests": [
+        "tests_codex/test_workflow_contracts.py::NativeWorkflowContracts::test_manifest_identity_and_all_discovered_workflows_match_native_metadata",
+        "plugins/codex-seo/tests/test_python_range.py::test_runtime_range_is_three_eleven_to_three_fourteen",
+        "plugins/codex-seo/tests/test_codex_runtime.py::CodexEntryTests::test_powershell_wrapper_preserves_spaced_python_path_and_flags",
+        "tests_codex/test_installer.py::InstallerLauncherTests::test_native_powershell_rejects_explicit_unsupported_python",
+        "tests_codex/test_installer.py::InstallerLauncherTests::test_native_powershell_skips_315_default_for_versioned_314",
+        "tests_codex/test_installer.py::InstallerLauncherTests::test_posix_skips_315_default_and_preserves_arguments",
+        "tests_codex/test_installer.py::InstallerLauncherTests::test_posix_install_and_uninstall_refuse_unsupported_override"
+      ]
+    },
+    {
+      "nodeid": "tests/test_python_range.py::test_powershell_installer_honors_override_and_versioned_fallbacks",
+      "retain_original": false,
+      "observed_on_windows": true,
+      "reason": "The runtime still supports Python3.11-3.14. Native wrapper selection uses Codex override names and bounded version probes, while native metadata preserves the minimum; the source literal Claude env/PowerShell field names are no longer the installer interface.",
+      "replacement_tests": [
+        "tests_codex/test_workflow_contracts.py::NativeWorkflowContracts::test_manifest_identity_and_all_discovered_workflows_match_native_metadata",
+        "plugins/codex-seo/tests/test_python_range.py::test_runtime_range_is_three_eleven_to_three_fourteen",
+        "plugins/codex-seo/tests/test_codex_runtime.py::CodexEntryTests::test_powershell_wrapper_preserves_spaced_python_path_and_flags",
+        "tests_codex/test_installer.py::InstallerLauncherTests::test_native_powershell_rejects_explicit_unsupported_python",
+        "tests_codex/test_installer.py::InstallerLauncherTests::test_native_powershell_skips_315_default_for_versioned_314",
+        "tests_codex/test_installer.py::InstallerLauncherTests::test_posix_skips_315_default_and_preserves_arguments",
+        "tests_codex/test_installer.py::InstallerLauncherTests::test_posix_install_and_uninstall_refuse_unsupported_override"
+      ]
+    },
+    {
+      "nodeid": "tests/test_runtime_installers.py::test_unix_installer_delegates_to_runtime_without_global_pip",
+      "retain_original": false,
+      "observed_on_windows": true,
+      "reason": "Native installation is an explicit project-scoped metadata/source operation and runtime setup is separately managed by codex_seo.py. The real launcher refuses missing setup instead of using global dependencies; wrapper execution and full install/remove preserve arguments and local files.",
+      "replacement_tests": [
+        "plugins/codex-seo/tests/test_codex_runtime.py::CodexEntryTests::test_run_requires_setup_instead_of_using_global_dependencies",
+        "tests_codex/test_installer.py::FullInstallerIntegration::test_full_install_all_skills_reapply_remove_and_preserve_edits",
+        "plugins/codex-seo/tests/test_codex_runtime.py::CodexEntryTests::test_powershell_wrapper_preserves_spaced_python_path_and_flags",
+        "tests_codex/test_installer.py::InstallerLauncherTests::test_native_powershell_preserves_default_plan_and_remove_arguments",
+        "tests_codex/test_installer.py::InstallerLauncherTests::test_posix_skips_315_default_and_preserves_arguments"
+      ]
+    },
+    {
+      "nodeid": "tests/test_runtime_installers.py::test_windows_installer_delegates_to_runtime_without_path_mutation",
+      "retain_original": false,
+      "observed_on_windows": true,
+      "reason": "Native installation is an explicit project-scoped metadata/source operation and runtime setup is separately managed by codex_seo.py. The real launcher refuses missing setup instead of using global dependencies; wrapper execution and full install/remove preserve arguments and local files.",
+      "replacement_tests": [
+        "plugins/codex-seo/tests/test_codex_runtime.py::CodexEntryTests::test_run_requires_setup_instead_of_using_global_dependencies",
+        "tests_codex/test_installer.py::FullInstallerIntegration::test_full_install_all_skills_reapply_remove_and_preserve_edits",
+        "plugins/codex-seo/tests/test_codex_runtime.py::CodexEntryTests::test_powershell_wrapper_preserves_spaced_python_path_and_flags",
+        "tests_codex/test_installer.py::InstallerLauncherTests::test_native_powershell_preserves_default_plan_and_remove_arguments",
+        "tests_codex/test_installer.py::InstallerLauncherTests::test_posix_skips_315_default_and_preserves_arguments"
+      ]
+    },
+    {
+      "nodeid": "tests/test_sync_flow.py::test_agent_has_untrusted_webfetch_rule",
+      "retain_original": false,
+      "observed_on_windows": true,
+      "reason": "Only the tool spelling changes from WebFetch to host web fetch. The FLOW role still treats every fetched response/redirect as untrusted data, forbids shell execution and rejects executing or forwarding page directives as tool calls.",
+      "replacement_tests": [
+        "tests_codex/test_workflow_contracts.py::NativeWorkflowContracts::test_flow_specialist_preserves_untrusted_fetch_and_no_shell_contract"
+      ]
+    },
+    {
+      "nodeid": "tests/test_unlighthouse_run.py::test_installer_detects_plugin_install_paths",
+      "retain_original": false,
+      "observed_on_windows": true,
+      "reason": "Unlighthouse activation uses the preserved project package through install-codex.py instead of Claude plugin/manual-path detection. The provider workflow/helper stays shipped and all optional extension wrappers target the scoped installer.",
+      "replacement_tests": [
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_catalog_retains_every_public_optional_extension",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_activation_wrappers_delegate_scoped_parent_installer",
+        "tests_codex/test_installer.py::FullInstallerIntegration::test_full_install_all_skills_reapply_remove_and_preserve_edits"
+      ]
+    },
+    {
+      "nodeid": "tests/test_windows_uninstaller.py::test_uninstaller_counts_removed_items_in_main_scope",
+      "retain_original": false,
+      "observed_on_windows": true,
+      "reason": "The native uninstaller returns installer-owned bridge removals from one project rather than counting deleted global Claude skill/agent folders in PowerShell child scopes. Full, partial, repeated and edited-file preservation semantics are exercised by the native installer integration tests.",
+      "replacement_tests": [
+        "tests_codex/test_installer.py::FullInstallerIntegration::test_full_install_all_skills_reapply_remove_and_preserve_edits",
+        "tests_codex/test_installer.py::InstallerBoundaryTests::test_removal_rechecks_all_owned_files_before_deleting",
+        "tests_codex/test_installer.py::InstallerLauncherTests::test_native_powershell_preserves_default_plan_and_remove_arguments",
+        "tests_codex/test_installer.py::InstallerLauncherTests::test_posix_skips_315_default_and_preserves_arguments"
+      ]
+    },
+    {
+      "nodeid": "tests/test_extension_installer_injection.py::test_installer_credential_injection_is_inert[extensions/dataforseo/install.sh]",
+      "retain_original": false,
+      "observed_on_windows": false,
+      "reason": "Codex activation wrappers no longer collect credentials or embed a heredoc/Python/PowerShell writer for shared Claude settings. Provider plans expose environment-variable names and readiness booleans only, preserve even malformed unrelated settings, and never serialize hostile credential values; existing explicit output files are preserved.",
+      "replacement_tests": [
+        "tests_codex/test_workflow_contracts.py::NativeProviderContracts::test_provider_planning_never_changes_malformed_or_unrelated_home_settings",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_plan_never_serializes_credential_values_or_claims_connection",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_output_fragment_does_not_overwrite_existing_configuration",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_activation_wrappers_delegate_scoped_parent_installer"
+      ]
+    },
+    {
+      "nodeid": "tests/test_extension_installer_injection.py::test_installer_credential_injection_is_inert[extensions/firecrawl/install.sh]",
+      "retain_original": false,
+      "observed_on_windows": false,
+      "reason": "Codex activation wrappers no longer collect credentials or embed a heredoc/Python/PowerShell writer for shared Claude settings. Provider plans expose environment-variable names and readiness booleans only, preserve even malformed unrelated settings, and never serialize hostile credential values; existing explicit output files are preserved.",
+      "replacement_tests": [
+        "tests_codex/test_workflow_contracts.py::NativeProviderContracts::test_provider_planning_never_changes_malformed_or_unrelated_home_settings",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_plan_never_serializes_credential_values_or_claims_connection",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_output_fragment_does_not_overwrite_existing_configuration",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_activation_wrappers_delegate_scoped_parent_installer"
+      ]
+    },
+    {
+      "nodeid": "tests/test_extension_installer_injection.py::test_installer_credential_injection_is_inert[extensions/banana/install.sh]",
+      "retain_original": false,
+      "observed_on_windows": false,
+      "reason": "Codex activation wrappers no longer collect credentials or embed a heredoc/Python/PowerShell writer for shared Claude settings. Provider plans expose environment-variable names and readiness booleans only, preserve even malformed unrelated settings, and never serialize hostile credential values; existing explicit output files are preserved.",
+      "replacement_tests": [
+        "tests_codex/test_workflow_contracts.py::NativeProviderContracts::test_provider_planning_never_changes_malformed_or_unrelated_home_settings",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_plan_never_serializes_credential_values_or_claims_connection",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_output_fragment_does_not_overwrite_existing_configuration",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_activation_wrappers_delegate_scoped_parent_installer"
+      ]
+    },
+    {
+      "nodeid": "tests/test_extension_installer_injection.py::test_installer_credential_injection_is_inert[extensions/ahrefs/install.sh]",
+      "retain_original": false,
+      "observed_on_windows": false,
+      "reason": "Codex activation wrappers no longer collect credentials or embed a heredoc/Python/PowerShell writer for shared Claude settings. Provider plans expose environment-variable names and readiness booleans only, preserve even malformed unrelated settings, and never serialize hostile credential values; existing explicit output files are preserved.",
+      "replacement_tests": [
+        "tests_codex/test_workflow_contracts.py::NativeProviderContracts::test_provider_planning_never_changes_malformed_or_unrelated_home_settings",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_plan_never_serializes_credential_values_or_claims_connection",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_output_fragment_does_not_overwrite_existing_configuration",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_activation_wrappers_delegate_scoped_parent_installer"
+      ]
+    },
+    {
+      "nodeid": "tests/test_extension_installer_injection.py::test_installer_credential_injection_is_inert[extensions/profound/install.sh]",
+      "retain_original": false,
+      "observed_on_windows": false,
+      "reason": "Codex activation wrappers no longer collect credentials or embed a heredoc/Python/PowerShell writer for shared Claude settings. Provider plans expose environment-variable names and readiness booleans only, preserve even malformed unrelated settings, and never serialize hostile credential values; existing explicit output files are preserved.",
+      "replacement_tests": [
+        "tests_codex/test_workflow_contracts.py::NativeProviderContracts::test_provider_planning_never_changes_malformed_or_unrelated_home_settings",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_plan_never_serializes_credential_values_or_claims_connection",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_output_fragment_does_not_overwrite_existing_configuration",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_activation_wrappers_delegate_scoped_parent_installer"
+      ]
+    },
+    {
+      "nodeid": "tests/test_extension_installer_injection.py::test_installer_credential_injection_is_inert[extensions/seranking/install.sh]",
+      "retain_original": false,
+      "observed_on_windows": false,
+      "reason": "Codex activation wrappers no longer collect credentials or embed a heredoc/Python/PowerShell writer for shared Claude settings. Provider plans expose environment-variable names and readiness booleans only, preserve even malformed unrelated settings, and never serialize hostile credential values; existing explicit output files are preserved.",
+      "replacement_tests": [
+        "tests_codex/test_workflow_contracts.py::NativeProviderContracts::test_provider_planning_never_changes_malformed_or_unrelated_home_settings",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_plan_never_serializes_credential_values_or_claims_connection",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_output_fragment_does_not_overwrite_existing_configuration",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_activation_wrappers_delegate_scoped_parent_installer"
+      ]
+    },
+    {
+      "nodeid": "tests/test_extension_installer_injection.py::test_installer_credential_injection_is_inert[extensions/bing-webmaster/install.sh]",
+      "retain_original": false,
+      "observed_on_windows": false,
+      "reason": "Codex activation wrappers no longer collect credentials or embed a heredoc/Python/PowerShell writer for shared Claude settings. Provider plans expose environment-variable names and readiness booleans only, preserve even malformed unrelated settings, and never serialize hostile credential values; existing explicit output files are preserved.",
+      "replacement_tests": [
+        "tests_codex/test_workflow_contracts.py::NativeProviderContracts::test_provider_planning_never_changes_malformed_or_unrelated_home_settings",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_plan_never_serializes_credential_values_or_claims_connection",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_output_fragment_does_not_overwrite_existing_configuration",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_activation_wrappers_delegate_scoped_parent_installer"
+      ]
+    },
+    {
+      "nodeid": "tests/test_matomo_report.py::test_installer_writer_is_inert_against_an_injection_shaped_token",
+      "retain_original": false,
+      "observed_on_windows": false,
+      "reason": "Matomo credentials and optional site selection remain in the retained auth/report helpers. Native activation does not collect tokens or pass a shell heredoc writer/site-ID argument at all; the integration plan keeps credentials private and leaves existing credential files/settings unchanged.",
+      "replacement_tests": [
+        "tests_codex/test_workflow_contracts.py::NativeProviderContracts::test_provider_planning_never_changes_malformed_or_unrelated_home_settings",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_plan_never_serializes_credential_values_or_claims_connection",
+        "tests/test_codex_extensions.py::CodexExtensionPlans::test_activation_wrappers_delegate_scoped_parent_installer"
+      ]
+    }
+  ]
+}

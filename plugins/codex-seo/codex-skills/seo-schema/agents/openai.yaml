@@ -1,0 +1,4 @@
+interface:
+  display_name: "SEO: Structured Data"
+  short_description: "Inspect and draft fact-grounded Schema.org markup"
+  default_prompt: "Use $seo-schema to help with my structured data task using verified evidence."

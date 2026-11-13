@@ -1,0 +1,4 @@
+interface:
+  display_name: "SEO: Unlighthouse"
+  short_description: "Run local multi-page Lighthouse performance audits"
+  default_prompt: "Use $seo-unlighthouse to help with my unlighthouse task using verified evidence."

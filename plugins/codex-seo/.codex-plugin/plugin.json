@@ -1,0 +1,7 @@
+{
+  "name": "codex-seo",
+  "version": "0.1.0",
+  "description": "Complete public Claude SEO execution workflows adapted for Codex.",
+  "skills": "./codex-skills/",
+  "hooks": []
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "SEO: DataForSEO"
+  short_description: "Use live SERP, keyword, link and marketplace data"
+  default_prompt: "Use $seo-dataforseo to help with my dataforseo task using verified evidence."

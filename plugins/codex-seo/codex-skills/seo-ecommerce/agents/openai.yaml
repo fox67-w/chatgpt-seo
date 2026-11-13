@@ -1,0 +1,4 @@
+interface:
+  display_name: "SEO: Ecommerce SEO"
+  short_description: "Audit product, category and marketplace visibility"
+  default_prompt: "Use $seo-ecommerce to help with my ecommerce seo task using verified evidence."

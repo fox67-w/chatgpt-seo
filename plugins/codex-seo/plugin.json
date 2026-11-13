@@ -1,0 +1,22 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "codex-seo",
+  "version": "0.1.0",
+  "description": "Full public Claude SEO runtime adapted for Codex, with crawling, rendering, specialist workflows, reports and optional integrations.",
+  "author": {"name": "ChatGPT SEO contributors"},
+  "license": "MIT AND CC-BY-4.0",
+  "keywords": ["seo", "codex", "technical-seo", "schema", "content", "analytics"],
+  "extensions": {
+    "com.openai": {
+      "skills": "./codex-skills/",
+      "hooks": [],
+      "interface": {
+        "displayName": "ChatGPT SEO",
+        "shortDescription": "Full SEO automation for Codex",
+        "longDescription": "The complete public Claude SEO source adapted to Codex execution. Includes all core SEO workflows, specialist prompts, Python analysis and reporting tools, browser support and optional provider integrations. Runtime setup and provider accounts remain explicit. Independent adaptation with original attribution.",
+        "developerName": "ChatGPT SEO contributors",
+        "category": "Productivity"
+      }
+    }
+  }
+}

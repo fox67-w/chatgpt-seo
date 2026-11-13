@@ -1,0 +1,4 @@
+interface:
+  display_name: "SEO: Firecrawl"
+  short_description: "Map, crawl and scrape sites with connected Firecrawl"
+  default_prompt: "Use $seo-firecrawl to help with my firecrawl task using verified evidence."

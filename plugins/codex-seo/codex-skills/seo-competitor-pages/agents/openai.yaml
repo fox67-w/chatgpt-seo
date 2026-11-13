@@ -1,0 +1,4 @@
+interface:
+  display_name: "SEO: Competitor Pages"
+  short_description: "Create sourced comparison and alternatives pages"
+  default_prompt: "Use $seo-competitor-pages to help with my competitor pages task using verified evidence."

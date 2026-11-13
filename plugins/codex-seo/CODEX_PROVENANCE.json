@@ -1,0 +1,29 @@
+{
+  "edition": "codex-seo",
+  "version": "0.1.0",
+  "upstream": {
+    "repository": "https://github.com/AgriciDaniel/claude-seo",
+    "commit": "cca7e4a267991aca880efade1fd12e8498caf2ce",
+    "version": "2.6.0",
+    "public_files": 505,
+    "core_skills": 26,
+    "core_specialist_prompts": 19,
+    "core_python_files": 63,
+    "extensions": 9
+  },
+  "adaptations": [
+    "Codex tools and collaboration replace Claude host assumptions",
+    "All original source files and optional workflows retained",
+    "33 unique workflows exposed through skill discovery bridges",
+    "Isolated Python runtime and browser setup retained",
+    "Codex credential and cache paths with preferred environment names",
+    "Project-scoped installer with removal of owned discovery files",
+    "Secret-free provider readiness and MCP configuration fragments",
+    "Opt-in native schema hook adapter",
+    "Unknown audit scores remain null rather than zero"
+  ],
+  "licensing": {"code": "MIT", "flow_material": "CC-BY-4.0"},
+  "source_inventory": "source-inventory.json",
+  "verification": "docs/CODEX_VERIFICATION.json",
+  "import_date": "2026-11-13"
+}

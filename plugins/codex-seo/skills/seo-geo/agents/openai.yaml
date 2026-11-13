@@ -1,0 +1,4 @@
+interface:
+  display_name: "SEO: AI Search"
+  short_description: "Review answer-engine readiness and citation evidence"
+  default_prompt: "Use $seo-geo to help with my ai search task using verified evidence."

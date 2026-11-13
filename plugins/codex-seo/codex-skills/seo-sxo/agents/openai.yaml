@@ -1,0 +1,4 @@
+interface:
+  display_name: "SEO: Search Experience"
+  short_description: "Diagnose search intent, page type and task mismatches"
+  default_prompt: "Use $seo-sxo to help with my search experience task using verified evidence."

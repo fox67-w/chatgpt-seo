@@ -1,0 +1,4 @@
+interface:
+  display_name: "SEO: Technical SEO"
+  short_description: "Inspect crawling, indexing controls and performance"
+  default_prompt: "Use $seo-technical to help with my technical seo task using verified evidence."

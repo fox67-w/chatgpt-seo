@@ -1,0 +1,3036 @@
+{
+  "repository": "https://github.com/AgriciDaniel/claude-seo",
+  "commit": "cca7e4a267991aca880efade1fd12e8498caf2ce",
+  "files": [
+    {
+      "path": ".claude-plugin/marketplace.json",
+      "sha": "6df4a0a93830146dbd2ee2a8cc51bb109be8d1a0",
+      "mode": "100644",
+      "size": 3619
+    },
+    {
+      "path": ".claude-plugin/plugin.json",
+      "sha": "493859180404aee75f95c51ea62f8a1d7f6b2d8d",
+      "mode": "100644",
+      "size": 1495
+    },
+    {
+      "path": "pyproject.toml",
+      "sha": "d5128f7cc336e24931e8214e2bf37530494d3a3c",
+      "mode": "100644",
+      "size": 551
+    },
+    {
+      "path": "requirements.txt",
+      "sha": "563aab299624c7d51d2806d63a345206d9187387",
+      "mode": "100644",
+      "size": 2235
+    },
+    {
+      "path": "scripts/agent_ux_check.py",
+      "sha": "9ab0d043fa1d018b1cd42ef596a3ce55b9951faa",
+      "mode": "100644",
+      "size": 10479
+    },
+    {
+      "path": "scripts/agentic_check.py",
+      "sha": "45558218b32a25e7cd0273d65884782e88f6fced",
+      "mode": "100644",
+      "size": 66633
+    },
+    {
+      "path": "scripts/agentic_fix.py",
+      "sha": "4a4ae406f13669ecea5c3f1a823351586fffcf20",
+      "mode": "100644",
+      "size": 17283
+    },
+    {
+      "path": "scripts/analyze_visual.py",
+      "sha": "009d9dc2d95bc75455f9368936e2521a47292fb2",
+      "mode": "100755",
+      "size": 7430
+    },
+    {
+      "path": "scripts/backlinks_auth.py",
+      "sha": "706dac4ac408bf8653b11bf645c9cba7b734ecd8",
+      "mode": "100644",
+      "size": 22973
+    },
+    {
+      "path": "scripts/bing_webmaster.py",
+      "sha": "ad8bef0713b049d78cf0658672ed81bc17c656ed",
+      "mode": "100644",
+      "size": 22294
+    },
+    {
+      "path": "scripts/capture_screenshot.py",
+      "sha": "37d30759487395c06264fbe1fa0b8f030b72b609",
+      "mode": "100755",
+      "size": 25454
+    },
+    {
+      "path": "scripts/claude-seo",
+      "sha": "a52b7d92231c01c6dd942a6d9696adb913933da8",
+      "mode": "100755",
+      "size": 2730
+    },
+    {
+      "path": "scripts/commoncrawl_graph.py",
+      "sha": "87448bb09f62efbacfa5a3ba425eb4b2686f3044",
+      "mode": "100644",
+      "size": 19019
+    },
+    {
+      "path": "scripts/consistency_check.py",
+      "sha": "688a398b1e69c60d2989ab1b59de207b04c73dd5",
+      "mode": "100644",
+      "size": 14623
+    },
+    {
+      "path": "scripts/content_humanize.py",
+      "sha": "0b5b894d40cbbab3941c983e65507834026f3a78",
+      "mode": "100644",
+      "size": 12891
+    },
+    {
+      "path": "scripts/content_quality.py",
+      "sha": "e5cd8b28e1870f8c23afc2c6d241c32f22b01172",
+      "mode": "100644",
+      "size": 13794
+    },
+    {
+      "path": "scripts/content_verify.py",
+      "sha": "99ad1b2a7e216d1a42bdb7cbfbc31781165f28f0",
+      "mode": "100644",
+      "size": 7444
+    },
+    {
+      "path": "scripts/crux_history.py",
+      "sha": "b8a8839a558d28b5519c7489bc3d6262e61c0a3e",
+      "mode": "100644",
+      "size": 11285
+    },
+    {
+      "path": "scripts/dataforseo_costs.py",
+      "sha": "34c886c6ca5142fc91853f3c366c62efe7322cd8",
+      "mode": "100644",
+      "size": 20258
+    },
+    {
+      "path": "scripts/dataforseo_merchant.py",
+      "sha": "43aaeef15f072ea1d72445a5465e834da7d6ba89",
+      "mode": "100755",
+      "size": 17388
+    },
+    {
+      "path": "scripts/dataforseo_normalize.py",
+      "sha": "ecb23a4fb324281e784c756b2508c0321cef629a",
+      "mode": "100755",
+      "size": 15185
+    },
+    {
+      "path": "scripts/domain_history.py",
+      "sha": "abd4920510356f7cd2f7e2c81af36fe6fdaf4864",
+      "mode": "100644",
+      "size": 10882
+    },
+    {
+      "path": "scripts/drift_baseline.py",
+      "sha": "1a1b5a56842013819e757e3a4711c0e9dea7405d",
+      "mode": "100644",
+      "size": 13834
+    },
+    {
+      "path": "scripts/drift_compare.py",
+      "sha": "c9b7dee5e9fd547d9879b9fa7ae07ff1d8c8759f",
+      "mode": "100644",
+      "size": 23193
+    },
+    {
+      "path": "scripts/drift_history.py",
+      "sha": "50f622a49d75315939f15cc9fce89abbcf2a0f33",
+      "mode": "100644",
+      "size": 3530
+    },
+    {
+      "path": "scripts/drift_report.py",
+      "sha": "2b168cc4551c0850131cd062e21a45a9d08cc432",
+      "mode": "100644",
+      "size": 11294
+    },
+    {
+      "path": "scripts/fetch_page.py",
+      "sha": "a8f2ec1fa454e86ad6e17c86ac369e51d158e20a",
+      "mode": "100755",
+      "size": 17850
+    },
+    {
+      "path": "scripts/ga4_report.py",
+      "sha": "6d2c834692714d02c22e3ee46c7c9eeaf0824a91",
+      "mode": "100644",
+      "size": 19578
+    },
+    {
+      "path": "scripts/gbp_deprecation_lint.py",
+      "sha": "5f5aba040e1b2a054e124d88c5e549a907793bfb",
+      "mode": "100755",
+      "size": 4860
+    },
+    {
+      "path": "scripts/google_auth.py",
+      "sha": "a951db9424490f33fa9ced75cf211bda3d5d4900",
+      "mode": "100644",
+      "size": 42878
+    },
+    {
+      "path": "scripts/google_properties.py",
+      "sha": "203ca4d3e9942b435e08761e8f8b2012111abe5b",
+      "mode": "100644",
+      "size": 4800
+    },
+    {
+      "path": "scripts/google_report.py",
+      "sha": "73b303ad095bd3571f97d9295cde3418101b027a",
+      "mode": "100644",
+      "size": 100802
+    },
+    {
+      "path": "scripts/gsc_inspect.py",
+      "sha": "1d80a752ec654b1c5d84f76a5fe053ca28727d56",
+      "mode": "100644",
+      "size": 12535
+    },
+    {
+      "path": "scripts/gsc_query.py",
+      "sha": "475c112eddbc348baaeeda4ea42257bb8d7fe8ac",
+      "mode": "100644",
+      "size": 21177
+    },
+    {
+      "path": "scripts/indexing_notify.py",
+      "sha": "d88ea742a3efc3cf09e0435ca842749016e0d96c",
+      "mode": "100644",
+      "size": 10716
+    },
+    {
+      "path": "scripts/indexnow_submit.py",
+      "sha": "f07259ca61bf33490536c20e36471fc88a01d1fd",
+      "mode": "100644",
+      "size": 9310
+    },
+    {
+      "path": "scripts/iptc_ai_label.py",
+      "sha": "e58f7add3562873d0fb7e20e489c0791c5af3191",
+      "mode": "100644",
+      "size": 7758
+    },
+    {
+      "path": "scripts/keyword_planner.py",
+      "sha": "848e77fc42f5a9a5c7dd4a83910c73377c4733cb",
+      "mode": "100644",
+      "size": 11012
+    },
+    {
+      "path": "scripts/keywordseverywhere_api.py",
+      "sha": "eb0e9b9cabf9f707bced5f268d1e3075b5bdea17",
+      "mode": "100644",
+      "size": 10246
+    },
+    {
+      "path": "scripts/lcp_subparts.py",
+      "sha": "d21d562a851fc1c22ec8ac201fb137a0460b74c3",
+      "mode": "100644",
+      "size": 7418
+    },
+    {
+      "path": "scripts/lighthouse_agentic.py",
+      "sha": "b2d80a7800aa223975f47afc273f25ce854ef1bc",
+      "mode": "100644",
+      "size": 17836
+    },
+    {
+      "path": "scripts/matomo_auth.py",
+      "sha": "a1527ff888e0933965e4685f93cae05b43bae8c4",
+      "mode": "100644",
+      "size": 23736
+    },
+    {
+      "path": "scripts/matomo_report.py",
+      "sha": "b2ec3c70aaacfb36ccf782bbd6a5777b8645759b",
+      "mode": "100644",
+      "size": 26667
+    },
+    {
+      "path": "scripts/metadata_template.py",
+      "sha": "fcd5a8357f48221c3d58e1016e79874382ca2a8a",
+      "mode": "100644",
+      "size": 15469
+    },
+    {
+      "path": "scripts/moz_api.py",
+      "sha": "719f99455e412ba660be47b4df7718f3f9218846",
+      "mode": "100644",
+      "size": 15038
+    },
+    {
+      "path": "scripts/nlp_analyze.py",
+      "sha": "a6f92141894764a8a876090870907cd8fd63a30b",
+      "mode": "100644",
+      "size": 13900
+    },
+    {
+      "path": "scripts/page_checks.py",
+      "sha": "e4ddde21f9c6e6d121eb371868a4a072afba63cc",
+      "mode": "100644",
+      "size": 58954
+    },
+    {
+      "path": "scripts/pagespeed_check.py",
+      "sha": "2c3f6293633ab7bf18ac8d11ceb101eb9428ef91",
+      "mode": "100644",
+      "size": 24192
+    },
+    {
+      "path": "scripts/parasite_risk.py",
+      "sha": "52acfeead3bc7a93fa39e6f2d99913d41be9b6c0",
+      "mode": "100755",
+      "size": 9076
+    },
+    {
+      "path": "scripts/parse_html.py",
+      "sha": "b444baf169123871be78678145ef2e69c0031bc9",
+      "mode": "100755",
+      "size": 36561
+    },
+    {
+      "path": "scripts/portability_check.py",
+      "sha": "48e18486f9f81681919c37c498b4ba8976209c49",
+      "mode": "100644",
+      "size": 7984
+    },
+    {
+      "path": "scripts/preload_check.py",
+      "sha": "03f630396fab5fa659008cd20f3a4b99cfa41e0a",
+      "mode": "100644",
+      "size": 9055
+    },
+    {
+      "path": "scripts/release_sign.py",
+      "sha": "b9a7a24f5d8975ed21a71e649fa0d41c6a77df0f",
+      "mode": "100644",
+      "size": 5742
+    },
+    {
+      "path": "scripts/render_page.py",
+      "sha": "b2be9a56b5e3499c3af46a60a9cbb42279172357",
+      "mode": "100644",
+      "size": 39979
+    },
+    {
+      "path": "scripts/runtime.py",
+      "sha": "4e984377a56bc164f2a0883a6e5b8175b39671c2",
+      "mode": "100755",
+      "size": 19219
+    },
+    {
+      "path": "scripts/schema_ecommerce_validate.py",
+      "sha": "b71344b24f13267c5fa2ab46b8c0d56bd4f4457f",
+      "mode": "100644",
+      "size": 12900
+    },
+    {
+      "path": "scripts/schema_generate.py",
+      "sha": "4bf932c0b21fa9829069303c5b47e34b4e0042b6",
+      "mode": "100644",
+      "size": 12243
+    },
+    {
+      "path": "scripts/seo_updates.py",
+      "sha": "00ba87192417be90b5f3854bb09303a21dfe7960",
+      "mode": "100644",
+      "size": 7258
+    },
+    {
+      "path": "scripts/sitemap_discovery.py",
+      "sha": "c1f7787e8d7fe89ab77622627608e79e181949eb",
+      "mode": "100644",
+      "size": 36953
+    },
+    {
+      "path": "scripts/sync_flow.py",
+      "sha": "f970d5200f0f2dfd4e35027bd489ed33bd094b45",
+      "mode": "100644",
+      "size": 12199
+    },
+    {
+      "path": "scripts/transport_check.py",
+      "sha": "3f2392f132b703ec3936ff557fa1a4f604a550d9",
+      "mode": "100644",
+      "size": 49271
+    },
+    {
+      "path": "scripts/ucp_check.py",
+      "sha": "eedd3c6d4a6ea0bfbb62e48bd8a6916546df4c73",
+      "mode": "100644",
+      "size": 11419
+    },
+    {
+      "path": "scripts/unlighthouse_run.py",
+      "sha": "940c15a124c72168237e5a280ae631eb19e1812f",
+      "mode": "100644",
+      "size": 11354
+    },
+    {
+      "path": "scripts/url_safety.py",
+      "sha": "cdcd23a212295d65ff26f5cd3ccb74b000da34e1",
+      "mode": "100644",
+      "size": 57560
+    },
+    {
+      "path": "scripts/validate_backlink_report.py",
+      "sha": "69c551c79aa47261141b8bfbf4975ccd303a0dcb",
+      "mode": "100644",
+      "size": 15771
+    },
+    {
+      "path": "scripts/verify_backlinks.py",
+      "sha": "e6eb0f529a540ef54579075156791ba56d00570b",
+      "mode": "100644",
+      "size": 18903
+    },
+    {
+      "path": "scripts/verify_release.py",
+      "sha": "1082a19a518d205ecae87160a4d72c83a405cad4",
+      "mode": "100644",
+      "size": 4877
+    },
+    {
+      "path": "scripts/youtube_search.py",
+      "sha": "635970c56f87110b6dd4c021b9a7f224650b0cad",
+      "mode": "100644",
+      "size": 12630
+    },
+    {
+      "path": "uv.lock",
+      "sha": "28b07cf308a01084d31e8e6497b83af18ba8c13a",
+      "mode": "100644",
+      "size": 130
+    },
+    {
+      "path": "agents/seo-agentic.md",
+      "sha": "d0812e407174f9c0f4999ef906258f63022ce50c",
+      "mode": "100644",
+      "size": 3433
+    },
+    {
+      "path": "agents/seo-backlinks.md",
+      "sha": "c1fba67705251467783993fb6f8c77ef29ee694d",
+      "mode": "100644",
+      "size": 8411
+    },
+    {
+      "path": "agents/seo-cluster.md",
+      "sha": "dd7f5745d52c7b352bdd200a1b30f09db522d435",
+      "mode": "100644",
+      "size": 4127
+    },
+    {
+      "path": "agents/seo-content.md",
+      "sha": "48ce5a03fa796b47b5df256b8e60bc5b04cfa94b",
+      "mode": "100644",
+      "size": 5489
+    },
+    {
+      "path": "agents/seo-dataforseo.md",
+      "sha": "23b393774702d86e4eb4aa4328d15c9e0ee3b35d",
+      "mode": "100644",
+      "size": 2633
+    },
+    {
+      "path": "agents/seo-drift.md",
+      "sha": "0d032b6280186c358293572cf39aac049ab0a0d3",
+      "mode": "100644",
+      "size": 3451
+    },
+    {
+      "path": "agents/seo-ecommerce.md",
+      "sha": "45335a59f8c237aba88c9ec77afa602162d9aa99",
+      "mode": "100644",
+      "size": 4290
+    },
+    {
+      "path": "agents/seo-flow.md",
+      "sha": "1939f88e17474ffc3254407a22be2b08af128ca0",
+      "mode": "100644",
+      "size": 2460
+    },
+    {
+      "path": "agents/seo-geo.md",
+      "sha": "f356220fca91664675ea9303b8500cf248484f34",
+      "mode": "100644",
+      "size": 4887
+    },
+    {
+      "path": "agents/seo-google.md",
+      "sha": "7d1e9ef4e62175ad3af4364c6ab6c6117f2419ae",
+      "mode": "100644",
+      "size": 4733
+    },
+    {
+      "path": "agents/seo-image-gen.md",
+      "sha": "2b47e1ae5b23547216fec3954befbc8d9cbabff7",
+      "mode": "100644",
+      "size": 2909
+    },
+    {
+      "path": "agents/seo-local.md",
+      "sha": "46574e017c98198faafea4b86aa6f50bb81bbbcb",
+      "mode": "100644",
+      "size": 5907
+    },
+    {
+      "path": "agents/seo-maps.md",
+      "sha": "2108a7378982160d4449b6fc9491b4a3e41fccae",
+      "mode": "100644",
+      "size": 5405
+    },
+    {
+      "path": "agents/seo-performance.md",
+      "sha": "14c964734cd7ce19dce4a7fadab56dcb1a759ac0",
+      "mode": "100644",
+      "size": 5508
+    },
+    {
+      "path": "agents/seo-schema.md",
+      "sha": "9254b6931291a8ee427ec9277fb6f8d1fee33863",
+      "mode": "100644",
+      "size": 4448
+    },
+    {
+      "path": "agents/seo-sitemap.md",
+      "sha": "3f54b52ddba55d68b67945aace3712d8ab200ff2",
+      "mode": "100644",
+      "size": 4636
+    },
+    {
+      "path": "agents/seo-sxo.md",
+      "sha": "f0704458c90753e94b4655a82c6d457a077da6f6",
+      "mode": "100644",
+      "size": 5594
+    },
+    {
+      "path": "agents/seo-technical.md",
+      "sha": "765c5d44057cf08be2c90c62cc49f23ba66a53ee",
+      "mode": "100644",
+      "size": 3674
+    },
+    {
+      "path": "agents/seo-visual.md",
+      "sha": "e68e0c9bb952b2ca92d8704c57e32ebea7c7f0dd",
+      "mode": "100644",
+      "size": 2793
+    },
+    {
+      "path": "extensions/ahrefs/docs/AHREFS-SETUP.md",
+      "sha": "4c790b5fbe2bc38b85364c2c4a7c640564d7f8fb",
+      "mode": "100644",
+      "size": 2573
+    },
+    {
+      "path": "extensions/ahrefs/install.ps1",
+      "sha": "b729bb97db1072b7134196e6c27dbaef64ed9f07",
+      "mode": "100644",
+      "size": 2914
+    },
+    {
+      "path": "extensions/ahrefs/install.sh",
+      "sha": "fc18337a05273f9b21b2a2b3724d567795af08cb",
+      "mode": "100755",
+      "size": 3494
+    },
+    {
+      "path": "extensions/ahrefs/skills/seo-ahrefs/SKILL.md",
+      "sha": "75797a29da011ad3ae431a26ffb4fab8724bb9ed",
+      "mode": "100644",
+      "size": 2796
+    },
+    {
+      "path": "extensions/ahrefs/uninstall.sh",
+      "sha": "cbc6a9d2765ae87ad34d36ead4ebeb74499ee2fe",
+      "mode": "100755",
+      "size": 903
+    },
+    {
+      "path": "extensions/banana/agents/seo-image-gen.md",
+      "sha": "2b47e1ae5b23547216fec3954befbc8d9cbabff7",
+      "mode": "100644",
+      "size": 2909
+    },
+    {
+      "path": "extensions/banana/docs/BANANA-SETUP.md",
+      "sha": "33f24bc22dee33d23c48fadba13930bf7785a5fd",
+      "mode": "100644",
+      "size": 2456
+    },
+    {
+      "path": "extensions/banana/install.sh",
+      "sha": "57d94c9217396a64bf7a68b7ea68c3fe6c3d4c89",
+      "mode": "100755",
+      "size": 7664
+    },
+    {
+      "path": "extensions/banana/README.md",
+      "sha": "7f65297c9217ab5c75b54290f30add20017d982c",
+      "mode": "100644",
+      "size": 3847
+    },
+    {
+      "path": "extensions/banana/references/cost-tracking.md",
+      "sha": "3d507df6bcceb9af4254bd7451f600610eaa8c7b",
+      "mode": "100644",
+      "size": 1182
+    },
+    {
+      "path": "extensions/banana/references/gemini-models.md",
+      "sha": "5b3909d9f050ac185efba9c03e7e66af4e099bc6",
+      "mode": "100644",
+      "size": 5955
+    },
+    {
+      "path": "extensions/banana/references/mcp-tools.md",
+      "sha": "e9612830bce02a368574e21d2f8803f7459139f7",
+      "mode": "100644",
+      "size": 3823
+    },
+    {
+      "path": "extensions/banana/references/post-processing.md",
+      "sha": "0b4d07da7af6737d17a6c018f1ee3982adad1016",
+      "mode": "100644",
+      "size": 5201
+    },
+    {
+      "path": "extensions/banana/references/presets.md",
+      "sha": "2b6df0bb65dd59bf74b267879b84c608685e91d1",
+      "mode": "100644",
+      "size": 2250
+    },
+    {
+      "path": "extensions/banana/references/prompt-adaptation-safety.md",
+      "sha": "d8d23820fe0181b71d1ce1becb47cca929b2994d",
+      "mode": "100644",
+      "size": 4534
+    },
+    {
+      "path": "extensions/banana/references/prompt-engineering.md",
+      "sha": "fc4e6443121ce1be82d369228ebb369caaf7e027",
+      "mode": "100644",
+      "size": 9554
+    },
+    {
+      "path": "extensions/banana/references/prompt-templates.md",
+      "sha": "6e089030b9cf77cca2f9306cf019940d7a686545",
+      "mode": "100644",
+      "size": 8005
+    },
+    {
+      "path": "extensions/banana/references/seo-image-presets.md",
+      "sha": "1a06977e1dab400f9be9eb85bebef897b2256d57",
+      "mode": "100644",
+      "size": 4020
+    },
+    {
+      "path": "extensions/banana/scripts/batch.py",
+      "sha": "4ef7b0575a8c3d66ad5e302e92131f887c5c2bd1",
+      "mode": "100755",
+      "size": 3411
+    },
+    {
+      "path": "extensions/banana/scripts/cost_tracker.py",
+      "sha": "d4f1c6438132b37f86ca8d7db492e24136ea05f2",
+      "mode": "100755",
+      "size": 12192
+    },
+    {
+      "path": "extensions/banana/scripts/edit.py",
+      "sha": "dfc0edcc80975ce438ff23ee082b9ad5f216ad92",
+      "mode": "100755",
+      "size": 5713
+    },
+    {
+      "path": "extensions/banana/scripts/generate.py",
+      "sha": "82c5107ebf0f3b315fc241e929c55d521dd861f1",
+      "mode": "100755",
+      "size": 6584
+    },
+    {
+      "path": "extensions/banana/scripts/presets.py",
+      "sha": "27510afb1b036dd2040f243e5d89516bdca8e1f1",
+      "mode": "100755",
+      "size": 4971
+    },
+    {
+      "path": "extensions/banana/scripts/setup_mcp.py",
+      "sha": "9183537e96069449ae1f71bb08d96ff14c24af8e",
+      "mode": "100755",
+      "size": 5229
+    },
+    {
+      "path": "extensions/banana/scripts/validate_setup.py",
+      "sha": "ed64f3878fe45811219b79bb4bd9917dc6034169",
+      "mode": "100755",
+      "size": 3746
+    },
+    {
+      "path": "extensions/banana/skills/seo-image-gen/LICENSE.txt",
+      "sha": "7b87d4d489c81a2b7378ffcb177d209770cfb66e",
+      "mode": "100644",
+      "size": 143
+    },
+    {
+      "path": "extensions/banana/skills/seo-image-gen/SKILL.md",
+      "sha": "94354092cf7d670b98d31b5ce1e645456b41cbb7",
+      "mode": "100644",
+      "size": 9576
+    },
+    {
+      "path": "extensions/banana/uninstall.sh",
+      "sha": "1e892a6eb0abfd877354f71763a1ed0d69a6b7f4",
+      "mode": "100755",
+      "size": 1599
+    },
+    {
+      "path": "extensions/bing-webmaster/docs/BING-WEBMASTER-SETUP.md",
+      "sha": "27541a9cddd7738b6837128d81b3ea8b7531cf6b",
+      "mode": "100644",
+      "size": 1939
+    },
+    {
+      "path": "extensions/bing-webmaster/install.ps1",
+      "sha": "66a04e93dccc104d6f98375195adcd1647664c49",
+      "mode": "100644",
+      "size": 2158
+    },
+    {
+      "path": "extensions/bing-webmaster/install.sh",
+      "sha": "c65664e5c37eac64ae64afc3c15e0761d602ea1e",
+      "mode": "100755",
+      "size": 3017
+    },
+    {
+      "path": "extensions/bing-webmaster/skills/seo-bing/SKILL.md",
+      "sha": "4465127fa2a586a40cef788e77c7217a217c43e6",
+      "mode": "100644",
+      "size": 2664
+    },
+    {
+      "path": "extensions/bing-webmaster/uninstall.sh",
+      "sha": "f9ca245e12c98887f2e52e824e415e18f881b225",
+      "mode": "100755",
+      "size": 808
+    },
+    {
+      "path": "extensions/dataforseo/agents/seo-dataforseo.md",
+      "sha": "23b393774702d86e4eb4aa4328d15c9e0ee3b35d",
+      "mode": "100644",
+      "size": 2633
+    },
+    {
+      "path": "extensions/dataforseo/docs/DATAFORSEO-SETUP.md",
+      "sha": "e73fbbe0dd91d3fd84f85788c7016a18bf94cadb",
+      "mode": "100644",
+      "size": 2173
+    },
+    {
+      "path": "extensions/dataforseo/field-config.json",
+      "sha": "335d7d0a3f3d546bce2367665505568c0878a0a8",
+      "mode": "100644",
+      "size": 6720
+    },
+    {
+      "path": "extensions/dataforseo/install.ps1",
+      "sha": "34e23bab6191dd10fb07c056ba82e8c2265f8cb7",
+      "mode": "100644",
+      "size": 6803
+    },
+    {
+      "path": "extensions/dataforseo/install.sh",
+      "sha": "825b018589b9a35f421839f99c9b583fc499777b",
+      "mode": "100755",
+      "size": 7114
+    },
+    {
+      "path": "extensions/dataforseo/README.md",
+      "sha": "c9ffec27c870c3841261971526d03699246b9575",
+      "mode": "100644",
+      "size": 6341
+    },
+    {
+      "path": "extensions/dataforseo/skills/seo-dataforseo/LICENSE.txt",
+      "sha": "7b87d4d489c81a2b7378ffcb177d209770cfb66e",
+      "mode": "100644",
+      "size": 143
+    },
+    {
+      "path": "extensions/dataforseo/skills/seo-dataforseo/references/cost-tiers.md",
+      "sha": "0cf90758d068c34003ceba7b450afc188a1337cd",
+      "mode": "100644",
+      "size": 3450
+    },
+    {
+      "path": "extensions/dataforseo/skills/seo-dataforseo/references/tool-catalog.md",
+      "sha": "59650071eeae84d2d59258b5d0486e4937ded7c6",
+      "mode": "100644",
+      "size": 3003
+    },
+    {
+      "path": "extensions/dataforseo/skills/seo-dataforseo/SKILL.md",
+      "sha": "8fc6a7653c835259d75af4e50b4afe3e8e62de88",
+      "mode": "100644",
+      "size": 18034
+    },
+    {
+      "path": "extensions/dataforseo/uninstall.ps1",
+      "sha": "ee3dac69409c63781da0a24fcdede11d05563074",
+      "mode": "100644",
+      "size": 1994
+    },
+    {
+      "path": "extensions/dataforseo/uninstall.sh",
+      "sha": "c2701a4cfd9d2d73abda257568410aa58df2338e",
+      "mode": "100755",
+      "size": 1208
+    },
+    {
+      "path": "extensions/firecrawl/docs/FIRECRAWL-SETUP.md",
+      "sha": "51ce99d4026a18a03ad0f4e71464c3c0d4d82174",
+      "mode": "100644",
+      "size": 1375
+    },
+    {
+      "path": "extensions/firecrawl/install.ps1",
+      "sha": "ea21cd38b59bd5a5085298fa38642685d02adb75",
+      "mode": "100644",
+      "size": 4943
+    },
+    {
+      "path": "extensions/firecrawl/install.sh",
+      "sha": "193c566302fb14e2c6a04bce57ce1ddfab1840a3",
+      "mode": "100755",
+      "size": 5406
+    },
+    {
+      "path": "extensions/firecrawl/README.md",
+      "sha": "e6a85bd0e568179d8012c6c87301f8885ece4cf1",
+      "mode": "100644",
+      "size": 2565
+    },
+    {
+      "path": "extensions/firecrawl/skills/seo-firecrawl/LICENSE.txt",
+      "sha": "7b87d4d489c81a2b7378ffcb177d209770cfb66e",
+      "mode": "100644",
+      "size": 143
+    },
+    {
+      "path": "extensions/firecrawl/skills/seo-firecrawl/SKILL.md",
+      "sha": "31b87eb1cbbd7713cf0be2f16aeda95cf14759f2",
+      "mode": "100644",
+      "size": 8433
+    },
+    {
+      "path": "extensions/firecrawl/uninstall.ps1",
+      "sha": "d24b1c680461fa017d4ac44b826b1d914b74ef27",
+      "mode": "100644",
+      "size": 1834
+    },
+    {
+      "path": "extensions/firecrawl/uninstall.sh",
+      "sha": "86b84654fafefc2c564a957857770aade76873f5",
+      "mode": "100755",
+      "size": 960
+    },
+    {
+      "path": "extensions/matomo/agents/seo-matomo.md",
+      "sha": "1928d281a7eb6673c9d0c48f3a4f8db009376557",
+      "mode": "100644",
+      "size": 4564
+    },
+    {
+      "path": "extensions/matomo/docs/MATOMO-SETUP.md",
+      "sha": "73a386a2706bdcfaef2f66060e71bad28229a9ef",
+      "mode": "100644",
+      "size": 5457
+    },
+    {
+      "path": "extensions/matomo/install.ps1",
+      "sha": "061e9b3a22bf50135976b0fb8e87967ad6167f7f",
+      "mode": "100644",
+      "size": 3448
+    },
+    {
+      "path": "extensions/matomo/install.sh",
+      "sha": "b7fd39e148628b3f54fe4e2a832128d85c1eb0ca",
+      "mode": "100755",
+      "size": 4260
+    },
+    {
+      "path": "extensions/matomo/skills/seo-matomo/SKILL.md",
+      "sha": "5786b9fc6e1be36f4b3c425d68baee3210d64612",
+      "mode": "100644",
+      "size": 6183
+    },
+    {
+      "path": "extensions/matomo/uninstall.sh",
+      "sha": "885ab64117bd645474f8680f9dd8c2ea280d7819",
+      "mode": "100755",
+      "size": 1846
+    },
+    {
+      "path": "extensions/profound/docs/PROFOUND-SETUP.md",
+      "sha": "1c48680c55a725725afbdc9bc37d7cab887f940e",
+      "mode": "100644",
+      "size": 928
+    },
+    {
+      "path": "extensions/profound/install.ps1",
+      "sha": "a384a1697c69710d90312df56779ada50cd8a1dc",
+      "mode": "100644",
+      "size": 1590
+    },
+    {
+      "path": "extensions/profound/install.sh",
+      "sha": "7134c13e7a5989fbbca59a546882a37edc8625f4",
+      "mode": "100755",
+      "size": 1978
+    },
+    {
+      "path": "extensions/profound/skills/seo-profound/SKILL.md",
+      "sha": "9c04c5a1eb0b407a84ed1aad02ea44c8af4827e5",
+      "mode": "100644",
+      "size": 2119
+    },
+    {
+      "path": "extensions/profound/uninstall.sh",
+      "sha": "ec62ef7979c2de7b1da328c8775d876ff48499e9",
+      "mode": "100755",
+      "size": 713
+    },
+    {
+      "path": "extensions/seranking/docs/SERANKING-SETUP.md",
+      "sha": "ead0be5a017d4cc4c9787bf77ff6b5ab1777548c",
+      "mode": "100644",
+      "size": 1023
+    },
+    {
+      "path": "extensions/seranking/install.ps1",
+      "sha": "2031f953967d2a5283ab80fa2022024f9d95a127",
+      "mode": "100644",
+      "size": 1821
+    },
+    {
+      "path": "extensions/seranking/install.sh",
+      "sha": "f7a1c3d9c1d561c7d42f011b9438e4db8d352add",
+      "mode": "100755",
+      "size": 2319
+    },
+    {
+      "path": "extensions/seranking/skills/seo-seranking/SKILL.md",
+      "sha": "a9d10fa8076aee29b1c54a74c398522b7248eedf",
+      "mode": "100644",
+      "size": 2620
+    },
+    {
+      "path": "extensions/seranking/uninstall.sh",
+      "sha": "9acf340bcba0119f3240573563387a51cdd89ffa",
+      "mode": "100755",
+      "size": 731
+    },
+    {
+      "path": "extensions/unlighthouse/docs/UNLIGHTHOUSE-SETUP.md",
+      "sha": "10410676d698b33f7d3365694cd38b76ebdcb993",
+      "mode": "100644",
+      "size": 1250
+    },
+    {
+      "path": "extensions/unlighthouse/install.ps1",
+      "sha": "7964322f4307fae5ec96f080ef716a7ad17ccb37",
+      "mode": "100644",
+      "size": 749
+    },
+    {
+      "path": "extensions/unlighthouse/install.sh",
+      "sha": "93e76b7ab3f8baed2757b1b67ff53f3e53c30f4c",
+      "mode": "100755",
+      "size": 2443
+    },
+    {
+      "path": "extensions/unlighthouse/skills/seo-unlighthouse/SKILL.md",
+      "sha": "f49906844de40bba556b7193cd6faadcb3cb0873",
+      "mode": "100644",
+      "size": 2821
+    },
+    {
+      "path": "extensions/unlighthouse/uninstall.sh",
+      "sha": "674a11fce07ea5cea9090708d8760807b6b1764b",
+      "mode": "100755",
+      "size": 251
+    },
+    {
+      "path": "skills/seo-agentic/LICENSE.txt",
+      "sha": "7b87d4d489c81a2b7378ffcb177d209770cfb66e",
+      "mode": "100644",
+      "size": 143
+    },
+    {
+      "path": "skills/seo-agentic/references/access-policy.md",
+      "sha": "5f53f499c2c79e899a951ac2fafe4a8c2fa61cfc",
+      "mode": "100644",
+      "size": 6880
+    },
+    {
+      "path": "skills/seo-agentic/references/agent-friendly-pages.md",
+      "sha": "b47d9e9cf9d4ecb3cbfcf1f9e4538d496c723557",
+      "mode": "100644",
+      "size": 5266
+    },
+    {
+      "path": "skills/seo-agentic/references/discovery-and-markdown.md",
+      "sha": "742c149b67f95de188a10ef07a805ab6bedfbdbb",
+      "mode": "100644",
+      "size": 6564
+    },
+    {
+      "path": "skills/seo-agentic/references/lighthouse-agentic-category.md",
+      "sha": "927b39190af168498705641c21b801ddb8b5e03e",
+      "mode": "100644",
+      "size": 6485
+    },
+    {
+      "path": "skills/seo-agentic/references/vendor-matrix.md",
+      "sha": "bead810b07164d63d47b4a2e3c1e83f5ebd26e6a",
+      "mode": "100644",
+      "size": 5104
+    },
+    {
+      "path": "skills/seo-agentic/references/webmcp.md",
+      "sha": "4e80c7b873a7f6c37aaebdd1b4bb5d0bc27a4e96",
+      "mode": "100644",
+      "size": 6244
+    },
+    {
+      "path": "skills/seo-agentic/SKILL.md",
+      "sha": "fd33ff9e4540e2c24b8aa9fc9ff1adf35f193abc",
+      "mode": "100644",
+      "size": 11969
+    },
+    {
+      "path": "skills/seo-audit/LICENSE.txt",
+      "sha": "7b87d4d489c81a2b7378ffcb177d209770cfb66e",
+      "mode": "100644",
+      "size": 143
+    },
+    {
+      "path": "skills/seo-audit/SKILL.md",
+      "sha": "6b3280247d79491a612a6802a8ac7f7e220e8729",
+      "mode": "100644",
+      "size": 10644
+    },
+    {
+      "path": "skills/seo-backlinks/LICENSE.txt",
+      "sha": "7b87d4d489c81a2b7378ffcb177d209770cfb66e",
+      "mode": "100644",
+      "size": 143
+    },
+    {
+      "path": "skills/seo-backlinks/SKILL.md",
+      "sha": "613cd39a8e6ed65c201104f0b3bfa4e221cebee2",
+      "mode": "100644",
+      "size": 17036
+    },
+    {
+      "path": "skills/seo-cluster/references/execution-workflow.md",
+      "sha": "c98382fce3d11735fdff6cabf7c65850baeeecb9",
+      "mode": "100644",
+      "size": 6455
+    },
+    {
+      "path": "skills/seo-cluster/references/hub-spoke-architecture.md",
+      "sha": "adb07664f7eca7c60a837fce3cd2da1c450c656e",
+      "mode": "100644",
+      "size": 6291
+    },
+    {
+      "path": "skills/seo-cluster/references/serp-overlap-methodology.md",
+      "sha": "1c023225a6bafbd4ab68e64ea56bf0e3ebc0f6c7",
+      "mode": "100644",
+      "size": 4514
+    },
+    {
+      "path": "skills/seo-cluster/SKILL.md",
+      "sha": "364bbbc6fb62a74dff060aed1a0552c2edcd05a5",
+      "mode": "100644",
+      "size": 14046
+    },
+    {
+      "path": "skills/seo-cluster/templates/cluster-map.html",
+      "sha": "ea142d9a1ae2cbbe9024fd212f2c0155f34ca3b2",
+      "mode": "100644",
+      "size": 19577
+    },
+    {
+      "path": "skills/seo-competitor-pages/LICENSE.txt",
+      "sha": "7b87d4d489c81a2b7378ffcb177d209770cfb66e",
+      "mode": "100644",
+      "size": 143
+    },
+    {
+      "path": "skills/seo-competitor-pages/SKILL.md",
+      "sha": "67aaea78cc47619a02fa628a4c3ff53c8cc95390",
+      "mode": "100644",
+      "size": 8065
+    },
+    {
+      "path": "skills/seo-content-brief/LICENSE.txt",
+      "sha": "caa05229439bdb6871543cbad7651a438c4ab9f6",
+      "mode": "100644",
+      "size": 147
+    },
+    {
+      "path": "skills/seo-content-brief/references/excluded-domains.md",
+      "sha": "1a120ef736ddaa9c62134cf847a2e679b21c8795",
+      "mode": "100644",
+      "size": 2881
+    },
+    {
+      "path": "skills/seo-content-brief/references/keyword-density.md",
+      "sha": "ea759f2247ad8c43fc1ac2361e1f77532dd1a950",
+      "mode": "100644",
+      "size": 3448
+    },
+    {
+      "path": "skills/seo-content-brief/references/page-type-templates.md",
+      "sha": "ca7b9d5f498a9994f0ffbd4477c80c46c09bfb4c",
+      "mode": "100644",
+      "size": 7174
+    },
+    {
+      "path": "skills/seo-content-brief/SKILL.md",
+      "sha": "cbd5229371454bf0d61eef7d53ef480bfa259839",
+      "mode": "100644",
+      "size": 11134
+    },
+    {
+      "path": "skills/seo-content/LICENSE.txt",
+      "sha": "7b87d4d489c81a2b7378ffcb177d209770cfb66e",
+      "mode": "100644",
+      "size": 143
+    },
+    {
+      "path": "skills/seo-content/SKILL.md",
+      "sha": "abffa7a51bbbababa887b5bebafaaea1ce5ead5b",
+      "mode": "100644",
+      "size": 13724
+    },
+    {
+      "path": "skills/seo-dataforseo/LICENSE.txt",
+      "sha": "7b87d4d489c81a2b7378ffcb177d209770cfb66e",
+      "mode": "100644",
+      "size": 143
+    },
+    {
+      "path": "skills/seo-dataforseo/references/cost-tiers.md",
+      "sha": "0cf90758d068c34003ceba7b450afc188a1337cd",
+      "mode": "100644",
+      "size": 3450
+    },
+    {
+      "path": "skills/seo-dataforseo/references/tool-catalog.md",
+      "sha": "59650071eeae84d2d59258b5d0486e4937ded7c6",
+      "mode": "100644",
+      "size": 3003
+    },
+    {
+      "path": "skills/seo-dataforseo/SKILL.md",
+      "sha": "8fc6a7653c835259d75af4e50b4afe3e8e62de88",
+      "mode": "100644",
+      "size": 18034
+    },
+    {
+      "path": "skills/seo-drift/references/comparison-rules.md",
+      "sha": "a3349d7ab21fe06e8f1a0378b4f856b5be8a7ef5",
+      "mode": "100644",
+      "size": 5723
+    },
+    {
+      "path": "skills/seo-drift/SKILL.md",
+      "sha": "9b6d006c12fc571203476d1a9594d0d8f1219b73",
+      "mode": "100644",
+      "size": 7753
+    },
+    {
+      "path": "skills/seo-ecommerce/references/marketplace-endpoints.md",
+      "sha": "4dcc828771fdfb77895cb0f2e3b5da7cd9583557",
+      "mode": "100644",
+      "size": 3862
+    },
+    {
+      "path": "skills/seo-ecommerce/references/ucp-universal-commerce-protocol.md",
+      "sha": "90649460fdc123d2ee8abe49c9a4791d94b2382d",
+      "mode": "100644",
+      "size": 8272
+    },
+    {
+      "path": "skills/seo-ecommerce/SKILL.md",
+      "sha": "a51b68a4be4c452054b3b0cf75175a8133cd776f",
+      "mode": "100644",
+      "size": 15285
+    },
+    {
+      "path": "skills/seo-flow/references/bibliography.md",
+      "sha": "2e3033131c9a0c70ab96e72c8f3b4e0de0bbd892",
+      "mode": "100644",
+      "size": 8051
+    },
+    {
+      "path": "skills/seo-flow/references/flow-framework.md",
+      "sha": "bef94e416dfd4bf522d7908633ba649973088ba0",
+      "mode": "100644",
+      "size": 4896
+    },
+    {
+      "path": "skills/seo-flow/references/flow-prompts.lock",
+      "sha": "7d29c24a9cf5d13a16fcfe323769fe75cf149488",
+      "mode": "100644",
+      "size": 6165
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/find/content-planning-for-topical-relevance-prompt.md",
+      "sha": "0dce88fe75cdefdbdcd0fe8bbbf0e3180751f966",
+      "mode": "100644",
+      "size": 2172
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/find/content-prioritization-prompt.md",
+      "sha": "4928e2d65da9823048d29f1cd087d74d9738ab88",
+      "mode": "100644",
+      "size": 2124
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/find/keyword-research-prompt.md",
+      "sha": "97bc8aab9c063a7402c3f78a101da31f2b7f0759",
+      "mode": "100644",
+      "size": 2106
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/find/keyword-variations-for-topical-relevance-prompt.md",
+      "sha": "94fde2b8965d5145070f61f640fca792df8596da",
+      "mode": "100644",
+      "size": 2178
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/find/prompt-audience-avatar.md",
+      "sha": "13e92f69764194399f390d47b06f31241df18454",
+      "mode": "100644",
+      "size": 2106
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/leverage/backlink-competition-prompt.md",
+      "sha": "d637b0b1049b26fb7332b8e33c5931933b6817ae",
+      "mode": "100644",
+      "size": 2130
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/local/ai-homepage-rewrite-prompt.md",
+      "sha": "1e45d535458cf2a9c3f57258eb9f45e5ec0354e9",
+      "mode": "100644",
+      "size": 2118
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/local/claude-deep-research-prompt.md",
+      "sha": "eadb90698b96f795961363bd0e3eb428dae56f0d",
+      "mode": "100644",
+      "size": 2127
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/local/gbp-categories-prompt.md",
+      "sha": "bd8fb8e38ff57969ec4cce4605fae2634e872474",
+      "mode": "100644",
+      "size": 2103
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/local/gbp-description-claude-prompt-1.md",
+      "sha": "be043701ac89cb241397be87ebff77ad1b024788",
+      "mode": "100644",
+      "size": 2133
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/local/gbp-description-claude-prompt-2.md",
+      "sha": "e1d4b6a24c33e7d0806355953cd6263ff664e3c0",
+      "mode": "100644",
+      "size": 2133
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/local/gbp-description-claude-prompt-3.md",
+      "sha": "e53e6244b6261b84c9d9673ec359e87c0cd2390e",
+      "mode": "100644",
+      "size": 2133
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/local/gbp-services-prompt.md",
+      "sha": "120706adedea0bcfdb5340d47fbc32bd30403dee",
+      "mode": "100644",
+      "size": 2097
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/local/prompt-generating-a-meta-description.md",
+      "sha": "e071e725a8a70f38778fcd50c2f90420381db8fa",
+      "mode": "100644",
+      "size": 2151
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/local/prompt-generating-a-title-tag.md",
+      "sha": "b0a7ce2efebd750b4b966c42522a6f12c87d0f97",
+      "mode": "100644",
+      "size": 2130
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/local/prompt-rewriting-existing-homepage.md",
+      "sha": "84a3d8cd2f396ceb6b8c58bb2f80d8b4523122c9",
+      "mode": "100644",
+      "size": 2145
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/local/prompt-rewriting-existing-service-page.md",
+      "sha": "e50b960c9b6cabce128b2902823ec842c3fa2e3f",
+      "mode": "100644",
+      "size": 2160
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/optimize/ai-detector-test-follow-up-prompt.md",
+      "sha": "9dc0c6cfcd880637c8630c242a9e8c552f6e392a",
+      "mode": "100644",
+      "size": 2148
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/optimize/ai-supporting-pages-rewrite-prompt.md",
+      "sha": "c13466aace580e4a51f1a97ea37dd9e74e2c2d49",
+      "mode": "100644",
+      "size": 2151
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/optimize/basic-prompt.md",
+      "sha": "fa1302d589bb5de38ef9ffd46de867d9447b57f7",
+      "mode": "100644",
+      "size": 2085
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/optimize/blog-post-outline-prompt.md",
+      "sha": "cf93d697f9a0b69bff59f6057ae2bbe19c5494cf",
+      "mode": "100644",
+      "size": 2121
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/optimize/blog-post-writing-prompt.md",
+      "sha": "3ff13932dd3eeddf004063b1c571bd666221b75f",
+      "mode": "100644",
+      "size": 2121
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/optimize/claude-prompt-1.md",
+      "sha": "efbfa455c4f78d48bceee8d85a1100ba497f0b7f",
+      "mode": "100644",
+      "size": 2094
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/optimize/claude-prompt-2.md",
+      "sha": "f90cab2116ab7d5dbaa3704a902eca86b038d8f1",
+      "mode": "100644",
+      "size": 2094
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/optimize/ctr-audit-prompt.md",
+      "sha": "9d7e8db4924cc9b16f5f0211fd1bb4c6f3d5661c",
+      "mode": "100644",
+      "size": 2097
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/optimize/follow-up-prompt-1.md",
+      "sha": "cccb5e703cfa410de38a3ec636f38e8ef09c21cd",
+      "mode": "100644",
+      "size": 2103
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/optimize/follow-up-prompt-2.md",
+      "sha": "f7d32e77597ec06bb51664a36469ac03d55422d9",
+      "mode": "100644",
+      "size": 2103
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/optimize/follow-up-prompt.md",
+      "sha": "3e931d13e27765ee910919c0d0c005d354c27162",
+      "mode": "100644",
+      "size": 2097
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/optimize/paa-question-rewording-prompt.md",
+      "sha": "42f77e38ac439acf2fd3b6deaf7144fcee8c79db",
+      "mode": "100644",
+      "size": 2136
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/optimize/prompt-core-30-content-audit.md",
+      "sha": "0e310a2cb9ab02e73860bb8f45aad8ca00232845",
+      "mode": "100644",
+      "size": 2136
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/optimize/property-content-with-authority-audit-prompt.md",
+      "sha": "b6aafafa19102f2f5a8a51f6a60a6e746e8897b8",
+      "mode": "100644",
+      "size": 2181
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/optimize/reddit-claude-prompt.md",
+      "sha": "77bec3254527e793a379612013f301286fbc59a8",
+      "mode": "100644",
+      "size": 2109
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/optimize/schema-prompt-1.md",
+      "sha": "76d47e31755f3b6273eb9eb169b2f2d73e881d1d",
+      "mode": "100644",
+      "size": 2094
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/optimize/step-1-the-chatgpt-discovery-prompt.md",
+      "sha": "c6a3c33d19568120a97f1617b795d6851d86191c",
+      "mode": "100644",
+      "size": 2157
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/optimize/step-2-the-follow-up-qualifying-prompt.md",
+      "sha": "108bee0a8f10573914e8d319bed699346cc2a926",
+      "mode": "100644",
+      "size": 2166
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/optimize/technical-audit-prompt.md",
+      "sha": "d6591eac24a15a7a62ba817f9b2bad0416d6a079",
+      "mode": "100644",
+      "size": 2115
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/optimize/visibility-follow-up-prompt.md",
+      "sha": "e85b9e4e00402bd9d851ee76083f9d1326f5f9a3",
+      "mode": "100644",
+      "size": 2130
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/optimize/visiblity-prompt.md",
+      "sha": "c86fca171b6698cf448ca635716a62887ce96c62",
+      "mode": "100644",
+      "size": 2097
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/README.md",
+      "sha": "eb14341c3df93c49014b335604217aece33c1706",
+      "mode": "100644",
+      "size": 4536
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/win/bofu-page-brief-generator.md",
+      "sha": "c95ae8ab87c0613d6545f8f4303fad26435af5fa",
+      "mode": "100644",
+      "size": 2240
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/win/conversion-audit-prompt.md",
+      "sha": "6303eea678d6bd7a0c82b23ca527fbb487a1e078",
+      "mode": "100644",
+      "size": 2204
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/win/dual-surface-content-scorecard.md",
+      "sha": "17b95d4073d6b363c64646a89509b7f575c41081",
+      "mode": "100644",
+      "size": 2133
+    },
+    {
+      "path": "skills/seo-flow/SKILL.md",
+      "sha": "83d9d37b09c706d539956a2b93f30af1a4578779",
+      "mode": "100644",
+      "size": 6009
+    },
+    {
+      "path": "skills/seo-geo/LICENSE.txt",
+      "sha": "7b87d4d489c81a2b7378ffcb177d209770cfb66e",
+      "mode": "100644",
+      "size": 143
+    },
+    {
+      "path": "skills/seo-geo/references/google-ai-optimization-guide.md",
+      "sha": "d1dbc6c418feb03ed4645f66cc3cf3cfa6ecaa2d",
+      "mode": "100644",
+      "size": 7224
+    },
+    {
+      "path": "skills/seo-geo/references/llmstxt-evidence.md",
+      "sha": "9fa64696e628655ce606936eee3a52ceba2f8810",
+      "mode": "100644",
+      "size": 3308
+    },
+    {
+      "path": "skills/seo-geo/SKILL.md",
+      "sha": "088b9a1d37cd8f1f51bdff6c5893f1c25323ab79",
+      "mode": "100644",
+      "size": 22965
+    },
+    {
+      "path": "skills/seo-google/assets/templates/cwv-audit-report.md",
+      "sha": "0e978893893238602e8632c43895b8876a05e526",
+      "mode": "100644",
+      "size": 1587
+    },
+    {
+      "path": "skills/seo-google/assets/templates/gsc-performance-report.md",
+      "sha": "da1f5fff8a3499b4c2e767066eb03d0286cf20b0",
+      "mode": "100644",
+      "size": 1441
+    },
+    {
+      "path": "skills/seo-google/assets/templates/indexation-status-report.md",
+      "sha": "c7d2ec09fcc29777293c89b64dacd502fe3211e7",
+      "mode": "100644",
+      "size": 1126
+    },
+    {
+      "path": "skills/seo-google/LICENSE.txt",
+      "sha": "7b87d4d489c81a2b7378ffcb177d209770cfb66e",
+      "mode": "100644",
+      "size": 143
+    },
+    {
+      "path": "skills/seo-google/references/auth-setup.md",
+      "sha": "531f2e19b8fba427efc5605cd4f65d60e758c948",
+      "mode": "100644",
+      "size": 6572
+    },
+    {
+      "path": "skills/seo-google/references/crux-history-api.md",
+      "sha": "420a1580c098c18aa0f7437fee427ee5177bd311",
+      "mode": "100644",
+      "size": 2028
+    },
+    {
+      "path": "skills/seo-google/references/dma-consent-mode-v2.md",
+      "sha": "6f6a999a5db74323aa4d491b9fdcf4e742868ba9",
+      "mode": "100644",
+      "size": 3119
+    },
+    {
+      "path": "skills/seo-google/references/ga4-data-api.md",
+      "sha": "870a9afd4eb395dedc3e3ef7d0ef7e302bb3a23c",
+      "mode": "100644",
+      "size": 5364
+    },
+    {
+      "path": "skills/seo-google/references/indexing-api.md",
+      "sha": "450f3f804f32207a828683cda4489b82b92b641d",
+      "mode": "100644",
+      "size": 3474
+    },
+    {
+      "path": "skills/seo-google/references/keyword-planner-api.md",
+      "sha": "bd065aa7e93702000c0057c7d7ccb38cc280f4d0",
+      "mode": "100644",
+      "size": 2398
+    },
+    {
+      "path": "skills/seo-google/references/nlp-api.md",
+      "sha": "87c1f9ee7c318a4d5c05c2b63ec51fc88ab79a6c",
+      "mode": "100644",
+      "size": 2763
+    },
+    {
+      "path": "skills/seo-google/references/pagespeed-crux-api.md",
+      "sha": "61e38baa90c06bae17707776dd8a24821ab08344",
+      "mode": "100644",
+      "size": 5208
+    },
+    {
+      "path": "skills/seo-google/references/rate-limits-quotas.md",
+      "sha": "dc6b6da416a45087aa812fc6d4d55ade3b98f26f",
+      "mode": "100644",
+      "size": 3379
+    },
+    {
+      "path": "skills/seo-google/references/search-console-api.md",
+      "sha": "7c8ac00d9c1510751e019f2453a62e51e2d9882e",
+      "mode": "100644",
+      "size": 5657
+    },
+    {
+      "path": "skills/seo-google/references/supplementary-apis.md",
+      "sha": "2662f4b3b9f866df3fab9a0cd21c8661553e0b09",
+      "mode": "100644",
+      "size": 2812
+    },
+    {
+      "path": "skills/seo-google/references/youtube-api.md",
+      "sha": "20381d8ecccc66104c72862d5cd074c63765927c",
+      "mode": "100644",
+      "size": 1595
+    },
+    {
+      "path": "skills/seo-google/SKILL.md",
+      "sha": "b7ea6cffc353a4691fa00c83ab8141af9572460e",
+      "mode": "100644",
+      "size": 18482
+    },
+    {
+      "path": "skills/seo-hreflang/LICENSE.txt",
+      "sha": "7b87d4d489c81a2b7378ffcb177d209770cfb66e",
+      "mode": "100644",
+      "size": 143
+    },
+    {
+      "path": "skills/seo-hreflang/references/content-parity.md",
+      "sha": "189dcf4af5e4cad0e5b8c034a3887153f31ef39e",
+      "mode": "100644",
+      "size": 4126
+    },
+    {
+      "path": "skills/seo-hreflang/references/cultural-profiles.md",
+      "sha": "361e4809c1ba38974c37fb4dc5d48fc3c4903d2d",
+      "mode": "100644",
+      "size": 4942
+    },
+    {
+      "path": "skills/seo-hreflang/references/locale-formats.md",
+      "sha": "6bfb511aeb150945743a91217020eaff08c2248f",
+      "mode": "100644",
+      "size": 3521
+    },
+    {
+      "path": "skills/seo-hreflang/references/machine-translation-qa.md",
+      "sha": "22087066cdc0c909ff30022f6aa58e8e2242c9a7",
+      "mode": "100644",
+      "size": 3516
+    },
+    {
+      "path": "skills/seo-hreflang/SKILL.md",
+      "sha": "c6e03e24614ba22a0dfbda73544bf0c926898a1d",
+      "mode": "100644",
+      "size": 14213
+    },
+    {
+      "path": "skills/seo-image-gen/LICENSE.txt",
+      "sha": "7b87d4d489c81a2b7378ffcb177d209770cfb66e",
+      "mode": "100644",
+      "size": 143
+    },
+    {
+      "path": "skills/seo-image-gen/references/cost-tracking.md",
+      "sha": "f4629c6fde3462d63b835b6c49e9a725a1bc753c",
+      "mode": "100644",
+      "size": 1185
+    },
+    {
+      "path": "skills/seo-image-gen/references/gemini-models.md",
+      "sha": "bddc15a5b582bec3113fe4f68c12ae0810930576",
+      "mode": "100644",
+      "size": 8126
+    },
+    {
+      "path": "skills/seo-image-gen/references/mcp-tools.md",
+      "sha": "d546488bfd73a3889034e55cd090cf1b6b65f9a2",
+      "mode": "100644",
+      "size": 4094
+    },
+    {
+      "path": "skills/seo-image-gen/references/post-processing.md",
+      "sha": "0b4d07da7af6737d17a6c018f1ee3982adad1016",
+      "mode": "100644",
+      "size": 5201
+    },
+    {
+      "path": "skills/seo-image-gen/references/presets.md",
+      "sha": "2b6df0bb65dd59bf74b267879b84c608685e91d1",
+      "mode": "100644",
+      "size": 2250
+    },
+    {
+      "path": "skills/seo-image-gen/references/prompt-adaptation-safety.md",
+      "sha": "d8d23820fe0181b71d1ce1becb47cca929b2994d",
+      "mode": "100644",
+      "size": 4534
+    },
+    {
+      "path": "skills/seo-image-gen/references/prompt-engineering.md",
+      "sha": "40860999b1e3a63a0b9e8fcf902a4f7a4e56c4f3",
+      "mode": "100644",
+      "size": 9543
+    },
+    {
+      "path": "skills/seo-image-gen/references/prompt-templates.md",
+      "sha": "6e089030b9cf77cca2f9306cf019940d7a686545",
+      "mode": "100644",
+      "size": 8005
+    },
+    {
+      "path": "skills/seo-image-gen/references/seo-image-presets.md",
+      "sha": "69b9fc690436729d5f25363526fda5c9962b17be",
+      "mode": "100644",
+      "size": 4163
+    },
+    {
+      "path": "skills/seo-image-gen/SKILL.md",
+      "sha": "ebb428f189f29625f238fd36f8a55e556f3d7ceb",
+      "mode": "100644",
+      "size": 8799
+    },
+    {
+      "path": "skills/seo-images/LICENSE.txt",
+      "sha": "7b87d4d489c81a2b7378ffcb177d209770cfb66e",
+      "mode": "100644",
+      "size": 143
+    },
+    {
+      "path": "skills/seo-images/SKILL.md",
+      "sha": "dae6a0f6b6a5f028135cd5d92d6e7283ca63dea8",
+      "mode": "100644",
+      "size": 18994
+    },
+    {
+      "path": "skills/seo-local/LICENSE.txt",
+      "sha": "7b87d4d489c81a2b7378ffcb177d209770cfb66e",
+      "mode": "100644",
+      "size": 143
+    },
+    {
+      "path": "skills/seo-local/SKILL.md",
+      "sha": "5727739d5809940a787a06975ff3203165fe96d3",
+      "mode": "100644",
+      "size": 18562
+    },
+    {
+      "path": "skills/seo-maps/LICENSE.txt",
+      "sha": "7b87d4d489c81a2b7378ffcb177d209770cfb66e",
+      "mode": "100644",
+      "size": 143
+    },
+    {
+      "path": "skills/seo-maps/SKILL.md",
+      "sha": "27b804d9e1d0f9db30f6750e45bec7616214bc11",
+      "mode": "100644",
+      "size": 13157
+    },
+    {
+      "path": "skills/seo-page/LICENSE.txt",
+      "sha": "7b87d4d489c81a2b7378ffcb177d209770cfb66e",
+      "mode": "100644",
+      "size": 143
+    },
+    {
+      "path": "skills/seo-page/SKILL.md",
+      "sha": "2a9bdf2206fae654c8fec4c2767ed910832e6db7",
+      "mode": "100644",
+      "size": 9070
+    },
+    {
+      "path": "skills/seo-plan/assets/agency.md",
+      "sha": "6d236edc76213dc8d2a41e5e4841de2761d92253",
+      "mode": "100644",
+      "size": 4522
+    },
+    {
+      "path": "skills/seo-plan/assets/ecommerce.md",
+      "sha": "fbcf00114f8c0e44c410cb375bafe0c543a2cab4",
+      "mode": "100644",
+      "size": 4940
+    },
+    {
+      "path": "skills/seo-plan/assets/generic.md",
+      "sha": "8ca27708830eee7b26e16be8c9e9373339e8e213",
+      "mode": "100644",
+      "size": 4280
+    },
+    {
+      "path": "skills/seo-plan/assets/local-service.md",
+      "sha": "a2c86b166f5d9474172a35111716a3728e8bede5",
+      "mode": "100644",
+      "size": 5567
+    },
+    {
+      "path": "skills/seo-plan/assets/publisher.md",
+      "sha": "4cc7598da5a60b58b16c08279b65b59b0b99b2f2",
+      "mode": "100644",
+      "size": 4773
+    },
+    {
+      "path": "skills/seo-plan/assets/saas.md",
+      "sha": "a7572f8c181c2f93af703c8a0e508a55f8b4fd2d",
+      "mode": "100644",
+      "size": 4550
+    },
+    {
+      "path": "skills/seo-plan/LICENSE.txt",
+      "sha": "7b87d4d489c81a2b7378ffcb177d209770cfb66e",
+      "mode": "100644",
+      "size": 143
+    },
+    {
+      "path": "skills/seo-plan/SKILL.md",
+      "sha": "31b2fdfdf86a78afe223e182f32d2c9fefac0c7c",
+      "mode": "100644",
+      "size": 4770
+    },
+    {
+      "path": "skills/seo-programmatic/LICENSE.txt",
+      "sha": "7b87d4d489c81a2b7378ffcb177d209770cfb66e",
+      "mode": "100644",
+      "size": 143
+    },
+    {
+      "path": "skills/seo-programmatic/SKILL.md",
+      "sha": "981474c775fa05af8d10921522111c5c49dabbd3",
+      "mode": "100644",
+      "size": 10111
+    },
+    {
+      "path": "skills/seo-schema/LICENSE.txt",
+      "sha": "7b87d4d489c81a2b7378ffcb177d209770cfb66e",
+      "mode": "100644",
+      "size": 143
+    },
+    {
+      "path": "skills/seo-schema/references/deprecated-types-2024-2026.md",
+      "sha": "314c345b5a1824aa31bbdf8d8508e38decb71bd0",
+      "mode": "100644",
+      "size": 5105
+    },
+    {
+      "path": "skills/seo-schema/SKILL.md",
+      "sha": "a6325836ea143e69c4562f57b1688eea14821ea1",
+      "mode": "100644",
+      "size": 7942
+    },
+    {
+      "path": "skills/seo-sitemap/LICENSE.txt",
+      "sha": "7b87d4d489c81a2b7378ffcb177d209770cfb66e",
+      "mode": "100644",
+      "size": 143
+    },
+    {
+      "path": "skills/seo-sitemap/SKILL.md",
+      "sha": "46a20835893240a2fa4ed39cf214ebd239859465",
+      "mode": "100644",
+      "size": 8934
+    },
+    {
+      "path": "skills/seo-sxo/references/page-type-taxonomy.md",
+      "sha": "5838255199fba6df0fb08d76b83c7d7ea112560d",
+      "mode": "100644",
+      "size": 7382
+    },
+    {
+      "path": "skills/seo-sxo/references/persona-scoring.md",
+      "sha": "90f352ee9bd1affac3eef0b0150d127009c6cbda",
+      "mode": "100644",
+      "size": 6353
+    },
+    {
+      "path": "skills/seo-sxo/references/user-story-framework.md",
+      "sha": "a7c0b63b2dbb662f788b313e5d3dbe7d4bf3610a",
+      "mode": "100644",
+      "size": 5694
+    },
+    {
+      "path": "skills/seo-sxo/references/wireframe-templates.md",
+      "sha": "eb87d75dd256b1633911c205d64edc2f528eb067",
+      "mode": "100644",
+      "size": 6490
+    },
+    {
+      "path": "skills/seo-sxo/SKILL.md",
+      "sha": "f56c0f2016a0232d66ad38af2e2d40a773c2a604",
+      "mode": "100644",
+      "size": 10532
+    },
+    {
+      "path": "skills/seo-technical/LICENSE.txt",
+      "sha": "7b87d4d489c81a2b7378ffcb177d209770cfb66e",
+      "mode": "100644",
+      "size": 143
+    },
+    {
+      "path": "skills/seo-technical/references/stack-cve-exposure.md",
+      "sha": "e11436dfea2de473926d027f33082a986de60536",
+      "mode": "100644",
+      "size": 5338
+    },
+    {
+      "path": "skills/seo-technical/SKILL.md",
+      "sha": "5ccce3390cb77379d95d19b999190e8d21cc855b",
+      "mode": "100644",
+      "size": 19983
+    },
+    {
+      "path": "skills/seo/LICENSE.txt",
+      "sha": "7b87d4d489c81a2b7378ffcb177d209770cfb66e",
+      "mode": "100644",
+      "size": 143
+    },
+    {
+      "path": "skills/seo/references/backlink-quality.md",
+      "sha": "d5fdb070673f8e28b75a47714bbdfccb56730cfe",
+      "mode": "100644",
+      "size": 3491
+    },
+    {
+      "path": "skills/seo/references/cwv-thresholds.md",
+      "sha": "a48216c7c8eecf13684b3cbad52fcfe87acea364",
+      "mode": "100644",
+      "size": 7914
+    },
+    {
+      "path": "skills/seo/references/eeat-framework.md",
+      "sha": "5ab7bfb12852683ff282dd2c23de49f8559f3318",
+      "mode": "100644",
+      "size": 7400
+    },
+    {
+      "path": "skills/seo/references/eeat-scoring-guide.md",
+      "sha": "b1e68d37376d301d45acd6e031ab1ab89e5c9b59",
+      "mode": "100644",
+      "size": 1519
+    },
+    {
+      "path": "skills/seo/references/free-backlink-sources.md",
+      "sha": "03307159288d8615b7878ae0cfdf6026206c7298",
+      "mode": "100644",
+      "size": 6868
+    },
+    {
+      "path": "skills/seo/references/local-schema-multilocation.md",
+      "sha": "db406f9f54e1a2b79d6e78ea39ec7ac2ba77d83c",
+      "mode": "100644",
+      "size": 1466
+    },
+    {
+      "path": "skills/seo/references/local-schema-types.md",
+      "sha": "dbeeb63be13f8eca95e66447e0e8587d1559349b",
+      "mode": "100644",
+      "size": 8214
+    },
+    {
+      "path": "skills/seo/references/local-search-behavior.md",
+      "sha": "2360a5749d90bbd8859fcfe5135c698c9e3f1047",
+      "mode": "100644",
+      "size": 2874
+    },
+    {
+      "path": "skills/seo/references/local-seo-signals.md",
+      "sha": "994b16afc39729fda788ee989d517b7bfdfca81e",
+      "mode": "100644",
+      "size": 7935
+    },
+    {
+      "path": "skills/seo/references/maps-api-endpoints.md",
+      "sha": "1d182cb757609902de36f6828b3e2ddd4fc645ab",
+      "mode": "100644",
+      "size": 6241
+    },
+    {
+      "path": "skills/seo/references/maps-free-apis.md",
+      "sha": "e58f81d37af5ef02a8695adfd6083a4ab223573e",
+      "mode": "100644",
+      "size": 6191
+    },
+    {
+      "path": "skills/seo/references/maps-gbp-checklist.md",
+      "sha": "0911608d6b488e30bede16c24394cb6a63e57663",
+      "mode": "100644",
+      "size": 6695
+    },
+    {
+      "path": "skills/seo/references/maps-geo-grid.md",
+      "sha": "da18d33e1c1d7c10b8009c8693f3c54d15c9f1d6",
+      "mode": "100644",
+      "size": 4375
+    },
+    {
+      "path": "skills/seo/references/quality-gates.md",
+      "sha": "e0af3c2c14b3d67505998df8a36ef35322c8b8d2",
+      "mode": "100644",
+      "size": 6170
+    },
+    {
+      "path": "skills/seo/references/schema-types.md",
+      "sha": "b2e4d699663b6e29e3dbdafecaf77e6bc6aed96b",
+      "mode": "100644",
+      "size": 9459
+    },
+    {
+      "path": "skills/seo/references/thinking-framework-validate-act.md",
+      "sha": "690633a2baddbe15840907f91ebd599ea976d6d6",
+      "mode": "100644",
+      "size": 3084
+    },
+    {
+      "path": "skills/seo/references/thinking-framework.md",
+      "sha": "560246b75282fbbdb1bfc356da18e82ba97dc03d",
+      "mode": "100644",
+      "size": 6778
+    },
+    {
+      "path": "skills/seo/SKILL.md",
+      "sha": "271d383af7350b7e37bc039f281c1a299be0420e",
+      "mode": "100644",
+      "size": 20126
+    },
+    {
+      "path": ".devcontainer/devcontainer.json",
+      "sha": "2cc25b070a4d1ab909b490bddb24471bf3011e7c",
+      "mode": "100644",
+      "size": 340
+    },
+    {
+      "path": ".github/CODEOWNERS",
+      "sha": "6613d260780bb4dea76a859a15a29616f9aed795",
+      "mode": "100644",
+      "size": 1385
+    },
+    {
+      "path": ".github/dependabot.yml",
+      "sha": "a54f9a33f6f42829ff9089e61b0e569a1094df6d",
+      "mode": "100644",
+      "size": 747
+    },
+    {
+      "path": ".github/FUNDING.yml",
+      "sha": "0d0406789e8765b13b9f20a3802a6c9591daf003",
+      "mode": "100644",
+      "size": 55
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.yml",
+      "sha": "b990b10a04041233fcdf84cee00413e73a3a731a",
+      "mode": "100644",
+      "size": 1127
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "sha": "2ac9d0ccc46ee3dcf66e7687378d343c810b1eca",
+      "mode": "100644",
+      "size": 205
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/feature_request.yml",
+      "sha": "c1e824ebb694d879bff471c5cd2930dec99a66d4",
+      "mode": "100644",
+      "size": 883
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/task.yml",
+      "sha": "bb194e1a15b1b3c4b4a44b2c4806caabacaa916a",
+      "mode": "100644",
+      "size": 1467
+    },
+    {
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "sha": "30f993898f30be2b7ef9003769f6d2759326c71d",
+      "mode": "100644",
+      "size": 532
+    },
+    {
+      "path": ".github/release.yml",
+      "sha": "c3ccd31ee6ce8c2bbb840c7aa4506f277ba2d8e4",
+      "mode": "100644",
+      "size": 473
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha": "3c41bf2c8fe30b019c719fccaf77b0d31c716422",
+      "mode": "100644",
+      "size": 6324
+    },
+    {
+      "path": ".github/workflows/v2.yml",
+      "sha": "361bb642a72203ab93f50aace9c66d71a37756db",
+      "mode": "100644",
+      "size": 5401
+    },
+    {
+      "path": ".github/workflows/windows-smoke.yml",
+      "sha": "eb5e5d98a03e3315d99b80fff4f80e7d8b9919e9",
+      "mode": "100644",
+      "size": 18398
+    },
+    {
+      "path": ".gitignore",
+      "sha": "d1a1e96fcd87bd74eaed2da89cee47f96d81e69b",
+      "mode": "100644",
+      "size": 3685
+    },
+    {
+      "path": "AGENTS.md",
+      "sha": "18f0697a4cdaec36c5583f4030bb1a8ed6804115",
+      "mode": "100644",
+      "size": 9644
+    },
+    {
+      "path": "assets/cover.svg",
+      "sha": "202042c13e2e1c050858afbd852ab85dd5153854",
+      "mode": "100644",
+      "size": 71889
+    },
+    {
+      "path": "assets/framework.svg",
+      "sha": "e908f57792fdd343f51e25854e8770a8c87d37af",
+      "mode": "100644",
+      "size": 12932
+    },
+    {
+      "path": "assets/growth-3-months.png",
+      "sha": "fdaf76496db09b9544a7a22ce5c4ad9b8d92f6ef",
+      "mode": "100644",
+      "size": 119054
+    },
+    {
+      "path": "assets/readme/btn-hub.svg",
+      "sha": "6fa1967c12718760977af09ea32f750ef0aacd98",
+      "mode": "100644",
+      "size": 2999
+    },
+    {
+      "path": "assets/readme/btn-pro.svg",
+      "sha": "5206022e0daef0c4d7af8680af1e3b6ec2525299",
+      "mode": "100644",
+      "size": 2691
+    },
+    {
+      "path": "assets/readme/btn-youtube.svg",
+      "sha": "ec9002bd9193edf759b30eff52bc96d929f3e23f",
+      "mode": "100644",
+      "size": 2599
+    },
+    {
+      "path": "assets/readme/homies-tour.jpg",
+      "sha": "88250de393207bdf291cdf4a62e33a8c1f9a88e7",
+      "mode": "100644",
+      "size": 85718
+    },
+    {
+      "path": "assets/readme/screen.svg",
+      "sha": "60766f6bc4a008711f14d025d7fd5c9c37558468",
+      "mode": "100644",
+      "size": 171839
+    },
+    {
+      "path": "assets/readme/v3/credits.svg",
+      "sha": "269cedef782016d260ff5df2e395840bd68dac3a",
+      "mode": "100644",
+      "size": 262394
+    },
+    {
+      "path": "assets/readme/v3/hero.svg",
+      "sha": "52567613e17fd0bf47dc8f6b6a3c5b0298e840fa",
+      "mode": "100644",
+      "size": 675051
+    },
+    {
+      "path": "assets/readme/v3/install.svg",
+      "sha": "3e33cdf1bd0b7bdb8a67f87450581d85e66d225b",
+      "mode": "100644",
+      "size": 177924
+    },
+    {
+      "path": "assets/readme/v3/map.svg",
+      "sha": "277bd21d8f7b40e4b0187e89b986616ba921ef7e",
+      "mode": "100644",
+      "size": 231492
+    },
+    {
+      "path": "assets/readme/v3/plat-unix.svg",
+      "sha": "add4bbb670857adc4dbe9bce84b8369b5ffd6d19",
+      "mode": "100644",
+      "size": 29765
+    },
+    {
+      "path": "assets/readme/v3/plat-win.svg",
+      "sha": "30e91d6b466d2750b89b5c0f82df243e999e922c",
+      "mode": "100644",
+      "size": 30427
+    },
+    {
+      "path": "assets/readme/v3/shop.svg",
+      "sha": "f3d5994b4a96ddced80ce5069af689334020bf4a",
+      "mode": "100644",
+      "size": 212385
+    },
+    {
+      "path": "assets/readme/v3/team.svg",
+      "sha": "be16d19ba588ef1371447a31a678c185c010b93a",
+      "mode": "100644",
+      "size": 207027
+    },
+    {
+      "path": "assets/signal-flow.svg",
+      "sha": "cec7a9b02762ced40c04ac396fdcd5fb32de412d",
+      "mode": "100644",
+      "size": 15937
+    },
+    {
+      "path": "assets/sub-skills.svg",
+      "sha": "baf823fd8867c09d2a27e53a29cb5d80325e2a90",
+      "mode": "100644",
+      "size": 13219
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha": "9fefbf961bc60fa8016134cf48af97db9b72c22a",
+      "mode": "100644",
+      "size": 128670
+    },
+    {
+      "path": "CITATION.cff",
+      "sha": "4388735087fa415cf1822a19db31129635f628dd",
+      "mode": "100644",
+      "size": 517
+    },
+    {
+      "path": "CLAUDE.md",
+      "sha": "efe5b8b17b030dcfcce3fd72073e853d75080d99",
+      "mode": "100644",
+      "size": 20107
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "sha": "45a9c0c6d7665f60a51562343764c44770e48712",
+      "mode": "100644",
+      "size": 5577
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha": "f017ef183eb53b185fe27b165498c68c8d8e106d",
+      "mode": "100644",
+      "size": 3221
+    },
+    {
+      "path": "CONTRIBUTORS.md",
+      "sha": "a93333a03fa64514c85dfabda1a323c41b2d8166",
+      "mode": "100644",
+      "size": 21485
+    },
+    {
+      "path": "data/google-updates.json",
+      "sha": "f330030bd0ace3c9466d07897f4322bfa239e28d",
+      "mode": "100644",
+      "size": 31602
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "sha": "a482100c63300e85119a2ccf9bf8f0093a6ff915",
+      "mode": "100644",
+      "size": 15647
+    },
+    {
+      "path": "docs/COMMANDS.md",
+      "sha": "cc9510b2ccded3a856d579b8e584d003053c15d3",
+      "mode": "100644",
+      "size": 27379
+    },
+    {
+      "path": "docs/COMMUNITY-INTEGRATIONS.md",
+      "sha": "9c3a5b5bbb93e9c0bb7c93443f17c3aaab0bd2cd",
+      "mode": "100644",
+      "size": 2028
+    },
+    {
+      "path": "docs/FINAL-VERIFICATION-v2.2.5-2026-08-26.md",
+      "sha": "79a0f4c0aca4339c0378fdc68f739783a385a975",
+      "mode": "100644",
+      "size": 8671
+    },
+    {
+      "path": "docs/INSTALLATION.md",
+      "sha": "9c0aeb2efdb16e68a1bb9a833d32775ae975dd0a",
+      "mode": "100644",
+      "size": 4389
+    },
+    {
+      "path": "docs/MCP-INTEGRATION.md",
+      "sha": "ea5f5d222160cac19286fd28244781aeeef5a51b",
+      "mode": "100644",
+      "size": 4962
+    },
+    {
+      "path": "docs/MIGRATION-v1-to-v2.md",
+      "sha": "f323f69aae8f4d6cc5a5c999f868f5c2e87150fa",
+      "mode": "100644",
+      "size": 9001
+    },
+    {
+      "path": "docs/TROUBLESHOOTING.md",
+      "sha": "02a35afe058ea6f22c6699ec8576e4c90e830595",
+      "mode": "100644",
+      "size": 5225
+    },
+    {
+      "path": "docs/WORKFLOW-public-private.md",
+      "sha": "e3284884763da66246097445b65befa484eb5eba",
+      "mode": "100644",
+      "size": 7400
+    },
+    {
+      "path": "hooks/hooks.json",
+      "sha": "dd4b9ccf0c10e4be0b488b5a67bd59d9d9dad3fb",
+      "mode": "100644",
+      "size": 443
+    },
+    {
+      "path": "hooks/run-python-hook.js",
+      "sha": "4c07b41ba009a35e966a5fabf501fefd9251deeb",
+      "mode": "100644",
+      "size": 2611
+    },
+    {
+      "path": "hooks/validate-schema.py",
+      "sha": "a5aa12b30ad18ec992304932f781aaea05170589",
+      "mode": "100755",
+      "size": 13972
+    },
+    {
+      "path": "install.ps1",
+      "sha": "5a550e5c2eefc29698aa33055e032d3f49e7ea57",
+      "mode": "100644",
+      "size": 16213
+    },
+    {
+      "path": "install.sh",
+      "sha": "661c99a1972708bd4793aad2073ac4cb3e3ea654",
+      "mode": "100755",
+      "size": 9759
+    },
+    {
+      "path": "LICENSE",
+      "sha": "94fac7465f1e76414fc59f9fd97cdfd2105e030d",
+      "mode": "100644",
+      "size": 1069
+    },
+    {
+      "path": "PRIVACY.md",
+      "sha": "c35de1747d559d276a16d1d69d792fca5834afa2",
+      "mode": "100644",
+      "size": 6529
+    },
+    {
+      "path": "README.md",
+      "sha": "03f6ddb23d6eb28d452cf37645b328bbcd212d57",
+      "mode": "100644",
+      "size": 23313
+    },
+    {
+      "path": "schema/templates.json",
+      "sha": "5b831fee55e30539037fd6a9a93c54838b90225f",
+      "mode": "100644",
+      "size": 9737
+    },
+    {
+      "path": "screenshots/seo-audit-demo.gif",
+      "sha": "3c242e0dac57575ad6499b3ac92b8ee7b9149354",
+      "mode": "100644",
+      "size": 659452
+    },
+    {
+      "path": "screenshots/seo-command-demo.gif",
+      "sha": "896f5f5af7760a181516cf983f913b8848601795",
+      "mode": "100644",
+      "size": 978003
+    },
+    {
+      "path": "SECURITY.md",
+      "sha": "0c8016fa303c88fd8e727432030b52a06d0e5678",
+      "mode": "100644",
+      "size": 10447
+    },
+    {
+      "path": "tests/fixtures/dataforseo_mcp_2_8_10_tools.txt",
+      "sha": "16d018c37b0ab6e32c9e89c7771189bf11fb1628",
+      "mode": "100644",
+      "size": 2635
+    },
+    {
+      "path": "tests/fixtures/lighthouse_agentic_13_5_psi.json",
+      "sha": "382c00aa0c852835b866980900a51f100a855c88",
+      "mode": "100644",
+      "size": 6863
+    },
+    {
+      "path": "tests/test_agent_mcp_permissions.py",
+      "sha": "90e9179b3d003eb42ea64b0c1940a99b01402574",
+      "mode": "100644",
+      "size": 1752
+    },
+    {
+      "path": "tests/test_agent_untrusted_content.py",
+      "sha": "2357001906325c28f5fc513a634d8821705689a5",
+      "mode": "100644",
+      "size": 3024
+    },
+    {
+      "path": "tests/test_agentic.py",
+      "sha": "dc84a229a7e8f75f52100f5f8bfaf6aaed9d35ae",
+      "mode": "100644",
+      "size": 32564
+    },
+    {
+      "path": "tests/test_ai_crawler_claims.py",
+      "sha": "938c8b52222d2211426860f405212033a84345b9",
+      "mode": "100644",
+      "size": 7994
+    },
+    {
+      "path": "tests/test_audit_agent_turn_budget.py",
+      "sha": "5bd41c0d9126cefcf2e2de788e5eb743637c7c13",
+      "mode": "100644",
+      "size": 4177
+    },
+    {
+      "path": "tests/test_audit_instructions.py",
+      "sha": "45ae2ec183d21d03e315af59a8fa266f5fb63c6a",
+      "mode": "100644",
+      "size": 3217
+    },
+    {
+      "path": "tests/test_backlink_score_gate.py",
+      "sha": "adab8cd347d95e121125f33e6528efd8ad43cbfe",
+      "mode": "100644",
+      "size": 5315
+    },
+    {
+      "path": "tests/test_backlinks_auth_hardening.py",
+      "sha": "a4c50df7eea2ef8e723b706a679a09906d722f88",
+      "mode": "100644",
+      "size": 6049
+    },
+    {
+      "path": "tests/test_banana_api_key_safety.py",
+      "sha": "cd39c840c7535b6e9f5763cf43bc8aa45398359e",
+      "mode": "100644",
+      "size": 2533
+    },
+    {
+      "path": "tests/test_banana_cost_tracker.py",
+      "sha": "296302b98372252826e65a29e8f432b1b0b54727",
+      "mode": "100644",
+      "size": 7819
+    },
+    {
+      "path": "tests/test_banana_install_layout.py",
+      "sha": "80f08ed9519d7b2277878720903fd545bed10182",
+      "mode": "100644",
+      "size": 2393
+    },
+    {
+      "path": "tests/test_banana_key_masking.py",
+      "sha": "a6b141a3647a9c2c45dcd0acad404ccf616ece7e",
+      "mode": "100644",
+      "size": 1563
+    },
+    {
+      "path": "tests/test_banana_setup_mcp_atomic_write.py",
+      "sha": "ca8e9604f74cf85e5a60dcdfe82f802c805e7377",
+      "mode": "100644",
+      "size": 3218
+    },
+    {
+      "path": "tests/test_bing_webmaster.py",
+      "sha": "9317f2ad8e4e70c757996b9401ca3bf949335395",
+      "mode": "100644",
+      "size": 9471
+    },
+    {
+      "path": "tests/test_canonical_facts.py",
+      "sha": "8d2893b796365b49fb1bc035fa5e7765ad4286e2",
+      "mode": "100644",
+      "size": 6643
+    },
+    {
+      "path": "tests/test_capture_screenshot_hygiene.py",
+      "sha": "8c746b2b9fadedcdfff7c426c4de4b5c0875f188",
+      "mode": "100644",
+      "size": 32880
+    },
+    {
+      "path": "tests/test_capture_screenshot_paths.py",
+      "sha": "b7d4d158c1c37edb1e56ea5aef524b54e6d976f9",
+      "mode": "100644",
+      "size": 2581
+    },
+    {
+      "path": "tests/test_cluster_map_escaping.py",
+      "sha": "980a95583dc44074d00a7e69c7ea7bb58adc0345",
+      "mode": "100644",
+      "size": 2018
+    },
+    {
+      "path": "tests/test_commoncrawl_graph.py",
+      "sha": "1d15e0eb4667c59ae5bb2759d27a555e2e38237c",
+      "mode": "100644",
+      "size": 5468
+    },
+    {
+      "path": "tests/test_consistency_check.py",
+      "sha": "eb5097c2179f15f333fa479dfd450eaeacbc166d",
+      "mode": "100644",
+      "size": 4804
+    },
+    {
+      "path": "tests/test_content_humanize.py",
+      "sha": "c50102e5dc7a47969b6292bee5499da97e5be5a4",
+      "mode": "100644",
+      "size": 3357
+    },
+    {
+      "path": "tests/test_content_quality.py",
+      "sha": "b04e18803f79a93945d07861d59c5a0615365ce0",
+      "mode": "100644",
+      "size": 23105
+    },
+    {
+      "path": "tests/test_contributors.py",
+      "sha": "7dee0b3fd23093f7ebf3bd72e6d75d8416215597",
+      "mode": "100644",
+      "size": 1425
+    },
+    {
+      "path": "tests/test_cross_platform_hooks.py",
+      "sha": "6063a8146959d6da8e0e56bbfe9a8a441645952f",
+      "mode": "100644",
+      "size": 4970
+    },
+    {
+      "path": "tests/test_crux_history_trends.py",
+      "sha": "4577c011d2d71170d6aec54fcfa5f304f6c82e8e",
+      "mode": "100644",
+      "size": 2105
+    },
+    {
+      "path": "tests/test_dataforseo_costs.py",
+      "sha": "81d544a8e337dd88bf86b653fdcf77e92bc12e88",
+      "mode": "100644",
+      "size": 6886
+    },
+    {
+      "path": "tests/test_dataforseo_merchant_polling.py",
+      "sha": "80f4489602103f59c8226f5086f47d1f4b79b5e3",
+      "mode": "100644",
+      "size": 3753
+    },
+    {
+      "path": "tests/test_dataforseo_normalize_currency.py",
+      "sha": "3efced664aac121882fda291046e80360f8d3d48",
+      "mode": "100644",
+      "size": 1744
+    },
+    {
+      "path": "tests/test_dataforseo_tool_names.py",
+      "sha": "64340bddb57103b70aa519bcdddaaed79f184eb1",
+      "mode": "100644",
+      "size": 2026
+    },
+    {
+      "path": "tests/test_document_base_url.py",
+      "sha": "235f5ad738cbcd42ee076cf00022ad9e3dd1b739",
+      "mode": "100644",
+      "size": 3552
+    },
+    {
+      "path": "tests/test_domain_history.py",
+      "sha": "d6d568fb1e50073365a1abdd0c36aed31212f8cd",
+      "mode": "100644",
+      "size": 3406
+    },
+    {
+      "path": "tests/test_drift_portability.py",
+      "sha": "7d323a2bbfe6aa1d4db43c02a9785f35af633783",
+      "mode": "100644",
+      "size": 1959
+    },
+    {
+      "path": "tests/test_drift_robots_directives.py",
+      "sha": "cc8f779a9522891b9dd460bdb7ba51c7656fa55c",
+      "mode": "100644",
+      "size": 2630
+    },
+    {
+      "path": "tests/test_drift_url_normalization.py",
+      "sha": "e43c0dc5228bffe0d7f57998cb2694683e07826b",
+      "mode": "100644",
+      "size": 1171
+    },
+    {
+      "path": "tests/test_extension_installer_injection.py",
+      "sha": "b763a068f684b360664dab38ee4ccfa59d976ed3",
+      "mode": "100644",
+      "size": 7318
+    },
+    {
+      "path": "tests/test_extension_mirrors.py",
+      "sha": "9f7321c8464da65f2c360473e0877341fbc5d640",
+      "mode": "100644",
+      "size": 2866
+    },
+    {
+      "path": "tests/test_fetch_page_cli.py",
+      "sha": "276e112878b83fd47568a50d99fffc5aa43cacce",
+      "mode": "100644",
+      "size": 7217
+    },
+    {
+      "path": "tests/test_fetch_page_decoding.py",
+      "sha": "a36837877b7d2ff5141a676c2ab47b0dd76f9dea",
+      "mode": "100644",
+      "size": 6591
+    },
+    {
+      "path": "tests/test_fetch_page_size_cap.py",
+      "sha": "5b600db061172c3f53607d8a556e5a3a517dabc5",
+      "mode": "100644",
+      "size": 3179
+    },
+    {
+      "path": "tests/test_fetch_page_timing.py",
+      "sha": "d46239f7b754571d2a744f2f86ff968c4737020b",
+      "mode": "100644",
+      "size": 22519
+    },
+    {
+      "path": "tests/test_file_size_limits.py",
+      "sha": "20ebc1e48b57ea5b11e9507dd30729ceb9ab727e",
+      "mode": "100644",
+      "size": 1222
+    },
+    {
+      "path": "tests/test_firecrawl_install_atomic_write.py",
+      "sha": "8de9ccdf47ead7606e40c439a2d0ebf059092ccd",
+      "mode": "100644",
+      "size": 3904
+    },
+    {
+      "path": "tests/test_ga4_top_pages_errors.py",
+      "sha": "e9745f3544e16dc97355c51c0520679f6368207a",
+      "mode": "100644",
+      "size": 4659
+    },
+    {
+      "path": "tests/test_gbp_checklist_mapping.py",
+      "sha": "79385eac76b351bca634da0d2aa1f3263d4412c9",
+      "mode": "100644",
+      "size": 943
+    },
+    {
+      "path": "tests/test_gbp_lint_and_polish.py",
+      "sha": "75a6d658698dbdc43ed1f5afdc95f5d8f081f793",
+      "mode": "100644",
+      "size": 4132
+    },
+    {
+      "path": "tests/test_google_api_key_safety.py",
+      "sha": "fdd7fcd1f58ad1f84a1ebcde3de63e50c7509baf",
+      "mode": "100644",
+      "size": 5416
+    },
+    {
+      "path": "tests/test_google_gcloud_adc.py",
+      "sha": "598df69f86d21ec679304162c06498d6e7e986e0",
+      "mode": "100644",
+      "size": 2935
+    },
+    {
+      "path": "tests/test_google_oauth_flow.py",
+      "sha": "5ed7cb18c508b40cef6e55589b60f70aaf8e49c7",
+      "mode": "100644",
+      "size": 11259
+    },
+    {
+      "path": "tests/test_google_property_cli.py",
+      "sha": "d7b467636d6dc59f77c4cb54f07e2be031e386bf",
+      "mode": "100644",
+      "size": 6609
+    },
+    {
+      "path": "tests/test_google_property_resolution.py",
+      "sha": "05de2ee7183958c42f245d89e66bf630689ff40e",
+      "mode": "100644",
+      "size": 6506
+    },
+    {
+      "path": "tests/test_google_report_full_audit.py",
+      "sha": "bf9b3d0534e9d3f2135b47354dd768b320dcfd3c",
+      "mode": "100644",
+      "size": 8144
+    },
+    {
+      "path": "tests/test_gsc_pagination.py",
+      "sha": "421ac4a84c6b3cb11dbb6e551ce76b7d625be368",
+      "mode": "100644",
+      "size": 5350
+    },
+    {
+      "path": "tests/test_gsc_query.py",
+      "sha": "abfcaefb8b64f11ea4d0269ce9acb83793f9b3f9",
+      "mode": "100644",
+      "size": 2374
+    },
+    {
+      "path": "tests/test_gsc_totals_aggregate.py",
+      "sha": "fd72a15c2b3c4cd15d6ce14f3b3d5a12651e95ed",
+      "mode": "100644",
+      "size": 3128
+    },
+    {
+      "path": "tests/test_hosted_plugin_layout.py",
+      "sha": "b8cacd498b1e2b214656363620373fd86f6225e3",
+      "mode": "100644",
+      "size": 5481
+    },
+    {
+      "path": "tests/test_hostile_inputs.py",
+      "sha": "e70e7b03a2d38d46dad75b0f70983a3727aa4434",
+      "mode": "100644",
+      "size": 10284
+    },
+    {
+      "path": "tests/test_image_format_probe.py",
+      "sha": "7a8b7403991473cb626d42f2aaacc485f1149cb7",
+      "mode": "100644",
+      "size": 7843
+    },
+    {
+      "path": "tests/test_indexing_notify_quota.py",
+      "sha": "25de2290cc84425678f093d42a56a1f8f399267e",
+      "mode": "100644",
+      "size": 2221
+    },
+    {
+      "path": "tests/test_indexing_notify.py",
+      "sha": "aeaedc628579d85a10cc34ad6e6a48295570cf4d",
+      "mode": "100644",
+      "size": 2125
+    },
+    {
+      "path": "tests/test_indexnow_cli_errors.py",
+      "sha": "001a97206f9eada5865e6a50fcfc3c532ea0a9c7",
+      "mode": "100644",
+      "size": 2610
+    },
+    {
+      "path": "tests/test_indexnow_submit.py",
+      "sha": "816e1c244110554c815919bb892ce1b697c1f30b",
+      "mode": "100644",
+      "size": 2031
+    },
+    {
+      "path": "tests/test_keywordseverywhere_api.py",
+      "sha": "a49c3609152e62b02694b14bd41663f2004e2dd1",
+      "mode": "100644",
+      "size": 6950
+    },
+    {
+      "path": "tests/test_lazy_detection.py",
+      "sha": "af0778316035a1a258f37ed9352c2fc965fcbcee",
+      "mode": "100644",
+      "size": 3189
+    },
+    {
+      "path": "tests/test_llms_txt_validation.py",
+      "sha": "c4029e7b879c8f49195cff6aa517d806f46a896e",
+      "mode": "100644",
+      "size": 16865
+    },
+    {
+      "path": "tests/test_manifest_consistency.py",
+      "sha": "3c9c6ac043543fc088cb94942b20eb9fd035170c",
+      "mode": "100644",
+      "size": 22008
+    },
+    {
+      "path": "tests/test_manual_install_layout.py",
+      "sha": "caba23ae8a0e052e233e678663b4f76ec4280d50",
+      "mode": "100644",
+      "size": 2364
+    },
+    {
+      "path": "tests/test_matomo_report.py",
+      "sha": "543b5cf35174a5855cf0cff4fcfbdfb018edf19a",
+      "mode": "100644",
+      "size": 42460
+    },
+    {
+      "path": "tests/test_metadata_template.py",
+      "sha": "e6d4baf4abbdf9e17bb3581e665d9d7a96a57dd0",
+      "mode": "100644",
+      "size": 17094
+    },
+    {
+      "path": "tests/test_moz_api.py",
+      "sha": "6a65feb7f09008a96cdba16335dc9024cd2be4d4",
+      "mode": "100644",
+      "size": 2736
+    },
+    {
+      "path": "tests/test_nlp_analyze.py",
+      "sha": "9d94612a82d9c0357cbbe9176545c2370ad94db8",
+      "mode": "100644",
+      "size": 7323
+    },
+    {
+      "path": "tests/test_no_em_dash.py",
+      "sha": "167d231f4a329c1106a26969384168eef940e2fc",
+      "mode": "100644",
+      "size": 5992
+    },
+    {
+      "path": "tests/test_page_checks.py",
+      "sha": "17fcce7c0d6851a8262e064d454366a4d74c3afd",
+      "mode": "100644",
+      "size": 39798
+    },
+    {
+      "path": "tests/test_pagespeed_null_category_score.py",
+      "sha": "47892041e8e1b87df61973a2dab8f9439771a86b",
+      "mode": "100644",
+      "size": 2309
+    },
+    {
+      "path": "tests/test_pagespeed_psi_only_exit.py",
+      "sha": "e6025a9b40d9be31cae5e3916742e803dafcfccf",
+      "mode": "100644",
+      "size": 1666
+    },
+    {
+      "path": "tests/test_parasite_risk_and_extensions.py",
+      "sha": "124bb5413583caff8823e6f41732ed82151b4db1",
+      "mode": "100644",
+      "size": 7629
+    },
+    {
+      "path": "tests/test_parse_html_extraction.py",
+      "sha": "39a5f8af509463e9e4f363e70207039c7393f377",
+      "mode": "100644",
+      "size": 27634
+    },
+    {
+      "path": "tests/test_parse_html_inline_spacing.py",
+      "sha": "0cc7b471e855d9ef53cbd2f32480707f1f7e6478",
+      "mode": "100644",
+      "size": 3640
+    },
+    {
+      "path": "tests/test_parse_html_malformed_urls.py",
+      "sha": "0842d9441cfc5644d59eac8a082e54364aaf4037",
+      "mode": "100644",
+      "size": 1649
+    },
+    {
+      "path": "tests/test_parse_html_rel_case.py",
+      "sha": "a10d3f2bc52cb31c1614529c5f2cdeb1efb162f1",
+      "mode": "100644",
+      "size": 3605
+    },
+    {
+      "path": "tests/test_phase_j_executable.py",
+      "sha": "1f2906e62581b981af93a928edadebc9097b04da",
+      "mode": "100644",
+      "size": 15006
+    },
+    {
+      "path": "tests/test_portability.py",
+      "sha": "1f503f9c6e1a9e98b309206016c91003cad2a36a",
+      "mode": "100644",
+      "size": 4259
+    },
+    {
+      "path": "tests/test_powershell_ascii.py",
+      "sha": "e5d7c701e5a5c5b217cfb42c7926b4673d1768bf",
+      "mode": "100644",
+      "size": 920
+    },
+    {
+      "path": "tests/test_preload_check.py",
+      "sha": "9d4012b078328932dc05690557c6720a449223ab",
+      "mode": "100644",
+      "size": 1658
+    },
+    {
+      "path": "tests/test_pyproject_metadata.py",
+      "sha": "86a10fd600efe7940717bb7d98de10c61131018b",
+      "mode": "100644",
+      "size": 2003
+    },
+    {
+      "path": "tests/test_python_range.py",
+      "sha": "a065a4d4f6b47f1bc712406b8cfe3795d808a1bf",
+      "mode": "100644",
+      "size": 5278
+    },
+    {
+      "path": "tests/test_redirect_body_cap.py",
+      "sha": "0c23f97417b5cecd6a84e616b3e77638eb1dd5bf",
+      "mode": "100644",
+      "size": 4862
+    },
+    {
+      "path": "tests/test_render_js_gap.py",
+      "sha": "4a664a422e1287ad556add29ebcaaace1f3d902c",
+      "mode": "100644",
+      "size": 15668
+    },
+    {
+      "path": "tests/test_render_page.py",
+      "sha": "8fff0428dc91dca8343b1d86665043b6c0137f16",
+      "mode": "100644",
+      "size": 29559
+    },
+    {
+      "path": "tests/test_runtime_installers.py",
+      "sha": "d666117628da0997e332ade5b626079dddb82168",
+      "mode": "100644",
+      "size": 1877
+    },
+    {
+      "path": "tests/test_runtime.py",
+      "sha": "2b9a2689bfbc4beb60c26f0d40ec9736ddf3e0b6",
+      "mode": "100644",
+      "size": 18504
+    },
+    {
+      "path": "tests/test_schema_graph_semantics.py",
+      "sha": "a2bd30a4da62d4d188293077af6be4283a82c6f8",
+      "mode": "100644",
+      "size": 4820
+    },
+    {
+      "path": "tests/test_schema_hook_detection.py",
+      "sha": "899d7f6fc9b98ed856fddea76cd165ad5659a205",
+      "mode": "100644",
+      "size": 9561
+    },
+    {
+      "path": "tests/test_schema_hook_policy.py",
+      "sha": "e7c4cd27cd8fdd9e33b0ef3a713e9bc9f092f7e5",
+      "mode": "100644",
+      "size": 7572
+    },
+    {
+      "path": "tests/test_schema_hook_redos.py",
+      "sha": "b0b7e85ecd84b879d6b6372ddf4939b518cabc7b",
+      "mode": "100644",
+      "size": 1023
+    },
+    {
+      "path": "tests/test_schema_v2.py",
+      "sha": "1ef1f5e1b287dd919b5464e4c2a2d180a1ac6a49",
+      "mode": "100644",
+      "size": 14090
+    },
+    {
+      "path": "tests/test_sitemap_bom.py",
+      "sha": "6e740f5e4658e185809d7f5c8aa79b81dfe04e51",
+      "mode": "100644",
+      "size": 1965
+    },
+    {
+      "path": "tests/test_sitemap_discovery.py",
+      "sha": "73d80f6bc43ebe8b17bff95e564f8de0a5e81a40",
+      "mode": "100644",
+      "size": 12624
+    },
+    {
+      "path": "tests/test_sitemap_expand.py",
+      "sha": "5d313d85cf5fc419b0d3c6ebf0ba1e9b82dc41ad",
+      "mode": "100644",
+      "size": 29048
+    },
+    {
+      "path": "tests/test_sitemap_news_limit.py",
+      "sha": "3024e3ec5de21e7d80e4b04ce035ef7794845b69",
+      "mode": "100644",
+      "size": 841
+    },
+    {
+      "path": "tests/test_sync_flow.py",
+      "sha": "23e9c367e774cf5a63d1c2862586be5d0f6074c3",
+      "mode": "100644",
+      "size": 9823
+    },
+    {
+      "path": "tests/test_technical_depth.py",
+      "sha": "a5f5ebe4c462cdf84da8bf157fe72a01aacb539c",
+      "mode": "100644",
+      "size": 8441
+    },
+    {
+      "path": "tests/test_transport_check.py",
+      "sha": "3592c0bcbc0c6fac874f9b55cddc57120059cbb3",
+      "mode": "100644",
+      "size": 43722
+    },
+    {
+      "path": "tests/test_unlighthouse_run.py",
+      "sha": "a98bc1c352029c8f58b4c8b35011b0362f6366b6",
+      "mode": "100644",
+      "size": 6548
+    },
+    {
+      "path": "tests/test_url_safety_ipv6.py",
+      "sha": "7bc18976472f43e660ed4a70bf06122fb5b8f2a9",
+      "mode": "100644",
+      "size": 33653
+    },
+    {
+      "path": "tests/test_url_safety_port_pin.py",
+      "sha": "926608a937f841437c510e3a7f022d2d270fe0b1",
+      "mode": "100644",
+      "size": 12640
+    },
+    {
+      "path": "tests/test_url_safety.py",
+      "sha": "b763c5fb91b93a2f80ee3bac1dbfaf6faca50138",
+      "mode": "100644",
+      "size": 48499
+    },
+    {
+      "path": "tests/test_validate_backlink_report.py",
+      "sha": "5151395fd90329543308f3cd97e85e21c4806f07",
+      "mode": "100644",
+      "size": 3218
+    },
+    {
+      "path": "tests/test_verify_backlinks.py",
+      "sha": "ff3a371d4d003f4f3d12af5d031b2d425f38b122",
+      "mode": "100644",
+      "size": 13739
+    },
+    {
+      "path": "tests/test_windows_uninstaller.py",
+      "sha": "32f1786ffd60eec29a33fccb2cc3dca426305780",
+      "mode": "100644",
+      "size": 1014
+    },
+    {
+      "path": "uninstall.ps1",
+      "sha": "f6466f8880d0a4207499dda71252a4f7f1d0f28c",
+      "mode": "100644",
+      "size": 2503
+    },
+    {
+      "path": "uninstall.sh",
+      "sha": "b173b73679f2e618d48d6adfa258092a181334cc",
+      "mode": "100755",
+      "size": 2038
+    }
+  ]
+}

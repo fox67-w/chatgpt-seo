@@ -1,0 +1,4 @@
+interface:
+  display_name: "SEO: Content Quality"
+  short_description: "Review usefulness, intent, trust and content depth"
+  default_prompt: "Use $seo-content to help with my content quality task using verified evidence."

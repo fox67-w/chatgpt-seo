@@ -1,0 +1,4 @@
+interface:
+  display_name: "SEO: Image SEO"
+  short_description: "Audit and optimize image delivery, metadata and formats"
+  default_prompt: "Use $seo-images to help with my image seo task using verified evidence."

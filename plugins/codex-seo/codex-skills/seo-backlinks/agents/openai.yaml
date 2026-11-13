@@ -1,0 +1,4 @@
+interface:
+  display_name: "SEO: Backlinks"
+  short_description: "Analyze backlink quality, gaps and referring domains"
+  default_prompt: "Use $seo-backlinks to help with my backlinks task using verified evidence."

@@ -1,0 +1,10 @@
+---
+name: "seo"
+description: "Comprehensive SEO analysis for any website or business type. Full site audits, single-page analysis, technical SEO (crawlability, indexability, Core Web Vitals with INP), schema markup, content quality (E-E-A-T), image optimization, sitemap analysis, and GEO for AI Overviews/ChatGPT/Perplexity. Industry detection for SaaS, e-commerce, local, publishers, agencies. Triggers on: SEO, audit, schema, Core Web Vitals, sitemap, E-E-A-T, AI Overviews, GEO, technical SEO, content quality, page speed. Use this hub only when the SEO domain is clear and the requested workflow is not; otherwise use the specific seo-* skill."
+license: MIT
+---
+
+# Codex SEO workflow
+
+Read and follow the [complete workflow](../../skills/seo/SKILL.md) before acting.
+Resolve the runtime and references from that source file, preserving its package layout. Use available Codex tools and follow the evidence and authorization requirements in the complete workflow.

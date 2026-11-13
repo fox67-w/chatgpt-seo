@@ -1,0 +1,4 @@
+interface:
+  display_name: "SEO: Bing Webmaster"
+  short_description: "Inspect Bing data and prepare IndexNow submissions"
+  default_prompt: "Use $seo-bing to help with my bing webmaster task using verified evidence."

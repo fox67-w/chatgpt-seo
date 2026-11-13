@@ -1,0 +1,4 @@
+interface:
+  display_name: "SEO: International SEO"
+  short_description: "Validate hreflang and international page mappings"
+  default_prompt: "Use $seo-hreflang to help with my international seo task using verified evidence."

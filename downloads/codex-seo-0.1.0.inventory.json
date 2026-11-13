@@ -1,0 +1,3227 @@
+[
+  {
+    "path": ".claude-plugin/marketplace.json",
+    "sha256": "34d3385feb3c53049a87b55942eeccbd66496f18f712a00e5d3f639544ecb690",
+    "bytes": 3619
+  },
+  {
+    "path": ".claude-plugin/plugin.json",
+    "sha256": "d6ee6a62907900aceb35b0ac869c8221c3e6ebe37fa60525c9acbeedcf630bb4",
+    "bytes": 1495
+  },
+  {
+    "path": ".codex-plugin/plugin.json",
+    "sha256": "a78602b298f6e360c4aa2a742bf73e105a97cd9ff1a8f43a0041e24fe41ec630",
+    "bytes": 180
+  },
+  {
+    "path": ".devcontainer/devcontainer.json",
+    "sha256": "c87ba931052f3870b1c17ef159c45531e50a36d0319f04d6dcbb97b8c9cb24cb",
+    "bytes": 340
+  },
+  {
+    "path": ".github/CODEOWNERS",
+    "sha256": "4a9048ec80e3c256e4390aff312ed5ce703d1ef05c5cac5788a099e0f4a4381b",
+    "bytes": 1385
+  },
+  {
+    "path": ".github/FUNDING.yml",
+    "sha256": "a108353ea90417f4a66aabeead564df231b23d480392c0ce7ff491160d15e5f4",
+    "bytes": 55
+  },
+  {
+    "path": ".github/ISSUE_TEMPLATE/bug_report.yml",
+    "sha256": "f9826aec43eecec8f7409685146c7afa8ecbc06c4da5f74c65bef1b4feb72bdd",
+    "bytes": 1127
+  },
+  {
+    "path": ".github/ISSUE_TEMPLATE/config.yml",
+    "sha256": "250e7ea280dabcb03327c02f6db41d93fa31a49623caeca5476123239a86edc5",
+    "bytes": 205
+  },
+  {
+    "path": ".github/ISSUE_TEMPLATE/feature_request.yml",
+    "sha256": "8c95ffbbf7f4af03d6956d12c68a00dc7eb7ec1ca03e90fe261498e86007baf2",
+    "bytes": 883
+  },
+  {
+    "path": ".github/ISSUE_TEMPLATE/task.yml",
+    "sha256": "ddb05a746e2adc4c5a43bf6a5c44cc457760e72de6178c52db797adcec5adc90",
+    "bytes": 1467
+  },
+  {
+    "path": ".github/PULL_REQUEST_TEMPLATE.md",
+    "sha256": "928d968f5e7e1687697367e9764d4efc2bc2b9b5b2a82b62e494233bc4aed3bd",
+    "bytes": 532
+  },
+  {
+    "path": ".github/dependabot.yml",
+    "sha256": "9468c0a7fe24c2620006a58092d86151193b7275e482631ad4b15667abac6e5c",
+    "bytes": 747
+  },
+  {
+    "path": ".github/release.yml",
+    "sha256": "08704cec3ae6a65d0b510075ad1d2869dd806257397353961065385c9086fa78",
+    "bytes": 473
+  },
+  {
+    "path": ".github/workflows/ci.yml",
+    "sha256": "f8d682beb6791b2dbe6a58f06a2afe04524c2c541ccfb4eba53c35a4b8876bfb",
+    "bytes": 6324
+  },
+  {
+    "path": ".github/workflows/v2.yml",
+    "sha256": "e37a89c292f766c9e939d2a6a7e07c6896aa0ff7c9afa83066c718cbc2a6041a",
+    "bytes": 5401
+  },
+  {
+    "path": ".github/workflows/windows-smoke.yml",
+    "sha256": "432740d734c362a8bf676c9523030e5f16ab366eb1bd46f1db9cff4c8e787b9a",
+    "bytes": 18398
+  },
+  {
+    "path": ".gitignore",
+    "sha256": "71aeea20e5f0f666083a0b1b650c529f0b1f2de4ac57561e9c61f781a2c9422e",
+    "bytes": 3685
+  },
+  {
+    "path": "AGENTS.md",
+    "sha256": "2993928d6dc83a9fa550429d37d43c9b7d659e9620691627e36583f64acea203",
+    "bytes": 1329
+  },
+  {
+    "path": "CHANGELOG.md",
+    "sha256": "514a6ec23479fd9128a241e3f93d502df5e3367c932fe1ea285b520061b2cef0",
+    "bytes": 128670
+  },
+  {
+    "path": "CITATION.cff",
+    "sha256": "782307d6ea6289fa81b0f0678e629892250f36745c3421dfbb0701e274e04414",
+    "bytes": 517
+  },
+  {
+    "path": "CLAUDE.md",
+    "sha256": "845ec0e6aea0211d621c3bb7d12d386337e0633b7ac1231d3f7f86886d3e5526",
+    "bytes": 20107
+  },
+  {
+    "path": "CODEX_PROVENANCE.json",
+    "sha256": "edca47f34e60587f468420a599ff8b6981145c8aa9b839efa0fee3b4c165805b",
+    "bytes": 1133
+  },
+  {
+    "path": "CODE_OF_CONDUCT.md",
+    "sha256": "c7cda2e1d59d3dd149529e71927db0a5d2055efbb9318a2ad4b4071907030614",
+    "bytes": 5577
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "sha256": "b42342775e5b39dd6479205b81fffb1d77aa9efa5c5fb356e9639da9577cf490",
+    "bytes": 3221
+  },
+  {
+    "path": "CONTRIBUTORS.md",
+    "sha256": "881cc7ee7f04e196c334c74142c24683365be0499a23b069d075b9baecca5e9e",
+    "bytes": 21485
+  },
+  {
+    "path": "LICENSE",
+    "sha256": "a42b3b0253cecea9af810c5207a67b0be8c9a0cfbf52b9302c3d26b063e7a86b",
+    "bytes": 1069
+  },
+  {
+    "path": "NOTICE.md",
+    "sha256": "e2daf1b5045ce50b874228c251de5681dc6c6c84f64155a8c8d5126a4a2f6434",
+    "bytes": 768
+  },
+  {
+    "path": "PRIVACY.md",
+    "sha256": "3cdc883cfd2c1adf357e76953ac4cb32817b36fe19076499057df5bead1335dc",
+    "bytes": 3795
+  },
+  {
+    "path": "README.md",
+    "sha256": "d6e6d4b1cd26c1ed6171afc3543eda44cc2c2b9038932476d04b2c5d49601fbc",
+    "bytes": 1536
+  },
+  {
+    "path": "SECURITY.md",
+    "sha256": "22500f48d51887cf6605940d9576dda8bc4d061cd4ac63bad3c10e762cb6aa72",
+    "bytes": 3896
+  },
+  {
+    "path": "agents/seo-agentic.md",
+    "sha256": "3fd70a9a497f6b0265ba8983b73af6358fdab40667e805bcd78217c363dc7c01",
+    "bytes": 3627
+  },
+  {
+    "path": "agents/seo-backlinks.md",
+    "sha256": "b4c31131f3cbb3c35c3ed862fcab0d94f320134d071efe847cdb6e37a349f141",
+    "bytes": 8686
+  },
+  {
+    "path": "agents/seo-cluster.md",
+    "sha256": "93797d1a9feda51ff872d2c04b318291790b7d7d228a95868d9f3c2baff78411",
+    "bytes": 4305
+  },
+  {
+    "path": "agents/seo-content.md",
+    "sha256": "ab3c07362cc4d320cef4e47bb8d6eb1ca4c99f8e3780bd1a9ff1ab066c077054",
+    "bytes": 5690
+  },
+  {
+    "path": "agents/seo-dataforseo.md",
+    "sha256": "edb05c961d2161226b77e7dda6833ebabdc39a2956b0be9fd0f7a20e3c2b3aec",
+    "bytes": 2810
+  },
+  {
+    "path": "agents/seo-drift.md",
+    "sha256": "317fdf1147809c8b5b2201ea5b746085bd228a51a8f8420d448f4bd7cf386922",
+    "bytes": 3656
+  },
+  {
+    "path": "agents/seo-ecommerce.md",
+    "sha256": "6248301e4fa6b8fdc5bdf82e498bd9354d0881938d8938cdc3ea7d4718cb735e",
+    "bytes": 4513
+  },
+  {
+    "path": "agents/seo-flow.md",
+    "sha256": "29dfc8a59048982b0d6ef0c184712d660791e1b130ee48c42a4199c9729ff0f6",
+    "bytes": 2645
+  },
+  {
+    "path": "agents/seo-geo.md",
+    "sha256": "80b9559650b1ce5f8a661dfde58afe8332ac1b3c76b76cb75b4c3da0200045fb",
+    "bytes": 5058
+  },
+  {
+    "path": "agents/seo-google.md",
+    "sha256": "771a91a34a85bf7c2d1658d707700df41abe5925b318765d991966210938390a",
+    "bytes": 4952
+  },
+  {
+    "path": "agents/seo-image-gen.md",
+    "sha256": "986ab09b1d561a600f0537fef3930355818cf33c10923fcddd5173610dc3b073",
+    "bytes": 3089
+  },
+  {
+    "path": "agents/seo-local.md",
+    "sha256": "40b2ca5a63e913a26cb54539a6f9a28a9ef9e3d26f391c05ab076273e1a557a5",
+    "bytes": 6078
+  },
+  {
+    "path": "agents/seo-maps.md",
+    "sha256": "273f2a5522da5e52800c02237af591ad5182df774fc21a7910e5d8d7fa84ded3",
+    "bytes": 5577
+  },
+  {
+    "path": "agents/seo-performance.md",
+    "sha256": "fa8e72e054e26cb396464c0a2ad9575fffe77b4db5151c6703a41b1b38e76fa0",
+    "bytes": 5736
+  },
+  {
+    "path": "agents/seo-schema.md",
+    "sha256": "0046d364205732158e97d3310208dfb016b4ab00817d2ef1ba4735a7b8ab0376",
+    "bytes": 4633
+  },
+  {
+    "path": "agents/seo-sitemap.md",
+    "sha256": "cce0b88899c7427e23f0bc34e22588f2710428953a7c5668caa6170258402cd3",
+    "bytes": 4815
+  },
+  {
+    "path": "agents/seo-sxo.md",
+    "sha256": "3a0556fecd5291e442e3c4bcf41ebbfab0391926315c19001ef559f480677815",
+    "bytes": 5794
+  },
+  {
+    "path": "agents/seo-technical.md",
+    "sha256": "7ffc0839e5e68cbf054ae4754e4ae9371984fa53c36a8b7a27e507a7357a81b6",
+    "bytes": 3813
+  },
+  {
+    "path": "agents/seo-visual.md",
+    "sha256": "3579aadb367e51760752827885b2e6dc8fa6669fdba661c59fdaa38501127b52",
+    "bytes": 2988
+  },
+  {
+    "path": "assets/cover.svg",
+    "sha256": "2f31636addfe29d202380d94f97f48ff7b9b27d17589523b236d19b4fefb29ba",
+    "bytes": 71889
+  },
+  {
+    "path": "assets/framework.svg",
+    "sha256": "2616f676c0fb7724b3b89607abd539deba717755e928b5cd6fdb2bffb5709f63",
+    "bytes": 12932
+  },
+  {
+    "path": "assets/growth-3-months.png",
+    "sha256": "056ec36ff5039223d6dc5b2a8a0f08f0e2e1f9465b90a146e0aa3f5932524d88",
+    "bytes": 119054
+  },
+  {
+    "path": "assets/readme/btn-hub.svg",
+    "sha256": "707131773a25dd92e3be49d1422b9fb5d2f6fef574d13bf27bf1c77618690cf6",
+    "bytes": 2999
+  },
+  {
+    "path": "assets/readme/btn-pro.svg",
+    "sha256": "99c7443ee36286cc1608dadbff0f23fc84ded2605a140769960838ae15844c22",
+    "bytes": 2691
+  },
+  {
+    "path": "assets/readme/btn-youtube.svg",
+    "sha256": "7165a437271af2f2e0be290aefd1da46d91641ae331f6f31f1216cb1a36a46a8",
+    "bytes": 2599
+  },
+  {
+    "path": "assets/readme/homies-tour.jpg",
+    "sha256": "bcf66286ca6b6b4bf7401107768214fe0eae34ec0559a7354dbb16ea0571bff0",
+    "bytes": 85718
+  },
+  {
+    "path": "assets/readme/screen.svg",
+    "sha256": "416f8ad61d3a799a0675ecab00f07527de696ed94717b3adb5551bd870c766c7",
+    "bytes": 171839
+  },
+  {
+    "path": "assets/readme/v3/credits.svg",
+    "sha256": "e895ad3ea19d10857850f4cd27232420f7df34223e7248e5bf0308a722991b8f",
+    "bytes": 262394
+  },
+  {
+    "path": "assets/readme/v3/hero.svg",
+    "sha256": "6c794bef65182f0ea7c75a2b5c8b7cf4f858446414bcc05dd5e65c5814d964be",
+    "bytes": 675051
+  },
+  {
+    "path": "assets/readme/v3/install.svg",
+    "sha256": "c3d5830d763cfbac53d38ca964f02af85d0a723cd51794cb2dcf402d0489f048",
+    "bytes": 177924
+  },
+  {
+    "path": "assets/readme/v3/map.svg",
+    "sha256": "0e631bd7eaa907f4002fc23c7a87df0de89fb69e1e6de11ac1134ae96b41bda7",
+    "bytes": 231492
+  },
+  {
+    "path": "assets/readme/v3/plat-unix.svg",
+    "sha256": "376ff1e5e49434030963d765460cc3d212d1bbb2df3f7a0c6f7c66dfa67fdb37",
+    "bytes": 29765
+  },
+  {
+    "path": "assets/readme/v3/plat-win.svg",
+    "sha256": "560b128d4f7c2eb59e70bded0db77d442bb7fe0a7fd290a06675b4207e42cf6c",
+    "bytes": 30427
+  },
+  {
+    "path": "assets/readme/v3/shop.svg",
+    "sha256": "d2073bcda432a87ed7b1e0d10d6773d15e5a77ad70547f631770bd68604c8cc3",
+    "bytes": 212385
+  },
+  {
+    "path": "assets/readme/v3/team.svg",
+    "sha256": "0abd9f72890c5850e249d2bb292b453975aa9404b41bb22d07bd11afcf04e4e1",
+    "bytes": 207027
+  },
+  {
+    "path": "assets/signal-flow.svg",
+    "sha256": "24d7da830835f42e9495a9ffac24aff1569837a57e52ac9a190ccefb01a0c740",
+    "bytes": 15937
+  },
+  {
+    "path": "assets/sub-skills.svg",
+    "sha256": "1ad8f2cc3b3e7ae12b784774e2ab689f82ef39622d808c5ab69142f29f1a1a47",
+    "bytes": 13219
+  },
+  {
+    "path": "codex-skills/seo/SKILL.md",
+    "sha256": "031c61ce29eddd9bfa516bb652e67dfcdcf6b205c57fc0042ce246acbe9833cb",
+    "bytes": 968
+  },
+  {
+    "path": "codex-skills/seo/agents/openai.yaml",
+    "sha256": "800f499fc23545b406d560fd44c54dcd1afe1f2adefc118e6d3461f084944c7b",
+    "bytes": 188
+  },
+  {
+    "path": "codex-skills/seo-agentic/SKILL.md",
+    "sha256": "a702edc552be648d6c0ec6f621dbbbfade27edabb6bcbc30ae08b8fd5ca361b9",
+    "bytes": 845
+  },
+  {
+    "path": "codex-skills/seo-agentic/agents/openai.yaml",
+    "sha256": "46292ab24a5ee22aed3846f762bf97d12cb81ffb9142cd12680ef97b6f98d5a5",
+    "bytes": 217
+  },
+  {
+    "path": "codex-skills/seo-ahrefs/SKILL.md",
+    "sha256": "92349ba9ae8eb86853d8922e6c4bbd0596ba9d4731a83a626baf06e3bb81d597",
+    "bytes": 599
+  },
+  {
+    "path": "codex-skills/seo-ahrefs/agents/openai.yaml",
+    "sha256": "6f03585b19bebeb4b603b1407fbaecadc7167e974bd54b18b98ec98684437277",
+    "bytes": 200
+  },
+  {
+    "path": "codex-skills/seo-audit/SKILL.md",
+    "sha256": "f6b6bf533f6674ee4fa836d65eebb12b2b796352c0375cfcc2b002fd2c2ed3e8",
+    "bytes": 530
+  },
+  {
+    "path": "codex-skills/seo-audit/agents/openai.yaml",
+    "sha256": "4896560800839eaa994ab8d593f8c6639b7ca99c6fc74e9cc29fcb2550c28023",
+    "bytes": 220
+  },
+  {
+    "path": "codex-skills/seo-backlinks/SKILL.md",
+    "sha256": "0288e69905bcd51130fcb0c4af9f446eed1f67d9591e6eadc0805f371984ba08",
+    "bytes": 537
+  },
+  {
+    "path": "codex-skills/seo-backlinks/agents/openai.yaml",
+    "sha256": "f03b2febac74d91f6943ef91a9d1cab5f08fa68fdfe4f120800880dfd1f8e3ef",
+    "bytes": 215
+  },
+  {
+    "path": "codex-skills/seo-bing/SKILL.md",
+    "sha256": "30f135e7c30e0a5e840ddf1b89275fe115a5d914f1c512b04637eeff2869c4aa",
+    "bytes": 569
+  },
+  {
+    "path": "codex-skills/seo-bing/agents/openai.yaml",
+    "sha256": "49c62691e606b147329672b135063c3fa979e0c78b694d3441261d2cea72ca37",
+    "bytes": 218
+  },
+  {
+    "path": "codex-skills/seo-cluster/SKILL.md",
+    "sha256": "a8ed55ff50cc7b8022bfb93804a2953acb28524b8ceacbde333044cafa3880ef",
+    "bytes": 626
+  },
+  {
+    "path": "codex-skills/seo-cluster/agents/openai.yaml",
+    "sha256": "e1a8b521747057cd40dbc2e61ea4bd7907f145dc51d80be0c83e6e1979ba2e15",
+    "bytes": 225
+  },
+  {
+    "path": "codex-skills/seo-competitor-pages/SKILL.md",
+    "sha256": "afca84a49bf3382ceee06b3a2bea09c51bc7866867935ee7f71a2e848302eacb",
+    "bytes": 753
+  },
+  {
+    "path": "codex-skills/seo-competitor-pages/agents/openai.yaml",
+    "sha256": "77d07acbaf700beddd0fa6d955c5e9ec8c8002e25289822c74a4a74222eb30f6",
+    "bytes": 232
+  },
+  {
+    "path": "codex-skills/seo-content/SKILL.md",
+    "sha256": "13caf949a11c8e65c258e384b3dc8fbf0cc9df5978d04dbf8f49f07c715f5c2a",
+    "bytes": 626
+  },
+  {
+    "path": "codex-skills/seo-content/agents/openai.yaml",
+    "sha256": "8cf8a81714eec62f4a4de11c5160cd7f84c6e02e82df3c9ae5de8f87b1eec06e",
+    "bytes": 223
+  },
+  {
+    "path": "codex-skills/seo-content-brief/SKILL.md",
+    "sha256": "424f535d1a247aaf7785abed34c1d04f14658a50014e9133112e2174a82a4449",
+    "bytes": 784
+  },
+  {
+    "path": "codex-skills/seo-content-brief/agents/openai.yaml",
+    "sha256": "39178aa7a1f6c664bde82868e9cd9d7bcb8da12b157f2ac08b60add95adda0c9",
+    "bytes": 225
+  },
+  {
+    "path": "codex-skills/seo-dataforseo/SKILL.md",
+    "sha256": "eb8126e99a72b17914b4b85738ff45ae1e48318e6705fad16e9ab4c6f92eae37",
+    "bytes": 821
+  },
+  {
+    "path": "codex-skills/seo-dataforseo/agents/openai.yaml",
+    "sha256": "802a8ae5d7af51370cc39d82a02828db9c70ed2039bced9b1a339be6ce755739",
+    "bytes": 215
+  },
+  {
+    "path": "codex-skills/seo-drift/SKILL.md",
+    "sha256": "5f2e0f282923bf2b6e1fca4e651eba244f169658d4eafc573231e57cfe5b9afb",
+    "bytes": 752
+  },
+  {
+    "path": "codex-skills/seo-drift/agents/openai.yaml",
+    "sha256": "22cfe940a8bdc150202da2280a31e4f4ee265059c9a6a3f873bd0b774d98c604",
+    "bytes": 210
+  },
+  {
+    "path": "codex-skills/seo-ecommerce/SKILL.md",
+    "sha256": "8643a1a5955116d60da5f7b8de56f8093289f076305705b4171f7e97eda74ade",
+    "bytes": 545
+  },
+  {
+    "path": "codex-skills/seo-ecommerce/agents/openai.yaml",
+    "sha256": "7ec4fa3b693b4c64896d94dae81bc46ec2b6df536ebb61f080142d72fe300dee",
+    "bytes": 221
+  },
+  {
+    "path": "codex-skills/seo-firecrawl/SKILL.md",
+    "sha256": "b0aaa81ab36fd88c046b610e774cfe5e3c11eedb4fa051dca89c3dc095c91291",
+    "bytes": 652
+  },
+  {
+    "path": "codex-skills/seo-firecrawl/agents/openai.yaml",
+    "sha256": "6599d7584a7b348c832c1ff318d64de1254d57fe479f1f4c2fc5fb4959407c88",
+    "bytes": 215
+  },
+  {
+    "path": "codex-skills/seo-flow/SKILL.md",
+    "sha256": "8c430b74e90ac95fb1c1a923de32941d6e0a5775968829e07cddaba9d2341713",
+    "bytes": 710
+  },
+  {
+    "path": "codex-skills/seo-flow/agents/openai.yaml",
+    "sha256": "694e7eef72388bdea0d401560e534a836090db97211bb85903ddc6c900037996",
+    "bytes": 220
+  },
+  {
+    "path": "codex-skills/seo-geo/SKILL.md",
+    "sha256": "13cb6df96e3306b727a3ab25913e5463efd0a784452406a8c3a8814c573ca7aa",
+    "bytes": 641
+  },
+  {
+    "path": "codex-skills/seo-geo/agents/openai.yaml",
+    "sha256": "173ca724373c434ac43c9f2c54f8e8ee4c7cdca45415f19f3aa504b650be89c7",
+    "bytes": 209
+  },
+  {
+    "path": "codex-skills/seo-google/SKILL.md",
+    "sha256": "e22f1255c3086c8c6fad647b2100fd265558f48f1b5d614899fe7d907f94b830",
+    "bytes": 840
+  },
+  {
+    "path": "codex-skills/seo-google/agents/openai.yaml",
+    "sha256": "799865225b4446a1092e2aa27c0d202e89efa670aa9bf720bf57724462c8df2c",
+    "bytes": 222
+  },
+  {
+    "path": "codex-skills/seo-hreflang/SKILL.md",
+    "sha256": "3ae8f60881a8e4d19c244f2a602b1fb988519062950ddd12e660ffc674c3b561",
+    "bytes": 675
+  },
+  {
+    "path": "codex-skills/seo-hreflang/agents/openai.yaml",
+    "sha256": "bd7a652ce5fc27dae652845b5526ffd05687a0d5015580da4449040f3ffbe682",
+    "bytes": 227
+  },
+  {
+    "path": "codex-skills/seo-image-gen/SKILL.md",
+    "sha256": "6e23f31b381f6941814f83dd4347c5967fd523abb5c06c6234daee014bb07245",
+    "bytes": 635
+  },
+  {
+    "path": "codex-skills/seo-image-gen/agents/openai.yaml",
+    "sha256": "13e71bbfd1e911772fc1985c097e736a83102acbcea63124c4f5b5466082c1d9",
+    "bytes": 234
+  },
+  {
+    "path": "codex-skills/seo-images/SKILL.md",
+    "sha256": "c21f8619787f7931c5a6df2bea14aa501bd8311ea5c6cedfe7dbb281426603ba",
+    "bytes": 843
+  },
+  {
+    "path": "codex-skills/seo-images/agents/openai.yaml",
+    "sha256": "5657447ff01ce103b7d0c4e663008c18fe57c944d3be1fb0775b208b759c021d",
+    "bytes": 215
+  },
+  {
+    "path": "codex-skills/seo-local/SKILL.md",
+    "sha256": "91333eca676e73971bbaa4e847800b7db47a28648aae0751b1cf02da61713069",
+    "bytes": 647
+  },
+  {
+    "path": "codex-skills/seo-local/agents/openai.yaml",
+    "sha256": "3dfe18e6e137235d244ff13d5c834f0c7b5500d5930cb9402feacaaf63ac391a",
+    "bytes": 213
+  },
+  {
+    "path": "codex-skills/seo-maps/SKILL.md",
+    "sha256": "030ff37ccc9429de2a7b933964b6215bdfb7b84e2bdf66531d16c4bb5ca217bf",
+    "bytes": 825
+  },
+  {
+    "path": "codex-skills/seo-maps/agents/openai.yaml",
+    "sha256": "5635b34896cd9d913423726b9ae8ca20bd0e05a195513b73b1737b365e157e5f",
+    "bytes": 230
+  },
+  {
+    "path": "codex-skills/seo-matomo/SKILL.md",
+    "sha256": "0352c23e27620dd94f5c56e5c97e6f6ebe4e87844d091f908c482b7084a5344f",
+    "bytes": 708
+  },
+  {
+    "path": "codex-skills/seo-matomo/agents/openai.yaml",
+    "sha256": "41a0835d7bcbecf38d113026af53267d87b49cc08b0906774bd75d81e170423b",
+    "bytes": 224
+  },
+  {
+    "path": "codex-skills/seo-page/SKILL.md",
+    "sha256": "55d06f80b9be6a6607386f20ff510f9f75df1cb5b17b9d0c7efef0148c058a14",
+    "bytes": 499
+  },
+  {
+    "path": "codex-skills/seo-page/agents/openai.yaml",
+    "sha256": "a2d575ce1d06c43402ffa18090be5e62c1341eea3732833b09109883f97980db",
+    "bytes": 213
+  },
+  {
+    "path": "codex-skills/seo-plan/SKILL.md",
+    "sha256": "72068a6a9f1aae97729cd0068776d2d34f9017f31b3d027f403b4cfef9dba267",
+    "bytes": 695
+  },
+  {
+    "path": "codex-skills/seo-plan/agents/openai.yaml",
+    "sha256": "e1b558a1c2a27e5f1c1e64cb95f2ff94cc1fa4a771829eef9da6c0b5e3b4c3c0",
+    "bytes": 215
+  },
+  {
+    "path": "codex-skills/seo-profound/SKILL.md",
+    "sha256": "ee442a3b4f32a00b9371c400ddb13199670e5d9904fcf6af5baeb9bc4ebabe24",
+    "bytes": 573
+  },
+  {
+    "path": "codex-skills/seo-profound/agents/openai.yaml",
+    "sha256": "ac8fea2be06726db7661ad4502d9ccdc3afa4346399433fe0f781267410734c7",
+    "bytes": 213
+  },
+  {
+    "path": "codex-skills/seo-programmatic/SKILL.md",
+    "sha256": "6cedc878ba3fa41c82797a9e777c52d9df1a04bb2b1342d97a82cdb848694dc6",
+    "bytes": 736
+  },
+  {
+    "path": "codex-skills/seo-programmatic/agents/openai.yaml",
+    "sha256": "bc6a6088265e1fd0f007e95a9a5c11579ffc4159a12c3107320ce1d3a55743f3",
+    "bytes": 234
+  },
+  {
+    "path": "codex-skills/seo-schema/SKILL.md",
+    "sha256": "8e4d6e154e11985c8690bdc5af21a544c6c55853ab3fd0cf36893fc3ba0a1dcc",
+    "bytes": 511
+  },
+  {
+    "path": "codex-skills/seo-schema/agents/openai.yaml",
+    "sha256": "b8ed5ebf6274521e40885c9818ee5643fe098751a067a2e263f7faf1aef82830",
+    "bytes": 221
+  },
+  {
+    "path": "codex-skills/seo-seranking/SKILL.md",
+    "sha256": "e3b9fc981ecccba3b18213923379acf3f891613d8ac5c25505eac1520b071607",
+    "bytes": 542
+  },
+  {
+    "path": "codex-skills/seo-seranking/agents/openai.yaml",
+    "sha256": "2c7c9eab3d5ba24a6db9348071ba7658d7df72c5fcc6d9c862d33da20f12be14",
+    "bytes": 218
+  },
+  {
+    "path": "codex-skills/seo-sitemap/SKILL.md",
+    "sha256": "0fe6b46acd34c992053f645a5159d8bfeccbcbaf73951f1376916047d1033eb5",
+    "bytes": 578
+  },
+  {
+    "path": "codex-skills/seo-sitemap/agents/openai.yaml",
+    "sha256": "c14b97c0c09517c97db6136f74e5c3a8c4134e4cdfdd0f6db78e03c2788b7fee",
+    "bytes": 210
+  },
+  {
+    "path": "codex-skills/seo-sxo/SKILL.md",
+    "sha256": "7cb3530a33b66f2929e929c3c31708ac6f9dfdc627fe835630b113298d1e6996",
+    "bytes": 527
+  },
+  {
+    "path": "codex-skills/seo-sxo/agents/openai.yaml",
+    "sha256": "62a071b4d5a441f1e8100f1ce0c49a804347c787ba6315c43c90cfe4b4cfa3d5",
+    "bytes": 226
+  },
+  {
+    "path": "codex-skills/seo-technical/SKILL.md",
+    "sha256": "ac3b8389d061d9d3ee5251adc225f861afbba8a2b4757fc7c0c52389897fdac4",
+    "bytes": 657
+  },
+  {
+    "path": "codex-skills/seo-technical/agents/openai.yaml",
+    "sha256": "b16d8527188ba76d7b66292d9aa3724b80c2f80f892a3490c59514f9a7153ce1",
+    "bytes": 222
+  },
+  {
+    "path": "codex-skills/seo-unlighthouse/SKILL.md",
+    "sha256": "349f1f7b845c813493604a4cbc1ced429525324030acf9ca7185bb1198d91683",
+    "bytes": 571
+  },
+  {
+    "path": "codex-skills/seo-unlighthouse/agents/openai.yaml",
+    "sha256": "41cc10e800b7a8be8daffb33bfc19d6bcebe16fdbc443defdfbf51e7e0d61698",
+    "bytes": 222
+  },
+  {
+    "path": "codex_package.py",
+    "sha256": "a8cdd878311c849cd4cffd60bfee9be4ec513c7362f373b206bd0ded23d3d8b2",
+    "bytes": 4980
+  },
+  {
+    "path": "data/google-updates.json",
+    "sha256": "22aa2c64a99e95c857b1318deba10183a6597da59538555b654f3cdd977bad2b",
+    "bytes": 31602
+  },
+  {
+    "path": "docs/ARCHITECTURE.md",
+    "sha256": "d4aad3f2d9a56153760fb48d2ffac4eb6a124891d09d1e669872a98140fe432b",
+    "bytes": 15647
+  },
+  {
+    "path": "docs/CODEX.md",
+    "sha256": "d586bbfb605195f4c14c6802c99749e1e8ec2ab989384acf92949ff524d0bc46",
+    "bytes": 7289
+  },
+  {
+    "path": "docs/CODEX_VERIFICATION.json",
+    "sha256": "a2761dc2fa9064454430fe018a8a247df3a9f8d37f84c3018583d4cba4c46608",
+    "bytes": 4337
+  },
+  {
+    "path": "docs/CODEX_VERIFICATION.md",
+    "sha256": "d7a5f084d7ce73e0067dadc068cf40cea03fbc7a6e71eb087b55b0bfd5d4659e",
+    "bytes": 4107
+  },
+  {
+    "path": "docs/COMMANDS.md",
+    "sha256": "1ad0607b788d87b1b3a785b96949c59454f35f1b3e5aacdf0aaa085fd8938caa",
+    "bytes": 27379
+  },
+  {
+    "path": "docs/COMMUNITY-INTEGRATIONS.md",
+    "sha256": "8588d8b54b19ba98b5618fe0ad9bed77831645ce17996914158d2a4ffd54ee43",
+    "bytes": 2028
+  },
+  {
+    "path": "docs/FINAL-VERIFICATION-v2.2.5-2026-08-26.md",
+    "sha256": "0c6941dba65b9010ad784b6899a9c92dc99804619da5e2b9e7364d994b59b122",
+    "bytes": 8671
+  },
+  {
+    "path": "docs/INSTALLATION.md",
+    "sha256": "c3f6cdffe789af1ca00994c3bb9b66788d4ff62c49e162cb5eb6dddd30d1e807",
+    "bytes": 4389
+  },
+  {
+    "path": "docs/MCP-INTEGRATION.md",
+    "sha256": "5d116bdaea3f0982227f9bfba2b6856427d259d2e923a792c9749ac2d878415b",
+    "bytes": 4962
+  },
+  {
+    "path": "docs/MIGRATION-v1-to-v2.md",
+    "sha256": "4c3102464630c8f1d1e54f260e010a679d7babbabf07af213870a153b6b7abee",
+    "bytes": 9001
+  },
+  {
+    "path": "docs/TROUBLESHOOTING.md",
+    "sha256": "9dd8bcaed9aae04d577e4cc65f502b1020f7a647cc83ef35be6f9f29e9564b7b",
+    "bytes": 5225
+  },
+  {
+    "path": "docs/UPSTREAM_AGENTS.md",
+    "sha256": "22ed6091a741ec33569767f1bb01076a5093271b57bc6e7a45c97efeef41214d",
+    "bytes": 9644
+  },
+  {
+    "path": "docs/UPSTREAM_PRIVACY.md",
+    "sha256": "39f90500834a72004345bfacc18652cd072e579f7a62b563816ba6d44ba7684d",
+    "bytes": 6529
+  },
+  {
+    "path": "docs/UPSTREAM_README.md",
+    "sha256": "8f17a6141d4701efd98e536c3198730dac01a26f1b10daff38aea9a87545d0a5",
+    "bytes": 23313
+  },
+  {
+    "path": "docs/UPSTREAM_SECURITY.md",
+    "sha256": "de600b69b40a3d876a142df2573288de47f581af7d739fc841b148ca39b3b545",
+    "bytes": 10447
+  },
+  {
+    "path": "docs/WORKFLOW-public-private.md",
+    "sha256": "632633dee69a63eb72edb896802d5df941a4b60030333b355a3b9fd0260297a8",
+    "bytes": 7400
+  },
+  {
+    "path": "docs/source-contract-replacements.json",
+    "sha256": "71b21768e3cc62a5b4f6326e95ab94047fe25c3efb5c108bc75ae41ab3e9e976",
+    "bytes": 79974
+  },
+  {
+    "path": "docs/upstream-installers/install.ps1",
+    "sha256": "e46f4424d981ed6e70c2a2c5c94196876c2184c07c366131398852542bb40786",
+    "bytes": 16213
+  },
+  {
+    "path": "docs/upstream-installers/install.sh",
+    "sha256": "58b2433f4c454d51475d07ff40342c813d2e15c4b12d5565561f9f92efcaa1af",
+    "bytes": 9759
+  },
+  {
+    "path": "docs/upstream-installers/uninstall.ps1",
+    "sha256": "a1ee55ea8578217637f00b656cd070e0855481723a76da44c82a1ba76f5ad161",
+    "bytes": 2503
+  },
+  {
+    "path": "docs/upstream-installers/uninstall.sh",
+    "sha256": "6e2c008e5961d84b2f537de561e980c2f5294b32f4a0ac350879fc4deabbb954",
+    "bytes": 2038
+  },
+  {
+    "path": "extensions/ahrefs/docs/AHREFS-SETUP.md",
+    "sha256": "69c9c27a14433411ef376597c842f568257e3492d4752a8522b21ef033cd7fdf",
+    "bytes": 2388
+  },
+  {
+    "path": "extensions/ahrefs/install.ps1",
+    "sha256": "360b69c2dcabbc2ca42a41436c840c3908b15bffff5cfb738d736a8583ad817b",
+    "bytes": 1071
+  },
+  {
+    "path": "extensions/ahrefs/install.sh",
+    "sha256": "d6ea7b226759f698dfcfeab07b74ed7521ab88d3ab49a3f4816c6353239fae59",
+    "bytes": 670
+  },
+  {
+    "path": "extensions/ahrefs/skills/seo-ahrefs/SKILL.md",
+    "sha256": "497d9f7c08001e8dba106d5da14347115dd5c6934b09f7a3af6703b1babdaa34",
+    "bytes": 4067
+  },
+  {
+    "path": "extensions/ahrefs/skills/seo-ahrefs/agents/openai.yaml",
+    "sha256": "6f03585b19bebeb4b603b1407fbaecadc7167e974bd54b18b98ec98684437277",
+    "bytes": 200
+  },
+  {
+    "path": "extensions/ahrefs/uninstall.ps1",
+    "sha256": "7c788374c752ce628f2f43ba25dbf1223d54e841f8503fdefe134415a1297e5c",
+    "bytes": 1087
+  },
+  {
+    "path": "extensions/ahrefs/uninstall.sh",
+    "sha256": "20e5139a47ff33444c1ec8736897d59a08b008e35aa77b19cf3d820ce7890406",
+    "bytes": 679
+  },
+  {
+    "path": "extensions/banana/README.md",
+    "sha256": "b2434130f328e5433cde2cb5e37dbe6516af68fb46108c2211feba1c8b960d58",
+    "bytes": 4354
+  },
+  {
+    "path": "extensions/banana/agents/seo-image-gen.md",
+    "sha256": "986ab09b1d561a600f0537fef3930355818cf33c10923fcddd5173610dc3b073",
+    "bytes": 3089
+  },
+  {
+    "path": "extensions/banana/docs/BANANA-SETUP.md",
+    "sha256": "dcdded9087b34b17c62db62f7cddf96946f646f54e916a6eb4503e8bf3ca9b61",
+    "bytes": 2953
+  },
+  {
+    "path": "extensions/banana/install.ps1",
+    "sha256": "15919b6c5cbcf17e9db8c3d5b04e709cbe6b7e7bd2759f332be98a5f2122f397",
+    "bytes": 1071
+  },
+  {
+    "path": "extensions/banana/install.sh",
+    "sha256": "ee42b3c957e8fd1266e1c8dcaed38ff932004274d99a85df841a373953834795",
+    "bytes": 670
+  },
+  {
+    "path": "extensions/banana/references/cost-tracking.md",
+    "sha256": "cb924d930ab104bdb5758aa34afe15518e14c4821e5fe8fb3d3a25820e4723e4",
+    "bytes": 1216
+  },
+  {
+    "path": "extensions/banana/references/gemini-models.md",
+    "sha256": "317b6d19647ff3b627519511c5871393c0f2b01d1c34294d6b8bafc07d5b326f",
+    "bytes": 5976
+  },
+  {
+    "path": "extensions/banana/references/mcp-tools.md",
+    "sha256": "6aabb49603f06059f94d1f52087c0b7511e531b0eb5456ec25b435b87ee0cb5a",
+    "bytes": 3789
+  },
+  {
+    "path": "extensions/banana/references/post-processing.md",
+    "sha256": "c6f47584c2265aa372c6375b5a476cd9ff0e75ae3cf4933d52fc669b9a325c6d",
+    "bytes": 5173
+  },
+  {
+    "path": "extensions/banana/references/presets.md",
+    "sha256": "d250c4c28ab247cfec75e4f20a2c92084612e5d382630f52cf3365ba01a09acf",
+    "bytes": 2267
+  },
+  {
+    "path": "extensions/banana/references/prompt-adaptation-safety.md",
+    "sha256": "b985df3778b253d2de7e4b10ef6b692d56f205ab2ba4df838d42a3442cf387e5",
+    "bytes": 4534
+  },
+  {
+    "path": "extensions/banana/references/prompt-engineering.md",
+    "sha256": "891189574160c110cb7b146a86033ccb2257f73cc99ad823d281ce993e15ed66",
+    "bytes": 9554
+  },
+  {
+    "path": "extensions/banana/references/prompt-templates.md",
+    "sha256": "add34be91b831cf97492cddc8f33af16785e672060f042144f9639eb4850788a",
+    "bytes": 8005
+  },
+  {
+    "path": "extensions/banana/references/seo-image-presets.md",
+    "sha256": "ec6dbc8b6214fc4661c8376f485e2eabf696c55c445b88d81094845e688b0364",
+    "bytes": 4064
+  },
+  {
+    "path": "extensions/banana/scripts/banana_paths.py",
+    "sha256": "385707377c83f8ccead4a5ba18d097521169de4d6569c5185e3d4d305528b00e",
+    "bytes": 699
+  },
+  {
+    "path": "extensions/banana/scripts/batch.py",
+    "sha256": "658ef4c496e4ffd3d55ad34b2725291bcc9b2ecc4f72392eb7af42d4109d068e",
+    "bytes": 3411
+  },
+  {
+    "path": "extensions/banana/scripts/cost_tracker.py",
+    "sha256": "518d31902940615f284d2d0479de505013f287d86f299c2d81df1bef433def55",
+    "bytes": 13189
+  },
+  {
+    "path": "extensions/banana/scripts/edit.py",
+    "sha256": "fc81c153f8b0b79b8d3ba4ffba1ab182186248f5b6846776d38495356bc0273b",
+    "bytes": 5852
+  },
+  {
+    "path": "extensions/banana/scripts/generate.py",
+    "sha256": "0207c79e4d1151b4337aae1d038cb441295209f584c8132b17954fc3b62686d0",
+    "bytes": 6723
+  },
+  {
+    "path": "extensions/banana/scripts/presets.py",
+    "sha256": "fe600cf043de63a811a3f93b531b991c722d91e7c4cfe90c1ceddc33e57a883a",
+    "bytes": 5137
+  },
+  {
+    "path": "extensions/banana/scripts/setup_mcp.py",
+    "sha256": "3d61d85ebbaf0ff698a46069d7f90eab613454c2cff412de450cec41beb40a93",
+    "bytes": 3064
+  },
+  {
+    "path": "extensions/banana/scripts/validate_setup.py",
+    "sha256": "bdfc36792465d7f3357c62392e8cd70fdd59eef669955825d0efa5fdcbf3ccfa",
+    "bytes": 670
+  },
+  {
+    "path": "extensions/banana/skills/seo-image-gen/LICENSE.txt",
+    "sha256": "5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e",
+    "bytes": 143
+  },
+  {
+    "path": "extensions/banana/skills/seo-image-gen/SKILL.md",
+    "sha256": "8ab479bf0e07e85255d12b5cb7d582f7088dfd0b47d189d6bbf3cc0ae878e91f",
+    "bytes": 11227
+  },
+  {
+    "path": "extensions/banana/skills/seo-image-gen/agents/openai.yaml",
+    "sha256": "13e71bbfd1e911772fc1985c097e736a83102acbcea63124c4f5b5466082c1d9",
+    "bytes": 234
+  },
+  {
+    "path": "extensions/banana/uninstall.ps1",
+    "sha256": "dc16835e9d8d4030822ba19c49ae30f7a81915a7b271dec94943c5e39f14fae9",
+    "bytes": 1087
+  },
+  {
+    "path": "extensions/banana/uninstall.sh",
+    "sha256": "b16fec589882f3c8e89189a88d6aa5650137c3a7d19dabde5e4d49361e160e2b",
+    "bytes": 679
+  },
+  {
+    "path": "extensions/bing-webmaster/docs/BING-WEBMASTER-SETUP.md",
+    "sha256": "df57dd8e78246978563f038dd35109f3a56d40a7a0d2e8c0c3031bf2f9df805e",
+    "bytes": 1849
+  },
+  {
+    "path": "extensions/bing-webmaster/install.ps1",
+    "sha256": "c626be98c22b55de5e0017bae397579fd25bbe51ca0a35350f9d141539215002",
+    "bytes": 1079
+  },
+  {
+    "path": "extensions/bing-webmaster/install.sh",
+    "sha256": "e397b0bcae0c9a73e03e03ec28a68e9c4452650d951fc9fea4ab4f6e95c7852c",
+    "bytes": 678
+  },
+  {
+    "path": "extensions/bing-webmaster/skills/seo-bing/SKILL.md",
+    "sha256": "089f9e90cad107d8521d395ed4ec190e9d8a684499b577dea3cc366357459afe",
+    "bytes": 3636
+  },
+  {
+    "path": "extensions/bing-webmaster/skills/seo-bing/agents/openai.yaml",
+    "sha256": "49c62691e606b147329672b135063c3fa979e0c78b694d3441261d2cea72ca37",
+    "bytes": 218
+  },
+  {
+    "path": "extensions/bing-webmaster/uninstall.ps1",
+    "sha256": "981cde11b18ef218080c95dcd7da31ac684af9be55e384ad28b47b194de09563",
+    "bytes": 1095
+  },
+  {
+    "path": "extensions/bing-webmaster/uninstall.sh",
+    "sha256": "86174731a22cbd8ea8d1a1b0beadc14dfc1ae1fc719871ad18da1fbac605fc04",
+    "bytes": 687
+  },
+  {
+    "path": "extensions/codex-extension.py",
+    "sha256": "c594d5e9ce02d53d910d5177d24bc1805292c1886bd700742185379bb57523bf",
+    "bytes": 3615
+  },
+  {
+    "path": "extensions/codex-integrations.json",
+    "sha256": "d74ab3817cb034bef2f85fb3e1ef266ca2abd107dbbc57c82abc436f746ca995",
+    "bytes": 6055
+  },
+  {
+    "path": "extensions/dataforseo/README.md",
+    "sha256": "66d19aaacd9109570fea7b66adcfb62794b36cb6701e8c72b8b799c00809166f",
+    "bytes": 6660
+  },
+  {
+    "path": "extensions/dataforseo/agents/seo-dataforseo.md",
+    "sha256": "edb05c961d2161226b77e7dda6833ebabdc39a2956b0be9fd0f7a20e3c2b3aec",
+    "bytes": 2810
+  },
+  {
+    "path": "extensions/dataforseo/docs/DATAFORSEO-SETUP.md",
+    "sha256": "dbab9745bc0665f44e8ecbabbd32b23f57e4f027a4763a4dbe74e16589d9e2fb",
+    "bytes": 2522
+  },
+  {
+    "path": "extensions/dataforseo/field-config.json",
+    "sha256": "d55349f2f7a349cd6336f3b4d8a22b203377c8b4448e7b6967f50e2391ad952b",
+    "bytes": 6720
+  },
+  {
+    "path": "extensions/dataforseo/install.ps1",
+    "sha256": "3e35a15058e6b692cc7ac8e261d69c9249fbbcf5696fdd0225bead2dd9cae239",
+    "bytes": 1075
+  },
+  {
+    "path": "extensions/dataforseo/install.sh",
+    "sha256": "ce7b0c460dd8b9ccac7a5144ee7bfb0f6fdeb6b9b40d84c0298c1f2cca29e292",
+    "bytes": 674
+  },
+  {
+    "path": "extensions/dataforseo/skills/seo-dataforseo/LICENSE.txt",
+    "sha256": "5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e",
+    "bytes": 143
+  },
+  {
+    "path": "extensions/dataforseo/skills/seo-dataforseo/SKILL.md",
+    "sha256": "180064df53f712becdc23c8f904c600636d1604ba3b8ee3c177aff3f89dc6aad",
+    "bytes": 19271
+  },
+  {
+    "path": "extensions/dataforseo/skills/seo-dataforseo/agents/openai.yaml",
+    "sha256": "802a8ae5d7af51370cc39d82a02828db9c70ed2039bced9b1a339be6ce755739",
+    "bytes": 215
+  },
+  {
+    "path": "extensions/dataforseo/skills/seo-dataforseo/references/cost-tiers.md",
+    "sha256": "e5f17ace48cbacfe51c5b357d03d916c8926f1fb386c0a0c68bd8f6407d9ff17",
+    "bytes": 3480
+  },
+  {
+    "path": "extensions/dataforseo/skills/seo-dataforseo/references/tool-catalog.md",
+    "sha256": "1fc02f7ea2d09fe5f40a9392dc17106f23385b02659ab06ee6bce3d718bf33da",
+    "bytes": 3003
+  },
+  {
+    "path": "extensions/dataforseo/uninstall.ps1",
+    "sha256": "42f212f658ec38990ae3405a1e87bf1e11c9840e4045354d7a7d82d4b02a340c",
+    "bytes": 1091
+  },
+  {
+    "path": "extensions/dataforseo/uninstall.sh",
+    "sha256": "e67f8daadb6ce44d2160d4fcd2eb4c4e71c7541000acdddfebb9d7b23e276f3a",
+    "bytes": 683
+  },
+  {
+    "path": "extensions/firecrawl/README.md",
+    "sha256": "1bbeb4c1d83626362bc5fbbb4899aa52627c08f8f0ec0ab2eb1ac6eddadab6ad",
+    "bytes": 3194
+  },
+  {
+    "path": "extensions/firecrawl/docs/FIRECRAWL-SETUP.md",
+    "sha256": "76f534dd7ad5c0eea71e6c34efad70889a90f78cb61e5ab33ce9800d27131ae2",
+    "bytes": 1878
+  },
+  {
+    "path": "extensions/firecrawl/install.ps1",
+    "sha256": "253039cc4f57c2516db2690bad1ab3cea8ab14c0d7990af8ba7b40c0b5034eb2",
+    "bytes": 1074
+  },
+  {
+    "path": "extensions/firecrawl/install.sh",
+    "sha256": "62de2a54ea5bbf0230e4f19282ffc295035ae1bd501181d5ec7b6437a95539c4",
+    "bytes": 673
+  },
+  {
+    "path": "extensions/firecrawl/skills/seo-firecrawl/LICENSE.txt",
+    "sha256": "5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e",
+    "bytes": 143
+  },
+  {
+    "path": "extensions/firecrawl/skills/seo-firecrawl/SKILL.md",
+    "sha256": "fef4167926b8bfba94527f0f2b203dab75bec9a119c2944d3177aa505231ceb3",
+    "bytes": 9654
+  },
+  {
+    "path": "extensions/firecrawl/skills/seo-firecrawl/agents/openai.yaml",
+    "sha256": "6599d7584a7b348c832c1ff318d64de1254d57fe479f1f4c2fc5fb4959407c88",
+    "bytes": 215
+  },
+  {
+    "path": "extensions/firecrawl/uninstall.ps1",
+    "sha256": "4825798dbc8bef2acd795a29acb066a1cc3374b85380d0b3484c56093d776f89",
+    "bytes": 1090
+  },
+  {
+    "path": "extensions/firecrawl/uninstall.sh",
+    "sha256": "01655663e223de15c97e69310abe65f49e8746f178b6367cafea1785d0775760",
+    "bytes": 682
+  },
+  {
+    "path": "extensions/matomo/agents/seo-matomo.md",
+    "sha256": "20b67dcfbaf92069ba268fc81270f27a0c2d0fc440fb521bff97c5522b7cf207",
+    "bytes": 4808
+  },
+  {
+    "path": "extensions/matomo/docs/MATOMO-SETUP.md",
+    "sha256": "f1fbdf6a09f0a6a579f88e5b610fcc11925a9a1a515c409610152e8ff212874b",
+    "bytes": 4415
+  },
+  {
+    "path": "extensions/matomo/install.ps1",
+    "sha256": "70daf267080e1773be634c2e9775fb12cf2f5ae7b272096fc5b29b0aa101c3ec",
+    "bytes": 1071
+  },
+  {
+    "path": "extensions/matomo/install.sh",
+    "sha256": "44293a31a263e04bc00cead2e58b16c1b32620e63d8b40cae7bc36dc6f2f1fba",
+    "bytes": 670
+  },
+  {
+    "path": "extensions/matomo/skills/seo-matomo/SKILL.md",
+    "sha256": "539f053bdb4eaaf87bcd639ddd9fa14037ecbf88faa96815d735ec6cd10994a0",
+    "bytes": 7173
+  },
+  {
+    "path": "extensions/matomo/skills/seo-matomo/agents/openai.yaml",
+    "sha256": "41a0835d7bcbecf38d113026af53267d87b49cc08b0906774bd75d81e170423b",
+    "bytes": 224
+  },
+  {
+    "path": "extensions/matomo/uninstall.ps1",
+    "sha256": "358076cd8dc35b691514f7d3abe07d496a18500811dc5eb7fb1bac76c9806c03",
+    "bytes": 1087
+  },
+  {
+    "path": "extensions/matomo/uninstall.sh",
+    "sha256": "a74f40fbc8cc7dd8700df33c1b658a637344faa524132e686fee27d5895c96c2",
+    "bytes": 679
+  },
+  {
+    "path": "extensions/profound/docs/PROFOUND-SETUP.md",
+    "sha256": "bceb0d3f760ef49d0c74c72b135d020d258b1c428e95cf03581ff17d06ccd7c5",
+    "bytes": 1548
+  },
+  {
+    "path": "extensions/profound/install.ps1",
+    "sha256": "043ac15d0383b8bfa19c7af23ed0e314afa2dad5bc70fd28973a026ea6f05325",
+    "bytes": 1073
+  },
+  {
+    "path": "extensions/profound/install.sh",
+    "sha256": "aed9f989426ef2a2f74d8dce2a1523cfb1bc72201aa468ba773a36b51b425360",
+    "bytes": 672
+  },
+  {
+    "path": "extensions/profound/skills/seo-profound/SKILL.md",
+    "sha256": "df41ff6ec03a258c7c9c6a7802c9dcf001519ddf0e2d55dcb23d10aa795f9149",
+    "bytes": 3285
+  },
+  {
+    "path": "extensions/profound/skills/seo-profound/agents/openai.yaml",
+    "sha256": "ac8fea2be06726db7661ad4502d9ccdc3afa4346399433fe0f781267410734c7",
+    "bytes": 213
+  },
+  {
+    "path": "extensions/profound/uninstall.ps1",
+    "sha256": "c16e7eb9d0a6f340f99f04f44e23e4a298d75efc54dc1d12dc77b7a7345cc975",
+    "bytes": 1089
+  },
+  {
+    "path": "extensions/profound/uninstall.sh",
+    "sha256": "62452c4ca3dacf29bdfd4312823ec790ecbfb4609e04e3f4b87611e8ee59fcbb",
+    "bytes": 681
+  },
+  {
+    "path": "extensions/seranking/docs/SERANKING-SETUP.md",
+    "sha256": "d213040c17acd67d1b3957eb28618a289ffd2d81582108973f7e47101a1f263a",
+    "bytes": 1385
+  },
+  {
+    "path": "extensions/seranking/install.ps1",
+    "sha256": "f6513b509fe0873b9939c6c6896d8f57bbdfc6e8ad4a5a54d64e7504bf694de8",
+    "bytes": 1074
+  },
+  {
+    "path": "extensions/seranking/install.sh",
+    "sha256": "550050648adc47d0c8aa4f392c4c42a8a545aa343e1f1a5f8e5d76fd972401a5",
+    "bytes": 673
+  },
+  {
+    "path": "extensions/seranking/skills/seo-seranking/SKILL.md",
+    "sha256": "9d3d35a4881e353fe08859750040d26954296776bf8384b0ee05929a6c93fbfe",
+    "bytes": 3825
+  },
+  {
+    "path": "extensions/seranking/skills/seo-seranking/agents/openai.yaml",
+    "sha256": "2c7c9eab3d5ba24a6db9348071ba7658d7df72c5fcc6d9c862d33da20f12be14",
+    "bytes": 218
+  },
+  {
+    "path": "extensions/seranking/uninstall.ps1",
+    "sha256": "7ca051819731fef58d5f59bcef413ad4df624a4511019c150d8b41d5cc56feb9",
+    "bytes": 1090
+  },
+  {
+    "path": "extensions/seranking/uninstall.sh",
+    "sha256": "f9e18b3778978eb05088a904649503521bc4689a539513933353825d4459d6e6",
+    "bytes": 682
+  },
+  {
+    "path": "extensions/unlighthouse/docs/UNLIGHTHOUSE-SETUP.md",
+    "sha256": "83053a7112dc7ffcf4ff97955af85dee93e3f16fcddd55e4ddef7709695d2967",
+    "bytes": 1523
+  },
+  {
+    "path": "extensions/unlighthouse/install.ps1",
+    "sha256": "cdea2f3c3e3461f0d43ea4a0883bf6c0e9c5993b3155e55630e5d947e9c8e8c7",
+    "bytes": 1077
+  },
+  {
+    "path": "extensions/unlighthouse/install.sh",
+    "sha256": "0f07953792d5bd86300dda290a99bc14386bfbb4fac2038299e7887a55986d41",
+    "bytes": 676
+  },
+  {
+    "path": "extensions/unlighthouse/skills/seo-unlighthouse/SKILL.md",
+    "sha256": "1054e1692f44311c1d59e07783858a33dec7a49996d154fd6796cd8226045b63",
+    "bytes": 3757
+  },
+  {
+    "path": "extensions/unlighthouse/skills/seo-unlighthouse/agents/openai.yaml",
+    "sha256": "41cc10e800b7a8be8daffb33bfc19d6bcebe16fdbc443defdfbf51e7e0d61698",
+    "bytes": 222
+  },
+  {
+    "path": "extensions/unlighthouse/uninstall.ps1",
+    "sha256": "285110dff390a1372a9c7ac0c3d4387921f67d52f6d8b07501d8bd451f101e6e",
+    "bytes": 1093
+  },
+  {
+    "path": "extensions/unlighthouse/uninstall.sh",
+    "sha256": "f355b6a419620811bc0f52e522299b4d4f537df94c03af2a7bbf7339e248efef",
+    "bytes": 685
+  },
+  {
+    "path": "hooks/codex-hooks.example.json",
+    "sha256": "394970d2b272f70235e2d46f06701ddee60bce3fb88abbf45282fa29cc3566d3",
+    "bytes": 537
+  },
+  {
+    "path": "hooks/codex-schema-check.py",
+    "sha256": "ddf07fac3147533fed573b3c9f86ce4fbfc6539281c8e10b4da98f528e0a4e36",
+    "bytes": 3943
+  },
+  {
+    "path": "hooks/hooks.json",
+    "sha256": "2caa02c09946ea197fb9d159f013de70c358ed321143388f8a02524c09de7b45",
+    "bytes": 14
+  },
+  {
+    "path": "hooks/run-python-hook.js",
+    "sha256": "8b4391a2c002319050c6de10cd02dc96c37927f5356ecf08fca3da946295debd",
+    "bytes": 2641
+  },
+  {
+    "path": "hooks/validate-schema.py",
+    "sha256": "f5ed8a2ea1a33c4495b23b5491ca804e37edb96f7696d588ef7136e1eeb7482c",
+    "bytes": 13089
+  },
+  {
+    "path": "install-codex.py",
+    "sha256": "5d90254fda5d52eb38ca3c0eedb327354d40ada98cb825b1d665f5352fedf0ce",
+    "bytes": 7776
+  },
+  {
+    "path": "install.ps1",
+    "sha256": "f57ff09dc4302c484436977f092dd9e9217b40296af8ef40a9e27fcd075f16f3",
+    "bytes": 2845
+  },
+  {
+    "path": "install.sh",
+    "sha256": "3fed1b6aca1034ef7e7765df069c2ff8fa2a34d4765fedfdbaa9cff79ab8acda",
+    "bytes": 1469
+  },
+  {
+    "path": "plugin.json",
+    "sha256": "629e8dd28f81e4ac70e89bae2f7847ef0bd6a917f60bd6463a08979a7bebb118",
+    "bytes": 1103
+  },
+  {
+    "path": "pyproject.toml",
+    "sha256": "d6c85bba462dd61a01a54e9fbd3eb602087c1da69705bcc529c3dd92971c2687",
+    "bytes": 566
+  },
+  {
+    "path": "requirements-dev.txt",
+    "sha256": "4b3d4767ab8e748dc63ae6bb75ac6906f1dbe35f8e6e56d953c322482f6cb6ff",
+    "bytes": 48
+  },
+  {
+    "path": "requirements.txt",
+    "sha256": "693fd9a043dad3f10f99e82bf70ef36214a67b8fcd1481b26f25e5897dc1c500",
+    "bytes": 2235
+  },
+  {
+    "path": "schema/templates.json",
+    "sha256": "4bb417070cd51d0a5d91d54cda1af52bd88742bd868adfe2654e088d07fdda13",
+    "bytes": 9737
+  },
+  {
+    "path": "screenshots/seo-audit-demo.gif",
+    "sha256": "7490a01452483f1be52bd8146837d441a81f36fc6b94ec62a4ed12df665f815d",
+    "bytes": 659452
+  },
+  {
+    "path": "screenshots/seo-command-demo.gif",
+    "sha256": "299d47eea77aa192eb5874d434bf23de7111edccf35a08b84659d965b8a0f4e7",
+    "bytes": 978003
+  },
+  {
+    "path": "scripts/agent_ux_check.py",
+    "sha256": "78ee10a25551728f820ff9c5e3e7c2f17473f868207aa2218a4471c898caf6da",
+    "bytes": 10479
+  },
+  {
+    "path": "scripts/agentic_check.py",
+    "sha256": "d437457a1908790aa55e96e78981e1536836b2e811110257178b9fa98f1e5f60",
+    "bytes": 66633
+  },
+  {
+    "path": "scripts/agentic_fix.py",
+    "sha256": "54d8b2270fd303edb794bc00c395dad41764855461dfbb871b4fddde8ce5161d",
+    "bytes": 17283
+  },
+  {
+    "path": "scripts/analyze_visual.py",
+    "sha256": "03e930f7813775abb5992da85db3d8eb23577bbce00e1bb33c38255db98e9757",
+    "bytes": 7430
+  },
+  {
+    "path": "scripts/backlinks_auth.py",
+    "sha256": "dd0d6cb4b794bb857edc606698e18f44d80634c8f1ad22fa3b155869e4f90efc",
+    "bytes": 22977
+  },
+  {
+    "path": "scripts/bing_webmaster.py",
+    "sha256": "eb9d30b3e99e3baa7dba8816da0092838bb1d843c905ca72efce9dd9a80983e9",
+    "bytes": 22294
+  },
+  {
+    "path": "scripts/capture_screenshot.py",
+    "sha256": "fac774b97e71e491378e68e8a2b2abcf1379351c0e75e54e74bffacd32061ab1",
+    "bytes": 25454
+  },
+  {
+    "path": "scripts/claude-seo",
+    "sha256": "ff87975206a143084486c9e381be29b78cf28af4deab6c510abb611d230deb30",
+    "bytes": 2730
+  },
+  {
+    "path": "scripts/codex-seo",
+    "sha256": "98abc19aed246c7469f61245daeb54eae76e1c9342780bc6452ad89f0cf98ce5",
+    "bytes": 1614
+  },
+  {
+    "path": "scripts/codex-seo.ps1",
+    "sha256": "0eb8f024016c57a205b56d419b059b1d13840db3618f053bc001a9268a92da77",
+    "bytes": 2340
+  },
+  {
+    "path": "scripts/codex_paths.py",
+    "sha256": "a475c70a30f3f4dc8000969844c3eec30a26f992aa204cb6da17d9bf9c65516c",
+    "bytes": 1097
+  },
+  {
+    "path": "scripts/codex_seo.py",
+    "sha256": "219bd4d81230347ac235c7cf55d409d7b77031148cf85f8357df1efce5129ccb",
+    "bytes": 264
+  },
+  {
+    "path": "scripts/commoncrawl_graph.py",
+    "sha256": "b7253f5d8b7b905bdc269dff050f863702a41cfae1b3299480ae7b5683aa966e",
+    "bytes": 19019
+  },
+  {
+    "path": "scripts/consistency_check.py",
+    "sha256": "eac433af8dce0e3729eb8cd72ec0c6f21322d27cfab68833dde0197ef8b63cf9",
+    "bytes": 15071
+  },
+  {
+    "path": "scripts/content_humanize.py",
+    "sha256": "8a2b262042ec3b2b3b13d7f1e9072526787cda14e981fb67896ea31e94dbfe8c",
+    "bytes": 12891
+  },
+  {
+    "path": "scripts/content_quality.py",
+    "sha256": "90c1ed249aea55e15b153f85b38a38f53dfe111790be2105eae4681c87ceee02",
+    "bytes": 13794
+  },
+  {
+    "path": "scripts/content_verify.py",
+    "sha256": "71b1a464b770bc3b2f8eec4c330330ef7c3d6e366f9d04feb5d4011e5c65e1e4",
+    "bytes": 7444
+  },
+  {
+    "path": "scripts/crux_history.py",
+    "sha256": "c3d0105d8fe5e6965a3d8a37b4e29ad8e7efa6b4c52c971728467e44529ec495",
+    "bytes": 11285
+  },
+  {
+    "path": "scripts/dataforseo_costs.py",
+    "sha256": "caf4ae0dcb0a63b317f1668c168a6cee4e228761a746a98fc6bd4ab01347ee46",
+    "bytes": 20820
+  },
+  {
+    "path": "scripts/dataforseo_merchant.py",
+    "sha256": "97bbb420da21911a0dcf54b86da0a405b91ee32960ab8c4af5c6808732b45155",
+    "bytes": 17388
+  },
+  {
+    "path": "scripts/dataforseo_normalize.py",
+    "sha256": "358a7424c45065a9d5e6da4af0d25cd30983f8af015c05882197fdd24cc24431",
+    "bytes": 15185
+  },
+  {
+    "path": "scripts/domain_history.py",
+    "sha256": "f94d6b02100a978a792c060345785e07f01a5005add1732dcf5023c05222afc1",
+    "bytes": 10882
+  },
+  {
+    "path": "scripts/drift_baseline.py",
+    "sha256": "2c7882550c42f01fdaed9e901bb3ff81bf9152691b9591d8963fdfb8fa1578b6",
+    "bytes": 13860
+  },
+  {
+    "path": "scripts/drift_compare.py",
+    "sha256": "6be1c26042bede021d0e691a602e90252dc6b06513e45274eb489f048dd69348",
+    "bytes": 23193
+  },
+  {
+    "path": "scripts/drift_history.py",
+    "sha256": "d31e35b1cc86748535411b2bb39f5d66a909c7b1ddac97f26aa3acc8187b27a1",
+    "bytes": 3530
+  },
+  {
+    "path": "scripts/drift_report.py",
+    "sha256": "d1b522100ef9a3d4b4572e6966a376fabd47faf4d769acd47de6985486d3f540",
+    "bytes": 11294
+  },
+  {
+    "path": "scripts/fetch_page.py",
+    "sha256": "05091e23caba50c81ea2a52cafc15c53fdda3eeb32109714fb0913a1c9514d21",
+    "bytes": 17850
+  },
+  {
+    "path": "scripts/ga4_report.py",
+    "sha256": "b8a21ea55ad1e6325337ecd85e5f41fbac2c8184b802c1f778320a64e36fff5e",
+    "bytes": 19578
+  },
+  {
+    "path": "scripts/gbp_deprecation_lint.py",
+    "sha256": "cec4d1c5bc102cbf280861b080a6214e8fe48ceb6c4430be3e07241cf7cdd053",
+    "bytes": 4860
+  },
+  {
+    "path": "scripts/google_auth.py",
+    "sha256": "7fb1cbca1cfa426804f5e2d759320a2c9c243eddec6311e7770b3b5aa17cc305",
+    "bytes": 43156
+  },
+  {
+    "path": "scripts/google_properties.py",
+    "sha256": "efa6a3c4181dcaa02179cf2485d329c49ecdbf9ee0e041024a81a67b5dfafa2f",
+    "bytes": 4800
+  },
+  {
+    "path": "scripts/google_report.py",
+    "sha256": "fdfb39b95a29ba9dc17fa746e8c4a7d933eee8f193329e5b59ab516ce0106447",
+    "bytes": 108834
+  },
+  {
+    "path": "scripts/gsc_inspect.py",
+    "sha256": "0003c77926ef0430bb4ba929a27abb96b18deac8b1cf16a90577c0edfd6f6683",
+    "bytes": 12535
+  },
+  {
+    "path": "scripts/gsc_query.py",
+    "sha256": "16444cb15f36cc84cbd27200e08e7edcb8d266b0d4ccf35db257371cf9b14f78",
+    "bytes": 21176
+  },
+  {
+    "path": "scripts/indexing_notify.py",
+    "sha256": "ec6e2eb389cf2f6a33cf083f039c3ebf482c920f67e0834dab76c72bbc744b6c",
+    "bytes": 10716
+  },
+  {
+    "path": "scripts/indexnow_submit.py",
+    "sha256": "be8037f45c9637c461594d83dec730d148201fc6fdd2134b62df13b1f38cc4c2",
+    "bytes": 9310
+  },
+  {
+    "path": "scripts/iptc_ai_label.py",
+    "sha256": "49277f6c651bbeaa579939ac9dc705861c6351644c2b8e7d915403c67a7b89a8",
+    "bytes": 7758
+  },
+  {
+    "path": "scripts/keyword_planner.py",
+    "sha256": "e42867fba5a9f0832a259e3e1ea988f2632154e22b45b610c6b60a02e076014b",
+    "bytes": 10985
+  },
+  {
+    "path": "scripts/keywordseverywhere_api.py",
+    "sha256": "c2c58f68d75f360e91b09b618d94dae557c8261a11fb8d4493e5009c22c1e4f6",
+    "bytes": 10246
+  },
+  {
+    "path": "scripts/lcp_subparts.py",
+    "sha256": "92662c91275f4b2b30cfb78939efb3a9bb7e33ae18402336c7cc32e770a0cf06",
+    "bytes": 7418
+  },
+  {
+    "path": "scripts/lighthouse_agentic.py",
+    "sha256": "5ff42f007411e8bed34f35b143f7c7d19f81b26abd99bf8baf981bfa87ddc324",
+    "bytes": 17836
+  },
+  {
+    "path": "scripts/matomo_auth.py",
+    "sha256": "b3ee2e47ae3643cda0eb875a2c1673fad3dd4a18afb1fa93c428a3f710df7a65",
+    "bytes": 23737
+  },
+  {
+    "path": "scripts/matomo_report.py",
+    "sha256": "edf20d526852da5de74cdb487179e8edfbcfe4cb592251e18e9aa853b48318e7",
+    "bytes": 26666
+  },
+  {
+    "path": "scripts/metadata_template.py",
+    "sha256": "51b5eecfcf0bb91ca6643cb3675c87b001de9caed44aa898ad2c9b1ac3383070",
+    "bytes": 15469
+  },
+  {
+    "path": "scripts/moz_api.py",
+    "sha256": "5fbd0328bc65cd5fd01bdeaa240980a1636ecc8c0c03d98bdb806d432f0f7df9",
+    "bytes": 15052
+  },
+  {
+    "path": "scripts/nlp_analyze.py",
+    "sha256": "e53dc87fb863f89994c6365df229d215efb49d6b8817885aa402381063d18377",
+    "bytes": 13900
+  },
+  {
+    "path": "scripts/page_checks.py",
+    "sha256": "c9b0c55a0ed726bf8f27f41244bbeeb2de61113675872735cffbe44b6dc9254e",
+    "bytes": 58954
+  },
+  {
+    "path": "scripts/pagespeed_check.py",
+    "sha256": "11172b2dc8fa9d6f7cf19f78e9fe13b643834151f504a94fe9a1a885a5c0228a",
+    "bytes": 24192
+  },
+  {
+    "path": "scripts/parasite_risk.py",
+    "sha256": "b4cccea1275f9f6f82c0b04d66495297ddcce87632d6805392af759a7e483ae9",
+    "bytes": 9076
+  },
+  {
+    "path": "scripts/parse_html.py",
+    "sha256": "6504aa88820c9edeaa838bd16d8a9ce135f66e4c2c4c29a9d70ce2bfd4137228",
+    "bytes": 36561
+  },
+  {
+    "path": "scripts/portability_check.py",
+    "sha256": "0875531ab12c929dc339a29d48383ac3e04f42db3fdd59a1a28ed657edeaacc1",
+    "bytes": 7984
+  },
+  {
+    "path": "scripts/preload_check.py",
+    "sha256": "e1b5653a2497c1e07792f756d00b1c18c50a2d1b08cdb43791d5fe75e2a5a893",
+    "bytes": 9055
+  },
+  {
+    "path": "scripts/release_sign.py",
+    "sha256": "525ce23e30b3bebc1caa118031aa806a9eff9c23d8e4ab3292cf571f3d0c908c",
+    "bytes": 5946
+  },
+  {
+    "path": "scripts/render_page.py",
+    "sha256": "acd3864bab77cff2ba4f113194b571facaae02d4678b1ab41dac9d49e69d1e17",
+    "bytes": 39979
+  },
+  {
+    "path": "scripts/runtime.py",
+    "sha256": "9fe4f4898fb98ac693fae25e768a5df3519574e526a17ff7b0b25785c3df1d61",
+    "bytes": 19836
+  },
+  {
+    "path": "scripts/schema_ecommerce_validate.py",
+    "sha256": "d22f1527e9c81bab51858e482f3548bce1320ba12332c2d21f2aa1e83618be12",
+    "bytes": 12900
+  },
+  {
+    "path": "scripts/schema_generate.py",
+    "sha256": "355c1d79378e99b603e3a9909d02197943b28f2b353043a32258f7b1b8c51995",
+    "bytes": 12243
+  },
+  {
+    "path": "scripts/seo_updates.py",
+    "sha256": "fc0432ea236d29a9ed25122a9f6edc5842be95aa50c0c8400b0f43b58eb13b84",
+    "bytes": 7258
+  },
+  {
+    "path": "scripts/sitemap_discovery.py",
+    "sha256": "be08094825e4be3b6bceba18b737fa6434bde8f65576b047aa8d64be1621ad64",
+    "bytes": 36953
+  },
+  {
+    "path": "scripts/sync_flow.py",
+    "sha256": "9759792787b5f05990d77df0a79cc99c2454d9d7fcf5e256d987698a4c929adf",
+    "bytes": 12199
+  },
+  {
+    "path": "scripts/transport_check.py",
+    "sha256": "9608dc62f024d73f2a30c461b9cdb521412037d06c635b00b79ea45844e0f6f1",
+    "bytes": 49271
+  },
+  {
+    "path": "scripts/ucp_check.py",
+    "sha256": "6b172f605f52092637cdb44b33d5beefee4609c1a620f79a9baab2d65fd10911",
+    "bytes": 11419
+  },
+  {
+    "path": "scripts/unlighthouse_run.py",
+    "sha256": "9709031a95082a4e03ebc63bd792fa21987483d222858ada27df39c84f0004ab",
+    "bytes": 11354
+  },
+  {
+    "path": "scripts/url_safety.py",
+    "sha256": "564247d13c64b46f2f990c145b30e253e55ea36179627f9b6ecfb20a8ecd9515",
+    "bytes": 57627
+  },
+  {
+    "path": "scripts/validate_backlink_report.py",
+    "sha256": "80e2d7b1180dbe95cebadf3ee83410c85afc843fce762ac3ac0feb3ff1a6c2c4",
+    "bytes": 15771
+  },
+  {
+    "path": "scripts/verify_backlinks.py",
+    "sha256": "97e697a3bef87ad4cbad5f9c28d82aa2c3c42ce344e14d47ee56ea4e465736e2",
+    "bytes": 18903
+  },
+  {
+    "path": "scripts/verify_release.py",
+    "sha256": "7868e3e6bf0dcec87a36ce3ec30ca197a4ef940dae8bb25897ec6a9a74e5d02f",
+    "bytes": 4877
+  },
+  {
+    "path": "scripts/youtube_search.py",
+    "sha256": "f34e6a4ffdda436e42d457a09f3f26d4f907d440d50ba780e7102aeebda0e670",
+    "bytes": 12630
+  },
+  {
+    "path": "skills/seo/LICENSE.txt",
+    "sha256": "5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e",
+    "bytes": 143
+  },
+  {
+    "path": "skills/seo/SKILL.md",
+    "sha256": "15ce8b25411b83b77e527d5bce3626690fe73da9391585378050ba340d33ea2d",
+    "bytes": 19228
+  },
+  {
+    "path": "skills/seo/agents/openai.yaml",
+    "sha256": "800f499fc23545b406d560fd44c54dcd1afe1f2adefc118e6d3461f084944c7b",
+    "bytes": 188
+  },
+  {
+    "path": "skills/seo/references/backlink-quality.md",
+    "sha256": "86a39d009b19f4f17a3dc4461afe209111dc2e8df56b6bd3eecedf5b4a03f742",
+    "bytes": 3491
+  },
+  {
+    "path": "skills/seo/references/codex-runtime.md",
+    "sha256": "537820a8a4c7cd328529f5737389002c11132081efe8502c80ec3463af0e609f",
+    "bytes": 4711
+  },
+  {
+    "path": "skills/seo/references/cwv-thresholds.md",
+    "sha256": "0cef740b1639c7b76c25b7826d9746c9c863d1899b0ee918585cd1ccf2809b38",
+    "bytes": 7925
+  },
+  {
+    "path": "skills/seo/references/eeat-framework.md",
+    "sha256": "7d1f45cc9f42e9208c936af9e0d57dbdf29e52e733b5a8bed6eb65fa19475972",
+    "bytes": 7400
+  },
+  {
+    "path": "skills/seo/references/eeat-scoring-guide.md",
+    "sha256": "da90342f0c97af529345d7824147c0a19c1a20de57d1470150c8838f5c445228",
+    "bytes": 1519
+  },
+  {
+    "path": "skills/seo/references/free-backlink-sources.md",
+    "sha256": "17d1647895de12b19efe83034e8ebaf459a3fe741b95902a19f5f189030540fd",
+    "bytes": 6917
+  },
+  {
+    "path": "skills/seo/references/local-schema-multilocation.md",
+    "sha256": "15fcdea286dde09d6e2633973d67f5040b6dadabf92b8e2f3855f2e301da5524",
+    "bytes": 1466
+  },
+  {
+    "path": "skills/seo/references/local-schema-types.md",
+    "sha256": "65f4e35e065afb7af24ac130f39f23e536e9ca3268ab81447f34fde143407d4e",
+    "bytes": 8214
+  },
+  {
+    "path": "skills/seo/references/local-search-behavior.md",
+    "sha256": "f7870f17345a7d57e9d42b77ec85834f9aedc5ac5b54da57409e3f77f7fd47ba",
+    "bytes": 2874
+  },
+  {
+    "path": "skills/seo/references/local-seo-signals.md",
+    "sha256": "a0fd5c9ad9160e076002d8b6d6c904e5e98cae62aa79e6c6b0ecb5c9401f6bae",
+    "bytes": 7935
+  },
+  {
+    "path": "skills/seo/references/maps-api-endpoints.md",
+    "sha256": "7b5b15d2e50feb15d6d4c523a89e9a6f5291b82a0cd8c384053243119e35d9ab",
+    "bytes": 6241
+  },
+  {
+    "path": "skills/seo/references/maps-free-apis.md",
+    "sha256": "18323486ddd52eaa8e86f7f22930fc065f7c9b529352eadda8c27dca44299b91",
+    "bytes": 6191
+  },
+  {
+    "path": "skills/seo/references/maps-gbp-checklist.md",
+    "sha256": "9c90a6860af5574e7d3f4b47a19a44b83a60d3bf3252a17c78edc533ed0d934a",
+    "bytes": 6695
+  },
+  {
+    "path": "skills/seo/references/maps-geo-grid.md",
+    "sha256": "76e08cd3fefb4d0367e0647895c482e1914a932dc86de4a82dc2d03b987855e4",
+    "bytes": 4375
+  },
+  {
+    "path": "skills/seo/references/quality-gates.md",
+    "sha256": "d06d7e836b62033fde78bb814f2d4551d8c88949329f8143742a8ad0b5d89474",
+    "bytes": 6180
+  },
+  {
+    "path": "skills/seo/references/schema-types.md",
+    "sha256": "3b01ea207ecebf419dd67d2c7e3812fb4bc6ae739fba5b0281cfa84fd69d1a14",
+    "bytes": 9460
+  },
+  {
+    "path": "skills/seo/references/thinking-framework-validate-act.md",
+    "sha256": "e4ef5cfe76570112a93e88283782764d9dcf29be5870fe04b19a6a82727aa139",
+    "bytes": 3094
+  },
+  {
+    "path": "skills/seo/references/thinking-framework.md",
+    "sha256": "e25ace93d1da8363a68e766ec950f7976471f9e4b5f2f155fbeb00aed0e9382a",
+    "bytes": 6799
+  },
+  {
+    "path": "skills/seo-agentic/LICENSE.txt",
+    "sha256": "5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e",
+    "bytes": 143
+  },
+  {
+    "path": "skills/seo-agentic/SKILL.md",
+    "sha256": "7f677052c81334b2be6ade557a8814fcc1a449e77453e641c2873edd3cbc4f51",
+    "bytes": 12189
+  },
+  {
+    "path": "skills/seo-agentic/agents/openai.yaml",
+    "sha256": "46292ab24a5ee22aed3846f762bf97d12cb81ffb9142cd12680ef97b6f98d5a5",
+    "bytes": 217
+  },
+  {
+    "path": "skills/seo-agentic/references/access-policy.md",
+    "sha256": "9562de12060ee12a41bcc959f3820d8be9d7b7a08304d021995dc5e5bc51e0d7",
+    "bytes": 6880
+  },
+  {
+    "path": "skills/seo-agentic/references/agent-friendly-pages.md",
+    "sha256": "573a70d60c39f73f9d911037331fe5fcf8bc26abe3fedfb351f6f9b17752391c",
+    "bytes": 5296
+  },
+  {
+    "path": "skills/seo-agentic/references/discovery-and-markdown.md",
+    "sha256": "bd1fa863e103a77c4303d38a104f20fc4d65b52c424be404f6341d16090cc151",
+    "bytes": 6564
+  },
+  {
+    "path": "skills/seo-agentic/references/lighthouse-agentic-category.md",
+    "sha256": "3e99f0396f21bff5e7901a7b9c7dd0594d3c866006d0a551775cf189adfc2b1f",
+    "bytes": 6485
+  },
+  {
+    "path": "skills/seo-agentic/references/vendor-matrix.md",
+    "sha256": "0426152c05f07fe158618cd87ec26ba97885488c49b694ee38e0f3842e9ee431",
+    "bytes": 5098
+  },
+  {
+    "path": "skills/seo-agentic/references/webmcp.md",
+    "sha256": "5e71293f7baae8c04ef443aab43224637d06759170e0fc73422a2ea91fcb12a1",
+    "bytes": 6244
+  },
+  {
+    "path": "skills/seo-audit/LICENSE.txt",
+    "sha256": "5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e",
+    "bytes": 143
+  },
+  {
+    "path": "skills/seo-audit/SKILL.md",
+    "sha256": "07cf49eaff4a104d0d08fa92a9c14504871368886cf1f8b2c6b157b55356fd2b",
+    "bytes": 11753
+  },
+  {
+    "path": "skills/seo-audit/agents/openai.yaml",
+    "sha256": "4896560800839eaa994ab8d593f8c6639b7ca99c6fc74e9cc29fcb2550c28023",
+    "bytes": 220
+  },
+  {
+    "path": "skills/seo-backlinks/LICENSE.txt",
+    "sha256": "5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e",
+    "bytes": 143
+  },
+  {
+    "path": "skills/seo-backlinks/SKILL.md",
+    "sha256": "c91b747869a9e0f96440800b605b71e8bf058988837f943febcdf4ca4f2197b0",
+    "bytes": 17443
+  },
+  {
+    "path": "skills/seo-backlinks/agents/openai.yaml",
+    "sha256": "f03b2febac74d91f6943ef91a9d1cab5f08fa68fdfe4f120800880dfd1f8e3ef",
+    "bytes": 215
+  },
+  {
+    "path": "skills/seo-cluster/SKILL.md",
+    "sha256": "029867bc92566c61ce9615230f494719f29081863ffc274b5cdb75c9870ba52a",
+    "bytes": 14156
+  },
+  {
+    "path": "skills/seo-cluster/agents/openai.yaml",
+    "sha256": "e1a8b521747057cd40dbc2e61ea4bd7907f145dc51d80be0c83e6e1979ba2e15",
+    "bytes": 225
+  },
+  {
+    "path": "skills/seo-cluster/references/execution-workflow.md",
+    "sha256": "7e5e067689a2ebe82d0a949a4b9b9c6568fc283e31a6b6e928fbb7677438f0db",
+    "bytes": 6455
+  },
+  {
+    "path": "skills/seo-cluster/references/hub-spoke-architecture.md",
+    "sha256": "5553d9fd80145362073fde96c0c615df4ed9a000bf6f928a71641ec52e85c39b",
+    "bytes": 6291
+  },
+  {
+    "path": "skills/seo-cluster/references/serp-overlap-methodology.md",
+    "sha256": "00c2bbf3ee7c4acb2a761f0a729c22162ab01b268336ae1df1ca2aa2685c0434",
+    "bytes": 4526
+  },
+  {
+    "path": "skills/seo-cluster/templates/cluster-map.html",
+    "sha256": "77070ced4b5b7ec28847ffeadb9a0350296b7b50305c80a5b5b54c0ece1e91f9",
+    "bytes": 19577
+  },
+  {
+    "path": "skills/seo-competitor-pages/LICENSE.txt",
+    "sha256": "5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e",
+    "bytes": 143
+  },
+  {
+    "path": "skills/seo-competitor-pages/SKILL.md",
+    "sha256": "88e0c65ab9f2ebab318ab66cec2eb6415de2682c3af5dc3df29230c720d354a8",
+    "bytes": 8223
+  },
+  {
+    "path": "skills/seo-competitor-pages/agents/openai.yaml",
+    "sha256": "77d07acbaf700beddd0fa6d955c5e9ec8c8002e25289822c74a4a74222eb30f6",
+    "bytes": 232
+  },
+  {
+    "path": "skills/seo-content/LICENSE.txt",
+    "sha256": "5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e",
+    "bytes": 143
+  },
+  {
+    "path": "skills/seo-content/SKILL.md",
+    "sha256": "2811157cfd551736e27f2631c84570cc8eb9b06602837b10d728816ec3a3377b",
+    "bytes": 13950
+  },
+  {
+    "path": "skills/seo-content/agents/openai.yaml",
+    "sha256": "8cf8a81714eec62f4a4de11c5160cd7f84c6e02e82df3c9ae5de8f87b1eec06e",
+    "bytes": 223
+  },
+  {
+    "path": "skills/seo-content-brief/LICENSE.txt",
+    "sha256": "25bc881ab74d06a365261e004f44c445a78a5241ee322cdeeb4ba7d7669be9b1",
+    "bytes": 147
+  },
+  {
+    "path": "skills/seo-content-brief/SKILL.md",
+    "sha256": "17a7bce4bb076f5591be9600c784cd1a1d40cfaff2621362107c1e4de447c8ad",
+    "bytes": 11295
+  },
+  {
+    "path": "skills/seo-content-brief/agents/openai.yaml",
+    "sha256": "39178aa7a1f6c664bde82868e9cd9d7bcb8da12b157f2ac08b60add95adda0c9",
+    "bytes": 225
+  },
+  {
+    "path": "skills/seo-content-brief/references/excluded-domains.md",
+    "sha256": "17b3fb0c9f0cd979c949d54a3e88eb7b39b5d3514baaaa0560022b16c3ed32b8",
+    "bytes": 2881
+  },
+  {
+    "path": "skills/seo-content-brief/references/keyword-density.md",
+    "sha256": "965607f9e79bb472d789485e312faa694a4ab12bd5506af9a073e00e3e84578d",
+    "bytes": 3448
+  },
+  {
+    "path": "skills/seo-content-brief/references/page-type-templates.md",
+    "sha256": "ac638c16ee6ef871d07d8d8172e23a491e11e5e9734f5a5f9ac070631156fd6d",
+    "bytes": 7174
+  },
+  {
+    "path": "skills/seo-dataforseo/LICENSE.txt",
+    "sha256": "5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e",
+    "bytes": 143
+  },
+  {
+    "path": "skills/seo-dataforseo/SKILL.md",
+    "sha256": "180064df53f712becdc23c8f904c600636d1604ba3b8ee3c177aff3f89dc6aad",
+    "bytes": 19271
+  },
+  {
+    "path": "skills/seo-dataforseo/agents/openai.yaml",
+    "sha256": "802a8ae5d7af51370cc39d82a02828db9c70ed2039bced9b1a339be6ce755739",
+    "bytes": 215
+  },
+  {
+    "path": "skills/seo-dataforseo/references/cost-tiers.md",
+    "sha256": "e5f17ace48cbacfe51c5b357d03d916c8926f1fb386c0a0c68bd8f6407d9ff17",
+    "bytes": 3480
+  },
+  {
+    "path": "skills/seo-dataforseo/references/tool-catalog.md",
+    "sha256": "1fc02f7ea2d09fe5f40a9392dc17106f23385b02659ab06ee6bce3d718bf33da",
+    "bytes": 3003
+  },
+  {
+    "path": "skills/seo-drift/SKILL.md",
+    "sha256": "4ffc9194591eca9616a817db3a3915d8630d89e2b083e85dcac9d79299051424",
+    "bytes": 8030
+  },
+  {
+    "path": "skills/seo-drift/agents/openai.yaml",
+    "sha256": "22cfe940a8bdc150202da2280a31e4f4ee265059c9a6a3f873bd0b774d98c604",
+    "bytes": 210
+  },
+  {
+    "path": "skills/seo-drift/references/comparison-rules.md",
+    "sha256": "45b806d8cfbc3d3fa03f2095562c84b26bcbad1359d7c45bba7304849f04fc20",
+    "bytes": 5723
+  },
+  {
+    "path": "skills/seo-ecommerce/SKILL.md",
+    "sha256": "9e2d0dfa28e2164000b84c8d2a099e0945387099efae971d4ef754dec9813089",
+    "bytes": 15629
+  },
+  {
+    "path": "skills/seo-ecommerce/agents/openai.yaml",
+    "sha256": "7ec4fa3b693b4c64896d94dae81bc46ec2b6df536ebb61f080142d72fe300dee",
+    "bytes": 221
+  },
+  {
+    "path": "skills/seo-ecommerce/references/marketplace-endpoints.md",
+    "sha256": "eb2b4f396ab38103f4ceb3dd723dc76efd7e1b162b79b50b8a55a86a08cfb1bf",
+    "bytes": 3873
+  },
+  {
+    "path": "skills/seo-ecommerce/references/ucp-universal-commerce-protocol.md",
+    "sha256": "ce30046ab217cc3f2de429713d54431607ecafb6f5ffa8e8ab28ac726c57d5cd",
+    "bytes": 8272
+  },
+  {
+    "path": "skills/seo-flow/SKILL.md",
+    "sha256": "67315f0b349a36f1ae6ef726c28e29db7b42835ba797727e8813935923b87da1",
+    "bytes": 6188
+  },
+  {
+    "path": "skills/seo-flow/agents/openai.yaml",
+    "sha256": "694e7eef72388bdea0d401560e534a836090db97211bb85903ddc6c900037996",
+    "bytes": 220
+  },
+  {
+    "path": "skills/seo-flow/references/bibliography.md",
+    "sha256": "1f7e5d60194c252a6b38ba1eb78970cdf5bea2f096563c508bfad36f7e445f75",
+    "bytes": 8051
+  },
+  {
+    "path": "skills/seo-flow/references/flow-framework.md",
+    "sha256": "029c009e0fd5fc77763a530af24a83bf8cf21eb703158317bde8518446af0887",
+    "bytes": 4896
+  },
+  {
+    "path": "skills/seo-flow/references/flow-prompts.lock",
+    "sha256": "d71316f8f2542e65990ce3df82f63ac9acd5da74b42325825d8fdb2de8e33030",
+    "bytes": 6165
+  },
+  {
+    "path": "skills/seo-flow/references/prompts/README.md",
+    "sha256": "26e434454595c47c63e3ef5c4c5d975a8a8208ca01887e51ab09a45eb679085a",
+    "bytes": 4536
+  },
+  {
+    "path": "skills/seo-flow/references/prompts/find/content-planning-for-topical-relevance-prompt.md",
+    "sha256": "0bab3257ca8c588ffe6e96adc97d2201fc1fb4cfd5a8674cfeb97a640ab78ce1",
+    "bytes": 2172
+  },
+  {
+    "path": "skills/seo-flow/references/prompts/find/content-prioritization-prompt.md",
+    "sha256": "e8d12ec0b02de03de7b0066a1b29b4e5523f49413bb276c3d936ca068f1645b0",
+    "bytes": 2124
+  },
+  {
+    "path": "skills/seo-flow/references/prompts/find/keyword-research-prompt.md",
+    "sha256": "3bd3c230f682c65c328324d37dada59a76ca85326bfe97fbf3acf6849e36525d",
+    "bytes": 2106
+  },
+  {
+    "path": "skills/seo-flow/references/prompts/find/keyword-variations-for-topical-relevance-prompt.md",
+    "sha256": "18b92580c0de1d0df6a8353efc0fd98864ed9e7090318cd4564cae84f79e2bd1",
+    "bytes": 2178
+  },
+  {
+    "path": "skills/seo-flow/references/prompts/find/prompt-audience-avatar.md",
+    "sha256": "450d58afe2499f7644f947725fcaaf9463931e09d8fdcb93765d25c6e0750d22",
+    "bytes": 2106
+  },
+  {
+    "path": "skills/seo-flow/references/prompts/leverage/backlink-competition-prompt.md",
+    "sha256": "88b5a6aca87c0f5ad12ed0a9cec601c23e944db2ff1014502fe7218064249be4",
+    "bytes": 2130
+  },
+  {
+    "path": "skills/seo-flow/references/prompts/local/ai-homepage-rewrite-prompt.md",
+    "sha256": "d33e8918c05d99136baf476165a57a94b7cc0c93bf3585d49bb7212d93bb0455",
+    "bytes": 2118
+  },
+  {
+    "path": "skills/seo-flow/references/prompts/local/claude-deep-research-prompt.md",
+    "sha256": "65a9876a959b4aba089e4aac9bb078eb2c487726285f0828535b9178f7410dcb",
+    "bytes": 2127
+  },
+  {
+    "path": "skills/seo-flow/references/prompts/local/gbp-categories-prompt.md",
+    "sha256": "f365d29c9bc3be0aa692a4b0f38515a0d75061ace60603285dbd2aed4a180ec8",
+    "bytes": 2103
+  },
+  {
+    "path": "skills/seo-flow/references/prompts/local/gbp-description-claude-prompt-1.md",
+    "sha256": "80c73c39f7240ba87bdefd19babdde7f15e6dfe0cdebfa490d62dad2c3dc8702",
+    "bytes": 2133
+  },
+  {
+    "path": "skills/seo-flow/references/prompts/local/gbp-description-claude-prompt-2.md",
+    "sha256": "d3ee5d748597d85cbd15b31a0e72a9d67a6f91d65f0f8a750ff7bd5ad0398f00",
+    "bytes": 2133
+  },
+  {
+    "path": "skills/seo-flow/references/prompts/local/gbp-description-claude-prompt-3.md",
+    "sha256": "3c1eaca3250b854b025729aee39df6593518595eb6d2ec1f9cc24bc927ae3845",
+    "bytes": 2133
+  },
+  {
+    "path": "skills/seo-flow/references/prompts/local/gbp-services-prompt.md",
+    "sha256": "a82eebb02b5b5b9d2e02fd21f364dae9641aae69e9a8c2ddfd1ddd975d5ea0aa",
+    "bytes": 2097
+  },
+  {
+    "path": "skills/seo-flow/references/prompts/local/prompt-generating-a-meta-description.md",
+    "sha256": "82f9d16c7158978c50c7f2ee783d636e6e54c27bde4ae56aa4df0a729710fe6e",
+    "bytes": 2151
+  },
+  {
+    "path": "skills/seo-flow/references/prompts/local/prompt-generating-a-title-tag.md",
+    "sha256": "5db99be445c3d72fdaabf75ca92133981b586d6e48221e8df1bec06233ff62f7",
+    "bytes": 2130
+  },
+  {
+    "path": "skills/seo-flow/references/prompts/local/prompt-rewriting-existing-homepage.md",
+    "sha256": "b0000ade4e79a06e65d568e17a06ec98ababae5b33d16f61f1e101dd3f0b5720",
+    "bytes": 2145
+  },
+  {
+    "path": "skills/seo-flow/references/prompts/local/prompt-rewriting-existing-service-page.md",
+    "sha256": "6e24da4f82b486b614e9ca2b4ae4cd8554865aedd6043218334d9dfe245afed3",
+    "bytes": 2160
+  },
+  {
+    "path": "skills/seo-flow/references/prompts/optimize/ai-detector-test-follow-up-prompt.md",
+    "sha256": "23b75608644f51981e8421e307a1f9c51497587fe01a846828b9142525830fd0",
+    "bytes": 2148
+  },
+  {
+    "path": "skills/seo-flow/references/prompts/optimize/ai-supporting-pages-rewrite-prompt.md",
+    "sha256": "92e0f8e7fded7438ed86ac58fa9f0c66122308e36903eb064125b0a2e8a10f87",
+    "bytes": 2151
+  },
+  {
+    "path": "skills/seo-flow/references/prompts/optimize/basic-prompt.md",
+    "sha256": "5f8ddce6655b91e3bd23ff0174d0890d46db4c86b2074230793a834c51f87d34",
+    "bytes": 2085
+  },
+  {
+    "path": "skills/seo-flow/references/prompts/optimize/blog-post-outline-prompt.md",
+    "sha256": "4427a6ffbe45fbfa397cc3e7bb8ff2cc2d1e4652f2b2ddfff2e3ccd299ae79cc",
+    "bytes": 2121
+  },
+  {
+    "path": "skills/seo-flow/references/prompts/optimize/blog-post-writing-prompt.md",
+    "sha256": "e88b8781e6a1f69cc7043fbdd0b79365d87691daa1d0b910957fe61aa8a9964c",
+    "bytes": 2121
+  },
+  {
+    "path": "skills/seo-flow/references/prompts/optimize/claude-prompt-1.md",
+    "sha256": "ae0f7460bf85ac666af355d4b3960f31a07beb2a009154c2c3c336de45b8afe9",
+    "bytes": 2094
+  },
+  {
+    "path": "skills/seo-flow/references/prompts/optimize/claude-prompt-2.md",
+    "sha256": "881278d4c5872b2d2f03eef8df21fb1dbee499acab565d039531f96d455528c3",
+    "bytes": 2094
+  },
+  {
+    "path": "skills/seo-flow/references/prompts/optimize/ctr-audit-prompt.md",
+    "sha256": "cfe26d1f07bd98f5a98a3e6a825d0127cf7b003519fdfb595c4761393ac143ea",
+    "bytes": 2097
+  },
+  {
+    "path": "skills/seo-flow/references/prompts/optimize/follow-up-prompt-1.md",
+    "sha256": "d35a7f848aab67df85391acf5f6208bdcea6f51bf454a4e87129446bc928f3f0",
+    "bytes": 2103
+  },
+  {
+    "path": "skills/seo-flow/references/prompts/optimize/follow-up-prompt-2.md",
+    "sha256": "e8e55404737510c63080c93401a00097058eee7ef40f56f77659cccda29cc984",
+    "bytes": 2103
+  },
+  {
+    "path": "skills/seo-flow/references/prompts/optimize/follow-up-prompt.md",
+    "sha256": "454d9b9f684f2dfa54530819e2505361b165d54e3d1fa92a1be61367ac5da072",
+    "bytes": 2097
+  },
+  {
+    "path": "skills/seo-flow/references/prompts/optimize/paa-question-rewording-prompt.md",
+    "sha256": "770b5ba49150b2a48753a7c51d60d3b93c3091fb5aedc24a7c8f41c463517e55",
+    "bytes": 2136
+  },
+  {
+    "path": "skills/seo-flow/references/prompts/optimize/prompt-core-30-content-audit.md",
+    "sha256": "b58c751c5552592b5e7f0e176c21fb0c509924a7a98bc635e32e1b93e8dff3fd",
+    "bytes": 2136
+  },
+  {
+    "path": "skills/seo-flow/references/prompts/optimize/property-content-with-authority-audit-prompt.md",
+    "sha256": "4e7a894b86b03a20c4b9b06239fe97f224f680c6ab8d68d942a4e546182b7077",
+    "bytes": 2181
+  },
+  {
+    "path": "skills/seo-flow/references/prompts/optimize/reddit-claude-prompt.md",
+    "sha256": "be767e88a2b3b6c9a4bbbc4f2f2611e1606babdf9b18163cab8b5050966048ab",
+    "bytes": 2109
+  },
+  {
+    "path": "skills/seo-flow/references/prompts/optimize/schema-prompt-1.md",
+    "sha256": "a7b3f4fe17f7e0b5257b2cb940a00b005c44e21bfdb13de0d889b4a5cbd6fa09",
+    "bytes": 2094
+  },
+  {
+    "path": "skills/seo-flow/references/prompts/optimize/step-1-the-chatgpt-discovery-prompt.md",
+    "sha256": "45112ea78038130ff3d29d6e965401d234a4a2a540883e6c625a877defa46e24",
+    "bytes": 2157
+  },
+  {
+    "path": "skills/seo-flow/references/prompts/optimize/step-2-the-follow-up-qualifying-prompt.md",
+    "sha256": "f08df22ed90c0ba1b7b7f529331309161a886fd2e12bf4ff3ec955bb10fd22ee",
+    "bytes": 2166
+  },
+  {
+    "path": "skills/seo-flow/references/prompts/optimize/technical-audit-prompt.md",
+    "sha256": "51274ab6e21a62892171c53397f935242f55c3726f3d2a11850985839b047ff4",
+    "bytes": 2115
+  },
+  {
+    "path": "skills/seo-flow/references/prompts/optimize/visibility-follow-up-prompt.md",
+    "sha256": "0a76f9075c783957d45ab58cec04f4701f01e235a65e9d97ab7b52f7c10f3201",
+    "bytes": 2130
+  },
+  {
+    "path": "skills/seo-flow/references/prompts/optimize/visiblity-prompt.md",
+    "sha256": "769684b2895051491a7eed1eb1ff0e0065d2472cc395fee04fc99eed85df83de",
+    "bytes": 2097
+  },
+  {
+    "path": "skills/seo-flow/references/prompts/win/bofu-page-brief-generator.md",
+    "sha256": "dbbe1d51ef93bdc1918bfab1b0948a0d87500410ea8d6727f088e5e4f937dadf",
+    "bytes": 2240
+  },
+  {
+    "path": "skills/seo-flow/references/prompts/win/conversion-audit-prompt.md",
+    "sha256": "1fb96a2a2c0dcb096389992d14fc12738523c94e2559ebd71a46b8264f2049d7",
+    "bytes": 2204
+  },
+  {
+    "path": "skills/seo-flow/references/prompts/win/dual-surface-content-scorecard.md",
+    "sha256": "9521283c3578d613a9a25f985d609995d92d284f982d0377160a646563fa7c18",
+    "bytes": 2133
+  },
+  {
+    "path": "skills/seo-geo/LICENSE.txt",
+    "sha256": "5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e",
+    "bytes": 143
+  },
+  {
+    "path": "skills/seo-geo/SKILL.md",
+    "sha256": "23d3440ad79d419f1907ca688bfac601d8b0ee02504332f46c90ab5cbe8b29c2",
+    "bytes": 23158
+  },
+  {
+    "path": "skills/seo-geo/agents/openai.yaml",
+    "sha256": "173ca724373c434ac43c9f2c54f8e8ee4c7cdca45415f19f3aa504b650be89c7",
+    "bytes": 209
+  },
+  {
+    "path": "skills/seo-geo/references/google-ai-optimization-guide.md",
+    "sha256": "9f3ce79a3e2ed6f3d0d62624e6fa28b2ed792130cacd0f06ce61606194fe885d",
+    "bytes": 7229
+  },
+  {
+    "path": "skills/seo-geo/references/llmstxt-evidence.md",
+    "sha256": "277d90ff9a0a8a7f52bc101ef432dd0b20af53d1dfa5effeddc268940cdca1be",
+    "bytes": 3302
+  },
+  {
+    "path": "skills/seo-google/LICENSE.txt",
+    "sha256": "5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e",
+    "bytes": 143
+  },
+  {
+    "path": "skills/seo-google/SKILL.md",
+    "sha256": "09d31ee772b050b11abaa8179412d443bb6e25c0f1082765f936c5c664a3d159",
+    "bytes": 18895
+  },
+  {
+    "path": "skills/seo-google/agents/openai.yaml",
+    "sha256": "799865225b4446a1092e2aa27c0d202e89efa670aa9bf720bf57724462c8df2c",
+    "bytes": 222
+  },
+  {
+    "path": "skills/seo-google/assets/templates/cwv-audit-report.md",
+    "sha256": "94e81dd051757c8fe588756206eb83cc2d1c3907a76610862f01a1bcd1c2ac5d",
+    "bytes": 1587
+  },
+  {
+    "path": "skills/seo-google/assets/templates/gsc-performance-report.md",
+    "sha256": "6b1d42af50c7cf052ea071466c0c2dbf7bb8e76c0c7a4891c7d5f559607aba9a",
+    "bytes": 1441
+  },
+  {
+    "path": "skills/seo-google/assets/templates/indexation-status-report.md",
+    "sha256": "afc337905d82f83659a229382432876edba9bd9af6e589b3e4de4786974f13b3",
+    "bytes": 1126
+  },
+  {
+    "path": "skills/seo-google/references/auth-setup.md",
+    "sha256": "61607d09f863f12f26a496dec7a6d3f668be84bed00eca7374d02250aab53531",
+    "bytes": 6578
+  },
+  {
+    "path": "skills/seo-google/references/crux-history-api.md",
+    "sha256": "73da146d03fa60e8a7d300698c0949c7f1c7ad48acb809d9dc183f0ac8922966",
+    "bytes": 2028
+  },
+  {
+    "path": "skills/seo-google/references/dma-consent-mode-v2.md",
+    "sha256": "18ff25a0a9a9679cc5301cc1d76bea25046f6e3991ff2771d7eb2f6419b9aef8",
+    "bytes": 3119
+  },
+  {
+    "path": "skills/seo-google/references/ga4-data-api.md",
+    "sha256": "b6c29f9d830df1a406339c5776a7aebd648c5d2fd33eb7a2689106c5b3c7bbb9",
+    "bytes": 5364
+  },
+  {
+    "path": "skills/seo-google/references/indexing-api.md",
+    "sha256": "c2b5bd20d028c7d667f5da1fab628f66bba7b45948b155ede815d27b5ac1bd09",
+    "bytes": 3474
+  },
+  {
+    "path": "skills/seo-google/references/keyword-planner-api.md",
+    "sha256": "e3926ab1a297f6d0374cb790096a72fe8673822f398be31e40f8b500c0af228e",
+    "bytes": 2397
+  },
+  {
+    "path": "skills/seo-google/references/nlp-api.md",
+    "sha256": "448da97c9577cbb8940cc78ede177549ed75ab25ec12846cd7bfdfd27fe8fb11",
+    "bytes": 2763
+  },
+  {
+    "path": "skills/seo-google/references/pagespeed-crux-api.md",
+    "sha256": "70bd5ad30369caa89f559698acf29b689c317d9c2e8d39ce1260510c2793bdd8",
+    "bytes": 5208
+  },
+  {
+    "path": "skills/seo-google/references/rate-limits-quotas.md",
+    "sha256": "ad1f7d096e229526c8fe9026a98124a05221f53636eb6023f362dfd5fd3c2f96",
+    "bytes": 3379
+  },
+  {
+    "path": "skills/seo-google/references/search-console-api.md",
+    "sha256": "85d81675748e7cb22e4d86c5639b8078dff341dcfabe22dc7b7acd8290e380bc",
+    "bytes": 5657
+  },
+  {
+    "path": "skills/seo-google/references/supplementary-apis.md",
+    "sha256": "b8937fb31fa09b2c2a09ad2573191183cad219cebafc09136a88eac133cddbc1",
+    "bytes": 2812
+  },
+  {
+    "path": "skills/seo-google/references/youtube-api.md",
+    "sha256": "9db7a517b3f9b3e5191465ebe6168ac3f7b2ce0edd8f605817e2abd65f295d13",
+    "bytes": 1595
+  },
+  {
+    "path": "skills/seo-hreflang/LICENSE.txt",
+    "sha256": "5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e",
+    "bytes": 143
+  },
+  {
+    "path": "skills/seo-hreflang/SKILL.md",
+    "sha256": "eab5e65e4f699ef003769158f2a73c76059a60d8a95dc2c41ecb53588751a9f1",
+    "bytes": 14396
+  },
+  {
+    "path": "skills/seo-hreflang/agents/openai.yaml",
+    "sha256": "bd7a652ce5fc27dae652845b5526ffd05687a0d5015580da4449040f3ffbe682",
+    "bytes": 227
+  },
+  {
+    "path": "skills/seo-hreflang/references/content-parity.md",
+    "sha256": "b6691601644bfa06393bfdd5144a44e75b8845cef32ce60f9a84ab1b9250c67e",
+    "bytes": 4126
+  },
+  {
+    "path": "skills/seo-hreflang/references/cultural-profiles.md",
+    "sha256": "b9719c15c897af247aa1601dc59b7ef856efd0f5226112f741145091e67166eb",
+    "bytes": 4942
+  },
+  {
+    "path": "skills/seo-hreflang/references/locale-formats.md",
+    "sha256": "f9278680533041a72e3fe7fc29244453a7bf9542e9f25f16da9a5c1590f7b310",
+    "bytes": 3521
+  },
+  {
+    "path": "skills/seo-hreflang/references/machine-translation-qa.md",
+    "sha256": "28dbcd451243b29253e4ca011dd3764082d37883d0a54668d748a9ea77d4c098",
+    "bytes": 3526
+  },
+  {
+    "path": "skills/seo-image-gen/LICENSE.txt",
+    "sha256": "5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e",
+    "bytes": 143
+  },
+  {
+    "path": "skills/seo-image-gen/SKILL.md",
+    "sha256": "46a1a781d4dfbdc148929995ee61dd0ac21aa688e4b533b680ffdf23d3076264",
+    "bytes": 10161
+  },
+  {
+    "path": "skills/seo-image-gen/agents/openai.yaml",
+    "sha256": "13e71bbfd1e911772fc1985c097e736a83102acbcea63124c4f5b5466082c1d9",
+    "bytes": 234
+  },
+  {
+    "path": "skills/seo-image-gen/references/cost-tracking.md",
+    "sha256": "5db9f08ef88279d5d922d380a22fb3734c3d9157b84f6521328ff69f6e474b55",
+    "bytes": 1202
+  },
+  {
+    "path": "skills/seo-image-gen/references/gemini-models.md",
+    "sha256": "272e8de0f91e73c2a13d180866dd5303ad6600deec803a9d7e815876058089d6",
+    "bytes": 8120
+  },
+  {
+    "path": "skills/seo-image-gen/references/mcp-tools.md",
+    "sha256": "6ad29c982919bc344ce766e431b093d13b9e5fbd1d6a369d1e15dedb1556e548",
+    "bytes": 4060
+  },
+  {
+    "path": "skills/seo-image-gen/references/post-processing.md",
+    "sha256": "c6f47584c2265aa372c6375b5a476cd9ff0e75ae3cf4933d52fc669b9a325c6d",
+    "bytes": 5173
+  },
+  {
+    "path": "skills/seo-image-gen/references/presets.md",
+    "sha256": "d250c4c28ab247cfec75e4f20a2c92084612e5d382630f52cf3365ba01a09acf",
+    "bytes": 2267
+  },
+  {
+    "path": "skills/seo-image-gen/references/prompt-adaptation-safety.md",
+    "sha256": "b985df3778b253d2de7e4b10ef6b692d56f205ab2ba4df838d42a3442cf387e5",
+    "bytes": 4534
+  },
+  {
+    "path": "skills/seo-image-gen/references/prompt-engineering.md",
+    "sha256": "c1730838c7f40d9547b521c935233b60ca253951f26bebd41c8fae2754cdcc6f",
+    "bytes": 9543
+  },
+  {
+    "path": "skills/seo-image-gen/references/prompt-templates.md",
+    "sha256": "add34be91b831cf97492cddc8f33af16785e672060f042144f9639eb4850788a",
+    "bytes": 8005
+  },
+  {
+    "path": "skills/seo-image-gen/references/seo-image-presets.md",
+    "sha256": "5409e47522d7a83ce0289f7eb949627ccd9843bff0d184653db5e198f37faabc",
+    "bytes": 4197
+  },
+  {
+    "path": "skills/seo-images/LICENSE.txt",
+    "sha256": "5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e",
+    "bytes": 143
+  },
+  {
+    "path": "skills/seo-images/SKILL.md",
+    "sha256": "2978d4a1d6b31a4d76947931af455309c673668209c659223e59666269d0cfef",
+    "bytes": 19227
+  },
+  {
+    "path": "skills/seo-images/agents/openai.yaml",
+    "sha256": "5657447ff01ce103b7d0c4e663008c18fe57c944d3be1fb0775b208b759c021d",
+    "bytes": 215
+  },
+  {
+    "path": "skills/seo-local/LICENSE.txt",
+    "sha256": "5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e",
+    "bytes": 143
+  },
+  {
+    "path": "skills/seo-local/SKILL.md",
+    "sha256": "532bc679d7de0e5c9551a7e74cd6ccee11ba82a2083748166a0b742559b8497a",
+    "bytes": 18759
+  },
+  {
+    "path": "skills/seo-local/agents/openai.yaml",
+    "sha256": "3dfe18e6e137235d244ff13d5c834f0c7b5500d5930cb9402feacaaf63ac391a",
+    "bytes": 213
+  },
+  {
+    "path": "skills/seo-maps/LICENSE.txt",
+    "sha256": "5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e",
+    "bytes": 143
+  },
+  {
+    "path": "skills/seo-maps/SKILL.md",
+    "sha256": "3b6be4373b6e3cf9fd19593bcf72333c8a4df545cf4b689e8952b314cf332990",
+    "bytes": 13382
+  },
+  {
+    "path": "skills/seo-maps/agents/openai.yaml",
+    "sha256": "5635b34896cd9d913423726b9ae8ca20bd0e05a195513b73b1737b365e157e5f",
+    "bytes": 230
+  },
+  {
+    "path": "skills/seo-page/LICENSE.txt",
+    "sha256": "5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e",
+    "bytes": 143
+  },
+  {
+    "path": "skills/seo-page/SKILL.md",
+    "sha256": "69417c8fd18e207c9bc55db636c03845115c0ce5b637706572a6b24f8509af67",
+    "bytes": 9303
+  },
+  {
+    "path": "skills/seo-page/agents/openai.yaml",
+    "sha256": "a2d575ce1d06c43402ffa18090be5e62c1341eea3732833b09109883f97980db",
+    "bytes": 213
+  },
+  {
+    "path": "skills/seo-plan/LICENSE.txt",
+    "sha256": "5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e",
+    "bytes": 143
+  },
+  {
+    "path": "skills/seo-plan/SKILL.md",
+    "sha256": "88b2f2d806308fe7d38d9116f560c8b4a26c3e76914e034efffb3db029dcbcd1",
+    "bytes": 4943
+  },
+  {
+    "path": "skills/seo-plan/agents/openai.yaml",
+    "sha256": "e1b558a1c2a27e5f1c1e64cb95f2ff94cc1fa4a771829eef9da6c0b5e3b4c3c0",
+    "bytes": 215
+  },
+  {
+    "path": "skills/seo-plan/assets/agency.md",
+    "sha256": "63f159b62a81c91b0570a67eba779c7c9961f0222b15accb8dc4115455d60016",
+    "bytes": 4522
+  },
+  {
+    "path": "skills/seo-plan/assets/ecommerce.md",
+    "sha256": "f25619c871f85542cd1d656598607023b63805ed0f7f030b50d1b09f98563f16",
+    "bytes": 4940
+  },
+  {
+    "path": "skills/seo-plan/assets/generic.md",
+    "sha256": "f6ae9d03d98361ce032d6bf1af60f6d5e124aa46babeb34e24028fb32c7a45f9",
+    "bytes": 4280
+  },
+  {
+    "path": "skills/seo-plan/assets/local-service.md",
+    "sha256": "310530e66741e7d155e131850009bcc4a3148b9510905227ac09fd0f3fd00ab6",
+    "bytes": 5567
+  },
+  {
+    "path": "skills/seo-plan/assets/publisher.md",
+    "sha256": "30e3f4b9158053ea01a58e2aff6476f7162ba037b9f3998a68596ea8f6e22694",
+    "bytes": 4773
+  },
+  {
+    "path": "skills/seo-plan/assets/saas.md",
+    "sha256": "cec7c2e52f65c6e13460793758ae9ae169d861c7507f735f3dd5cb0975a51b1b",
+    "bytes": 4550
+  },
+  {
+    "path": "skills/seo-programmatic/LICENSE.txt",
+    "sha256": "5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e",
+    "bytes": 143
+  },
+  {
+    "path": "skills/seo-programmatic/SKILL.md",
+    "sha256": "58c16a419e688a13d6e48ccf5a0412cc62916e7452ea7338e39334c0c86a5d5e",
+    "bytes": 10296
+  },
+  {
+    "path": "skills/seo-programmatic/agents/openai.yaml",
+    "sha256": "bc6a6088265e1fd0f007e95a9a5c11579ffc4159a12c3107320ce1d3a55743f3",
+    "bytes": 234
+  },
+  {
+    "path": "skills/seo-schema/LICENSE.txt",
+    "sha256": "5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e",
+    "bytes": 143
+  },
+  {
+    "path": "skills/seo-schema/SKILL.md",
+    "sha256": "83b71ff010c9632a28fa29fe0d3d1ec7da5550b12c10838ca31706f808017701",
+    "bytes": 8135
+  },
+  {
+    "path": "skills/seo-schema/agents/openai.yaml",
+    "sha256": "b8ed5ebf6274521e40885c9818ee5643fe098751a067a2e263f7faf1aef82830",
+    "bytes": 221
+  },
+  {
+    "path": "skills/seo-schema/references/deprecated-types-2024-2026.md",
+    "sha256": "2a47cfa1119322e3a88b19e3275068d2ea41fe95b7bda03a3a6aff5af86d63b1",
+    "bytes": 5105
+  },
+  {
+    "path": "skills/seo-sitemap/LICENSE.txt",
+    "sha256": "5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e",
+    "bytes": 143
+  },
+  {
+    "path": "skills/seo-sitemap/SKILL.md",
+    "sha256": "d0dc2b184a33927592707dee5524e36e5a46f0c52fcbe08360b31ccbc048a6e0",
+    "bytes": 9115
+  },
+  {
+    "path": "skills/seo-sitemap/agents/openai.yaml",
+    "sha256": "c14b97c0c09517c97db6136f74e5c3a8c4134e4cdfdd0f6db78e03c2788b7fee",
+    "bytes": 210
+  },
+  {
+    "path": "skills/seo-sxo/SKILL.md",
+    "sha256": "534dc7eb630438b3fbd5376594a271d23b3d08a1ac0131e2a491cc4743bfffe9",
+    "bytes": 10759
+  },
+  {
+    "path": "skills/seo-sxo/agents/openai.yaml",
+    "sha256": "62a071b4d5a441f1e8100f1ce0c49a804347c787ba6315c43c90cfe4b4cfa3d5",
+    "bytes": 226
+  },
+  {
+    "path": "skills/seo-sxo/references/page-type-taxonomy.md",
+    "sha256": "489c6bdf108e519b482b1ea7ee295f438c0d31d292d7bf904a7371ca48643dae",
+    "bytes": 7382
+  },
+  {
+    "path": "skills/seo-sxo/references/persona-scoring.md",
+    "sha256": "487955f23af4a089b65b3f89a2df68782e7b8af0c8f14a6b21a6cc3360ee8b34",
+    "bytes": 6353
+  },
+  {
+    "path": "skills/seo-sxo/references/user-story-framework.md",
+    "sha256": "329ecef0cf1194c3f012f314419bef784c8ef2d08a9f0d2fe0616b5f46c68ae8",
+    "bytes": 5694
+  },
+  {
+    "path": "skills/seo-sxo/references/wireframe-templates.md",
+    "sha256": "10d9cbe4b0d92346280f5d70dfbf21892a75fefb91ec48db205eb13143690d92",
+    "bytes": 6490
+  },
+  {
+    "path": "skills/seo-technical/LICENSE.txt",
+    "sha256": "5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e",
+    "bytes": 143
+  },
+  {
+    "path": "skills/seo-technical/SKILL.md",
+    "sha256": "64d0a17b38c7dccf211e817388a883973b134cab0bd5c7006b48591f58e82c7b",
+    "bytes": 20244
+  },
+  {
+    "path": "skills/seo-technical/agents/openai.yaml",
+    "sha256": "b16d8527188ba76d7b66292d9aa3724b80c2f80f892a3490c59514f9a7153ce1",
+    "bytes": 222
+  },
+  {
+    "path": "skills/seo-technical/references/stack-cve-exposure.md",
+    "sha256": "e39861075a1d28f3562c51d22157a7740cb6d335575772412607a80126e27ccd",
+    "bytes": 5347
+  },
+  {
+    "path": "source-inventory.json",
+    "sha256": "723f04f4f2ef9500f45e43865378cbee71fcf92c06bf24e1a975781918fd0f1a",
+    "bytes": 84530
+  },
+  {
+    "path": "tests/fixtures/dataforseo_mcp_2_8_10_tools.txt",
+    "sha256": "9e3cb0b8daf6b4a720707d96500072ba659d1f013d15896d3059d03fb426b3ea",
+    "bytes": 2635
+  },
+  {
+    "path": "tests/fixtures/lighthouse_agentic_13_5_psi.json",
+    "sha256": "05eb3ac181fab640b53e30868dad23de88fe86bf58caa0f1beecf297f65466f1",
+    "bytes": 6863
+  },
+  {
+    "path": "tests/test_agent_mcp_permissions.py",
+    "sha256": "0dca4a88755dcac04c1af532ee7c32f367df2c1ebbc9eaa3599d69ff9665a49d",
+    "bytes": 1752
+  },
+  {
+    "path": "tests/test_agent_untrusted_content.py",
+    "sha256": "369f2e397f6e5b6fddcc5a3cde007d2671fbb624321d029f5263726afc6c8af3",
+    "bytes": 3024
+  },
+  {
+    "path": "tests/test_agentic.py",
+    "sha256": "79269a530acf64738fda514c4bb767977e0d47be63cf6f43d560b8c3c383397d",
+    "bytes": 32564
+  },
+  {
+    "path": "tests/test_ai_crawler_claims.py",
+    "sha256": "38b92f4dc4de9173244ed857f5bb04443a86821c89d6bbfd83488765972c0f25",
+    "bytes": 7994
+  },
+  {
+    "path": "tests/test_audit_agent_turn_budget.py",
+    "sha256": "be2c9a2d1a12473e029ac6e1e05686608faf4480476d1b398cede352f3fdcd76",
+    "bytes": 4177
+  },
+  {
+    "path": "tests/test_audit_instructions.py",
+    "sha256": "775cd154c4270e47d279892df0276bac3fdd60e83a1c97c98a2ad69396d3525c",
+    "bytes": 3217
+  },
+  {
+    "path": "tests/test_backlink_score_gate.py",
+    "sha256": "56f33c53f44dacd42b076743aaabfc9c8ba2dfec52f78e3e05419770f4a991f7",
+    "bytes": 5315
+  },
+  {
+    "path": "tests/test_backlinks_auth_hardening.py",
+    "sha256": "304552f087ff16bdcd5299f0c3ce1fb00ae7d26c25b652857f5932c32f48190a",
+    "bytes": 6049
+  },
+  {
+    "path": "tests/test_banana_api_key_safety.py",
+    "sha256": "ffa526543c2ec6313713755c542fbf91a056824f212a7c1929edce7a92004e17",
+    "bytes": 2533
+  },
+  {
+    "path": "tests/test_banana_cost_tracker.py",
+    "sha256": "b37dde071af59e6e3494d979af0ce8a54e5a40c4019dfae3a37a920a67c41d01",
+    "bytes": 8033
+  },
+  {
+    "path": "tests/test_banana_install_layout.py",
+    "sha256": "d6932b062d499b56db555233118eb59768a73472a5bfd73a997d23cab288ef5c",
+    "bytes": 2393
+  },
+  {
+    "path": "tests/test_banana_key_masking.py",
+    "sha256": "b66d639af61e2e0ef1c8d580c946793aea280c405b82e840f741d190b4743b30",
+    "bytes": 1563
+  },
+  {
+    "path": "tests/test_banana_setup_mcp_atomic_write.py",
+    "sha256": "d6039fd823b4916e90ed11efe4659b36fde0967666a3246aed5c94ba98c83afb",
+    "bytes": 3218
+  },
+  {
+    "path": "tests/test_bing_webmaster.py",
+    "sha256": "6d79e70ca6f54777588c6ed25eec54e7c35afa93b3bd16d16a86d1c9ec196210",
+    "bytes": 9471
+  },
+  {
+    "path": "tests/test_canonical_facts.py",
+    "sha256": "278a959f0511f5a69a88bfc7ba25f20f45184b53eb461db4a3a96e7cffe17498",
+    "bytes": 6643
+  },
+  {
+    "path": "tests/test_capture_screenshot_hygiene.py",
+    "sha256": "d30679a0651d0420751a64659a7bf85845ed1eac7ae55a4e622eb11b37bab649",
+    "bytes": 32880
+  },
+  {
+    "path": "tests/test_capture_screenshot_paths.py",
+    "sha256": "fe51318669a4b7a36af56c827db37c9abeb11a4e5ca7f972ab57fe2fc71f090c",
+    "bytes": 2581
+  },
+  {
+    "path": "tests/test_cluster_map_escaping.py",
+    "sha256": "46b7dea55ce02044c5f9ae522ecc1157aec1a3fe646c437f60fb9a56b4f5d212",
+    "bytes": 2018
+  },
+  {
+    "path": "tests/test_codex_runtime.py",
+    "sha256": "41c8fb631c73ac05cb3161ee5eee06d1a05126b8258141e312a17d7a97f0ea6c",
+    "bytes": 10107
+  },
+  {
+    "path": "tests/test_commoncrawl_graph.py",
+    "sha256": "ce9de0c911ff3477abfd22856b2573d002d9ff8171154b6c55535f6e9f0a0a5b",
+    "bytes": 5468
+  },
+  {
+    "path": "tests/test_consistency_check.py",
+    "sha256": "0be10e9bbc5ad487147d9c0351a03ea41fef09aa7726b6e5c11386b96b643805",
+    "bytes": 4804
+  },
+  {
+    "path": "tests/test_content_humanize.py",
+    "sha256": "703e513bb8d86153d300c114f98d316288751c70f39768d531281a02e0e9f18d",
+    "bytes": 3357
+  },
+  {
+    "path": "tests/test_content_quality.py",
+    "sha256": "8cfba4a33b00ec465e8f29327babf41e75b5c58934d334090a086a488a9849bc",
+    "bytes": 23105
+  },
+  {
+    "path": "tests/test_contributors.py",
+    "sha256": "e7e5e83d73bd573bd16b9a7fd033c7095718be89dc5efcb3e0eba92ec5b3b57f",
+    "bytes": 1425
+  },
+  {
+    "path": "tests/test_cross_platform_hooks.py",
+    "sha256": "7fadf89db9c8a05e89397b82bb2a90c0e30681ebdb17b9401c206db0c7e6973e",
+    "bytes": 4970
+  },
+  {
+    "path": "tests/test_crux_history_trends.py",
+    "sha256": "b102b33b95fb556686391193d0534469dfa4967489606ec41d118b39173f1fb3",
+    "bytes": 2105
+  },
+  {
+    "path": "tests/test_dataforseo_costs.py",
+    "sha256": "ac13bbe30e787ccdd6df0f02e12e4b0a9a0afd15c4904e637edac5f099e9254f",
+    "bytes": 9157
+  },
+  {
+    "path": "tests/test_dataforseo_merchant_polling.py",
+    "sha256": "254f0863717529ae7a2844cf5eb7e40494351f7eb6a9e1f488692126bb17f568",
+    "bytes": 3753
+  },
+  {
+    "path": "tests/test_dataforseo_normalize_currency.py",
+    "sha256": "3eab033afda1c2d02f5f13b1106b5dba2a7891e6edbad244008b02515dae3a28",
+    "bytes": 1744
+  },
+  {
+    "path": "tests/test_dataforseo_tool_names.py",
+    "sha256": "12abe0d1ce50f549f67bd46d3a980e83c6ad2db9a8b4c86b75f6077ea781f4c4",
+    "bytes": 2026
+  },
+  {
+    "path": "tests/test_document_base_url.py",
+    "sha256": "673256ed1cb76f974175c50e79a611dc18e9882f5d5f74d3cd74711046f55b9d",
+    "bytes": 3552
+  },
+  {
+    "path": "tests/test_domain_history.py",
+    "sha256": "bcb0ebe2d701297ad0bab82184fa9e8fb1c2b4fb74360728b46dc17f7bda5fb5",
+    "bytes": 3406
+  },
+  {
+    "path": "tests/test_drift_portability.py",
+    "sha256": "5f45e15a17b2eae56b712377f241fa64d615dd66c93f1bfab7383cd4e89f6803",
+    "bytes": 1959
+  },
+  {
+    "path": "tests/test_drift_robots_directives.py",
+    "sha256": "60300a473a23b9dfc9d14df9698dbc0c96fe348134d6b77fd98cc9aea4fa129e",
+    "bytes": 2630
+  },
+  {
+    "path": "tests/test_drift_url_normalization.py",
+    "sha256": "d8cc80abeb0801992c988c80998dc240797cc5699eeaa72ac5289a32ebbb400c",
+    "bytes": 1171
+  },
+  {
+    "path": "tests/test_extension_installer_injection.py",
+    "sha256": "7e5eba49aded3cd2972d0fc76717edc735f7caeb5b2099a623949c4ccc4586c8",
+    "bytes": 7318
+  },
+  {
+    "path": "tests/test_extension_mirrors.py",
+    "sha256": "fb40e89303bcc6a7e117ccffbbbe6118af40396e84ab1c197efdc12334f0702f",
+    "bytes": 2866
+  },
+  {
+    "path": "tests/test_fetch_page_cli.py",
+    "sha256": "5a66c2a1256b5de5d62c5960843067b42332f718db02651c47d194b4bc8e1bda",
+    "bytes": 7217
+  },
+  {
+    "path": "tests/test_fetch_page_decoding.py",
+    "sha256": "f56da6055f2a4a598562786ecbf259b97166cb642e485e770eac0c4627739767",
+    "bytes": 6591
+  },
+  {
+    "path": "tests/test_fetch_page_size_cap.py",
+    "sha256": "cb386026be4a29f1391d9d3f6bf88458ca27370eeb5003a91a7ef4080bca3350",
+    "bytes": 3179
+  },
+  {
+    "path": "tests/test_fetch_page_timing.py",
+    "sha256": "a086b51e14c94612dfe43b7764a4b43107ae186cc6ea440d6fb88c5f2296e622",
+    "bytes": 22519
+  },
+  {
+    "path": "tests/test_file_size_limits.py",
+    "sha256": "9d50ba0e9a3a24779f35232c79f77ffe10d77e864fdf2a920f13f192f020c2ed",
+    "bytes": 1222
+  },
+  {
+    "path": "tests/test_firecrawl_install_atomic_write.py",
+    "sha256": "403aaea5be5490d306ec69f0efc3dc0465ed9ef04684cf2075d6a223974e8ba8",
+    "bytes": 3904
+  },
+  {
+    "path": "tests/test_ga4_top_pages_errors.py",
+    "sha256": "1bb2cab33d7964e4467481f2df8761fa626f97d152d66d27fa9e8255ce04ae32",
+    "bytes": 4659
+  },
+  {
+    "path": "tests/test_gbp_checklist_mapping.py",
+    "sha256": "eb77263fd2cea8b95fa56a29d6fcef460d8b5a45accbebd496d5aaa414ffdf2c",
+    "bytes": 943
+  },
+  {
+    "path": "tests/test_gbp_lint_and_polish.py",
+    "sha256": "f7d6919eacf1b6954dd330f6d59b2ec20ee944a5d5b72b292c8fc0dd4baaf0ef",
+    "bytes": 4132
+  },
+  {
+    "path": "tests/test_google_api_key_safety.py",
+    "sha256": "674c576f1edec90c57e10364b20baf605d18f08c6cc576c87aa3722388572b04",
+    "bytes": 5416
+  },
+  {
+    "path": "tests/test_google_gcloud_adc.py",
+    "sha256": "a97ede982d1362d7c7164eef2b2c3914c988e634c7b69acc40b39e9fa898a58f",
+    "bytes": 2935
+  },
+  {
+    "path": "tests/test_google_oauth_flow.py",
+    "sha256": "5f4dc47c0ae88192805cd14a41bd646e25997869f686584426c4c790403ee7d8",
+    "bytes": 11259
+  },
+  {
+    "path": "tests/test_google_property_cli.py",
+    "sha256": "89cff6785c909f91ced631d97db52b2fb0cea6f14b33c3230c4451756d2dd6e8",
+    "bytes": 6609
+  },
+  {
+    "path": "tests/test_google_property_resolution.py",
+    "sha256": "a02de54a18b0cc5f04642e82931b9b9b0693ad5fc96a2e1738984d2e26feb332",
+    "bytes": 6506
+  },
+  {
+    "path": "tests/test_google_report_full_audit.py",
+    "sha256": "a40d838f45d7882a42572615b05734aabb491c3afaa09837b6e3e18f8d76feac",
+    "bytes": 8253
+  },
+  {
+    "path": "tests/test_gsc_pagination.py",
+    "sha256": "026aa298dc3c0e9039a42d0924602069e99a63afa9d131aecbd45b2b59a4d355",
+    "bytes": 5350
+  },
+  {
+    "path": "tests/test_gsc_query.py",
+    "sha256": "280199c33436dcf84e4253a77e96edf17efc4e56741ebfd8b7cba85708a66007",
+    "bytes": 2374
+  },
+  {
+    "path": "tests/test_gsc_totals_aggregate.py",
+    "sha256": "e41c69d93f4314a0d595a7c76038d4c462421433afd642c46332f0e804745e74",
+    "bytes": 3128
+  },
+  {
+    "path": "tests/test_hosted_plugin_layout.py",
+    "sha256": "031ecfc80a14a80e8e06656a617cbc151640341b6ae214a09b608491f9c33e64",
+    "bytes": 5481
+  },
+  {
+    "path": "tests/test_hostile_inputs.py",
+    "sha256": "947338153d17678d2b181cca0ce6856da5d6531b5feff5b9a26d2bde0ea9eb8c",
+    "bytes": 10284
+  },
+  {
+    "path": "tests/test_image_format_probe.py",
+    "sha256": "5a96b2a04f7eb50af2a123705f146b8e4f7ca60e1e231034cc0fa33328299e35",
+    "bytes": 7843
+  },
+  {
+    "path": "tests/test_indexing_notify.py",
+    "sha256": "2a537959a6d2903e46b5747cc6627dd83ea370499ecd458f1a2c751dcf42b18c",
+    "bytes": 2125
+  },
+  {
+    "path": "tests/test_indexing_notify_quota.py",
+    "sha256": "96d2765e0aa32e4c1a040e987dd54efd93e9d1aca26eab33bd451657ee89c0cf",
+    "bytes": 2221
+  },
+  {
+    "path": "tests/test_indexnow_cli_errors.py",
+    "sha256": "ac84bee484d031a27ed2016bf4162797105d01a93a6c996fd2f8ce95b118bae0",
+    "bytes": 2610
+  },
+  {
+    "path": "tests/test_indexnow_submit.py",
+    "sha256": "27e7fac69cce1c425ca7ecde8d038bc667f977bdeb1c7bd1db5b5234f5ab3beb",
+    "bytes": 2031
+  },
+  {
+    "path": "tests/test_keywordseverywhere_api.py",
+    "sha256": "1b9e0d667568d8798bc09d032a591377f9dd368ce9ebd9d1f348ad1d602ec586",
+    "bytes": 6950
+  },
+  {
+    "path": "tests/test_lazy_detection.py",
+    "sha256": "795e7971ec3f602aa6d6e52671205be3562ad5db69a7861cc651b36cfc73980b",
+    "bytes": 3189
+  },
+  {
+    "path": "tests/test_llms_txt_validation.py",
+    "sha256": "ff069901f24766cf9d608996b8c5d9a0ea38840bee759ae39dad265b5d3cf54b",
+    "bytes": 16865
+  },
+  {
+    "path": "tests/test_manifest_consistency.py",
+    "sha256": "55c592ef1ea78f7e4aa9de1d204ac9bab8a72326b77ef88c12ef3d33baf01904",
+    "bytes": 22008
+  },
+  {
+    "path": "tests/test_manual_install_layout.py",
+    "sha256": "f11dfdbf51a3a91fa51e6e5a44de19147ee794172479aa9893eecacd7d59e1e2",
+    "bytes": 2364
+  },
+  {
+    "path": "tests/test_matomo_report.py",
+    "sha256": "03a6db6b540c5947019f4361cf96c7bd6c05a1d7c1dbff4e151579c431600adb",
+    "bytes": 42460
+  },
+  {
+    "path": "tests/test_metadata_template.py",
+    "sha256": "64f2018f5b3b60eb0c3e6ae3521d2e0fe9748c2404fd037cefc2ab64871c2071",
+    "bytes": 17094
+  },
+  {
+    "path": "tests/test_moz_api.py",
+    "sha256": "c7e6b25ef7493f8356663835f9b89dd1ea897b3c835dc9d9536025ca195fe8aa",
+    "bytes": 2736
+  },
+  {
+    "path": "tests/test_nlp_analyze.py",
+    "sha256": "74cc7dc96d251ea73105886b042ecc3c5a3d6802f9af8c197ad7dd28f6aeb7b0",
+    "bytes": 7323
+  },
+  {
+    "path": "tests/test_no_em_dash.py",
+    "sha256": "6f93becffa2043ddb7600e9943e1a168a0971d29dc4273298568e92fa387de8e",
+    "bytes": 5992
+  },
+  {
+    "path": "tests/test_page_checks.py",
+    "sha256": "8fc3d641fb26e697329c4e64acf3e906e4c32bafcb4f7e14185b316291b81006",
+    "bytes": 39798
+  },
+  {
+    "path": "tests/test_pagespeed_null_category_score.py",
+    "sha256": "8f75c24d2d466d1eb702971654a97cc4e032d6f31f594b2adc93615f819e772c",
+    "bytes": 2309
+  },
+  {
+    "path": "tests/test_pagespeed_psi_only_exit.py",
+    "sha256": "217897a3b7f0d3db4a9f7a4f29db536b444a02ee137d29611b50a4810d261133",
+    "bytes": 1666
+  },
+  {
+    "path": "tests/test_parasite_risk_and_extensions.py",
+    "sha256": "71ec4c1f1007ae678cb891871c252aa38fc1cfc4678883adf5633d9891f0fb0a",
+    "bytes": 7629
+  },
+  {
+    "path": "tests/test_parse_html_extraction.py",
+    "sha256": "f96c35297332dfd023d06e52050d5cfd5a6da33ae8a7dd7f212bb5a5cd4c7417",
+    "bytes": 27634
+  },
+  {
+    "path": "tests/test_parse_html_inline_spacing.py",
+    "sha256": "ad15ab6133eec7dce8437245eaf78b743cb5436cff418de18895e0b9aa4142d2",
+    "bytes": 3640
+  },
+  {
+    "path": "tests/test_parse_html_malformed_urls.py",
+    "sha256": "54dc644a5f33223be9a5f7943dbc5ec153e56d76c72e20b288824aed1d2bffd5",
+    "bytes": 1649
+  },
+  {
+    "path": "tests/test_parse_html_rel_case.py",
+    "sha256": "36e6f766c019655026e22e418646696d8b746b9b350e642dae67a6175037ceb6",
+    "bytes": 3605
+  },
+  {
+    "path": "tests/test_phase_j_executable.py",
+    "sha256": "901ca2aadc2c580ed5a3420dcea3eef0cf32cd2f121f261e268f172ffe3856b7",
+    "bytes": 15006
+  },
+  {
+    "path": "tests/test_portability.py",
+    "sha256": "5184fb0ee342bf87441c1cf2168fbc142e67a34071473270e24532c2c0746603",
+    "bytes": 4259
+  },
+  {
+    "path": "tests/test_powershell_ascii.py",
+    "sha256": "d93783497c8237bd263bcd2b74e746f947e472a5e3e059f00c2c22a865209481",
+    "bytes": 920
+  },
+  {
+    "path": "tests/test_preload_check.py",
+    "sha256": "435d034643d83254b4a38f2ff04633b179de4984b8d9295fd2a23aa7fceaf623",
+    "bytes": 1658
+  },
+  {
+    "path": "tests/test_pyproject_metadata.py",
+    "sha256": "a25ea54567df049ad5430b92b06b4da80d2253f0a7b3fa2ff2324fc6b5534a44",
+    "bytes": 2003
+  },
+  {
+    "path": "tests/test_python_range.py",
+    "sha256": "bde9abeca1014f8cc9725ddad46ee224fc44b086622ac0ca1c36d46c6843cedb",
+    "bytes": 5278
+  },
+  {
+    "path": "tests/test_redirect_body_cap.py",
+    "sha256": "0292e2d87bdda99b8eb152dd8f0d5da4544bc7e6756a6eb4e2146bde8f133f13",
+    "bytes": 4862
+  },
+  {
+    "path": "tests/test_render_js_gap.py",
+    "sha256": "923dab7d768080138155370e360c90daa5c6a754d772b99c44c5cceef749ca97",
+    "bytes": 15668
+  },
+  {
+    "path": "tests/test_render_page.py",
+    "sha256": "dd9806a197aa75226ba2324c3a007e52d5879f62d8b035bc8d23121232c58cab",
+    "bytes": 29559
+  },
+  {
+    "path": "tests/test_runtime.py",
+    "sha256": "c7fea6880596d9f4d40fdb7f9d01670e5a41ec4947f1c26cbe825675f6e47b21",
+    "bytes": 18504
+  },
+  {
+    "path": "tests/test_runtime_installers.py",
+    "sha256": "56d7780baf2dba776d26e61023f8f9f429b4b77c99c6647f557e801a8067dd66",
+    "bytes": 1877
+  },
+  {
+    "path": "tests/test_schema_graph_semantics.py",
+    "sha256": "b821f4f0bd98dae8d0edb59039da55861810a665e55db452228f4d6a266551b2",
+    "bytes": 4820
+  },
+  {
+    "path": "tests/test_schema_hook_detection.py",
+    "sha256": "8d2d31251f376e66ff4e3c0ec8413508b566c9f7529b73171312c92558879157",
+    "bytes": 9561
+  },
+  {
+    "path": "tests/test_schema_hook_policy.py",
+    "sha256": "01f38e043fa2d9035d92e0d5170f66958124f5d7a35d5d4fae10d9f1281494d8",
+    "bytes": 7572
+  },
+  {
+    "path": "tests/test_schema_hook_redos.py",
+    "sha256": "024a5b1eda56d9b1de2a5324b6401d673a7f58373d87ea595e3828fcae41fbec",
+    "bytes": 1023
+  },
+  {
+    "path": "tests/test_schema_v2.py",
+    "sha256": "282edf4c969188e10406ecb4956f81255af0d06c0d919196f55f2870f1c1612c",
+    "bytes": 14090
+  },
+  {
+    "path": "tests/test_sitemap_bom.py",
+    "sha256": "7efc9bde168e8875f74ebc0d165e0cc2970aa37e960b50ac395818401b723644",
+    "bytes": 1965
+  },
+  {
+    "path": "tests/test_sitemap_discovery.py",
+    "sha256": "544614c50c10bd83a106e766170ba15bf5ab4bf2ef18cdcad73531ecb8a31c5e",
+    "bytes": 12624
+  },
+  {
+    "path": "tests/test_sitemap_expand.py",
+    "sha256": "d88ed122e1a294bc87b74cfd315020876a6090b13bc464503ce47ba43cbf823c",
+    "bytes": 29048
+  },
+  {
+    "path": "tests/test_sitemap_news_limit.py",
+    "sha256": "7c97190f870303836915e5037d02181d90206ae56f6fc367ec7735bf8d0df977",
+    "bytes": 841
+  },
+  {
+    "path": "tests/test_sync_flow.py",
+    "sha256": "825b92372b3f500590cbd16165652f2a260ba5dc5aef6b60734d1f99d8f12613",
+    "bytes": 9823
+  },
+  {
+    "path": "tests/test_technical_depth.py",
+    "sha256": "db7d00a6a9b42df8d6bf6d89c9d0f620e846080d1bba9340eff53228da06d021",
+    "bytes": 8441
+  },
+  {
+    "path": "tests/test_transport_check.py",
+    "sha256": "999f97c2411ce018890ac8820f479efcd13a6cf64b91258c87f5b50b6524c4cf",
+    "bytes": 43722
+  },
+  {
+    "path": "tests/test_unlighthouse_run.py",
+    "sha256": "bcb4c62de0ae629bca2009621d2efa9102dca6438e44fa64a4b75b5102ac1363",
+    "bytes": 6548
+  },
+  {
+    "path": "tests/test_url_safety.py",
+    "sha256": "5a176155086c6d035867947f6f0dc5ba00724002894009f1029ce6996970a9af",
+    "bytes": 48499
+  },
+  {
+    "path": "tests/test_url_safety_ipv6.py",
+    "sha256": "7c96ff9da20f27c5f6784242645e0e10b3e1c5eb7f1a64ec58b27ec89a2dc94b",
+    "bytes": 33653
+  },
+  {
+    "path": "tests/test_url_safety_port_pin.py",
+    "sha256": "883d1fa7befd896f236ae9abb3895c04fcf1bac11b87af3b5cab3bc0a28b3e31",
+    "bytes": 12640
+  },
+  {
+    "path": "tests/test_validate_backlink_report.py",
+    "sha256": "bb33515eab2b3cbd60262b6e4f0a959acfbfeaf4138f7837ac9d931a4ea659c2",
+    "bytes": 3218
+  },
+  {
+    "path": "tests/test_verify_backlinks.py",
+    "sha256": "415a0aa5d614c891af724ee9aa6405430862e277258d8f5adbc7308ccc4e903b",
+    "bytes": 13739
+  },
+  {
+    "path": "tests/test_windows_uninstaller.py",
+    "sha256": "f8ddc2bdd9a15378bea480769b9161669f005b4e3dce448fb8fc2666cdd04943",
+    "bytes": 1014
+  },
+  {
+    "path": "uninstall.ps1",
+    "sha256": "54b7601cd44db1657bd81c493fe3eb9a4d4522601afe17573f1c89cc5cb270fb",
+    "bytes": 467
+  },
+  {
+    "path": "uninstall.sh",
+    "sha256": "0578a842fcb38c1de00c303d574077eff9f69ae1e959740583667866a321b540",
+    "bytes": 151
+  },
+  {
+    "path": "uv.lock",
+    "sha256": "f4b5f0fa92e982fd5b17d58c429d438cf1e6483b897c14e60c2b19dda398e4ee",
+    "bytes": 130
+  }
+]
