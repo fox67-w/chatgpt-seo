@@ -36,6 +36,6 @@ jobs:
           python-version: '3.12'
       - run: python -m pip install -r plugins/codex-seo/requirements.txt -r plugins/codex-seo/requirements-dev.txt
       - run: python tools/port_codex_workflows.py --check
-      - run: python tools/codex_port.py --generate
+      - run: python tools/codex_port.py --generate --check-tracked
       - run: python tools/run_codex_regressions.py
       - run: python tools/codex_port.py --build

@@ -64,6 +64,7 @@ branding/*.png
 
 # Temporary analysis files
 *-AUDIT-REPORT.md
+!skills/seo-google/assets/templates/cwv-audit-report.md
 *-ACTION-PLAN.md
 FULL-AUDIT-REPORT.md
 ACTION-PLAN.md

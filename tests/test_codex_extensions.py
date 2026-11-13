@@ -147,7 +147,19 @@ class CodexSchemaAdapter(unittest.TestCase):
                 (root / name).write_text('synthetic', encoding='utf-8')
             event = {'cwd': str(root), 'tool_input': {'command': '*** Begin Patch\n*** Update File: a.html\n'
                      '*** Move to: moved.tsx\n*** Update File: a.html\n*** Add File: notes.md\n*** End Patch'}}
-            self.assertEqual(self.adapter.event_paths(event), [root / 'a.html', root / 'moved.tsx'])
+            self.assertEqual(self.adapter.event_paths(event),
+                             [(root / 'a.html').resolve(), (root / 'moved.tsx').resolve()])
+
+    def test_event_returns_canonical_paths_and_deduplicates_relative_aliases(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            (root / 'nested').mkdir()
+            page = root / 'page.html'
+            page.write_text('synthetic', encoding='utf-8')
+            event = {'cwd': str(root / 'nested' / '..'), 'tool_input': {
+                'command': '*** Begin Patch\n*** Update File: nested/../page.html\n'
+                           '*** Update File: page.html\n*** End Patch'}}
+            self.assertEqual(self.adapter.event_paths(event), [page.resolve()])
 
     def test_event_cannot_read_a_path_outside_session_root(self):
         with tempfile.TemporaryDirectory() as temporary:

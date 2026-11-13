@@ -8,6 +8,7 @@ import hashlib
 import importlib.util
 import json
 import re
+import subprocess
 import zipfile
 from pathlib import Path
 
@@ -18,13 +19,25 @@ package = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(package)
 
 
-def validate():
+def validate(check_tracked=False):
     inventory = json.loads((BASE / 'docs/claude-source-inventory.json').read_text(encoding='utf-8'))
     errors = []
     source = inventory['files']
     missing = [entry['path'] for entry in source if not (ROOT / entry['path']).is_file()]
     if missing:
         errors.append({'missing_source_files': missing})
+    if check_tracked:
+        try:
+            tracked = set(subprocess.check_output(
+                ['git', 'ls-files', '-z', '--', ROOT.relative_to(BASE).as_posix()],
+                cwd=BASE).decode('utf-8').split('\0'))
+            unpublished = sorted(path.relative_to(BASE).as_posix()
+                                 for path in package.package_files(ROOT)
+                                 if path.relative_to(BASE).as_posix() not in tracked)
+            if unpublished:
+                errors.append({'untracked_package_files': unpublished})
+        except (OSError, subprocess.CalledProcessError, UnicodeError):
+            errors.append('Could not verify Git tracked package files')
     source_skills = [entry for entry in source if re.fullmatch(r'skills/[^/]+/SKILL.md', entry['path'])]
     source_agents = [entry for entry in source if re.fullmatch(r'agents/[^/]+\.md', entry['path'])]
     extensions = sorted({Path(entry['path']).parts[1] for entry in source
@@ -78,8 +91,8 @@ def validate():
             'host_installation': 'not_verified'}
 
 
-def build(output):
-    result = validate()
+def build(output, check_tracked=False):
+    result = validate(check_tracked=check_tracked)
     if not result['valid']:
         raise ValueError(json.dumps(result['errors']))
     output.mkdir(parents=True, exist_ok=True)
@@ -109,11 +122,14 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--generate', action='store_true')
     parser.add_argument('--build', action='store_true')
+    parser.add_argument('--check-tracked', action='store_true',
+                        help='Require every packaged resource to be tracked by Git')
     parser.add_argument('--output', type=Path, default=BASE / 'dist/codex')
     args = parser.parse_args()
     if args.generate:
         package.generate_bridges(ROOT)
-    result = build(args.output) if args.build else validate()
+    result = (build(args.output, check_tracked=args.check_tracked) if args.build
+              else validate(check_tracked=args.check_tracked))
     print(json.dumps(result, indent=2))
     raise SystemExit(0 if result.get('valid', True) else 1)
 

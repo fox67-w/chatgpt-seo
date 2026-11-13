@@ -5,6 +5,7 @@ import json
 import sys
 import tempfile
 import unittest
+from unittest.mock import patch
 import zipfile
 from pathlib import Path
 
@@ -15,6 +16,17 @@ spec.loader.exec_module(port)
 
 
 class FullPackageTests(unittest.TestCase):
+    def test_publication_rejects_an_existing_template_missing_from_git(self):
+        missing = 'plugins/codex-seo/skills/seo-google/assets/templates/cwv-audit-report.md'
+        tracked = [path.relative_to(BASE).as_posix()
+                   for path in port.package.package_files(port.ROOT)]
+        self.assertIn(missing, tracked)
+        output = '\0'.join(path for path in tracked if path != missing).encode('utf-8')
+        with patch.object(port.subprocess, 'check_output', return_value=output):
+            result = port.validate(check_tracked=True)
+        self.assertFalse(result['valid'])
+        self.assertIn({'untracked_package_files': [missing]}, result['errors'])
+
     def test_all_source_resources_and_unique_workflows_are_present(self):
         result = port.validate()
         self.assertTrue(result['valid'], result['errors'])
